@@ -23,8 +23,6 @@ website:
       - href: index.qmd
         text: Overview
 
-
-
 format:
   html:
     theme:
@@ -32,3 +30,6 @@ format:
       dark: darkly
     toc: true
 
+bibliography: references.bib
+citations-hover: true
+citation-location: document

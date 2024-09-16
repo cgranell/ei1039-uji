@@ -9,14 +9,6 @@ format: html
 ---
 
 
-## Contacto
-
-Carlos Granell <br> Office [UB1520DD](http://smart.uji.es/index.php?room=UB1520DD), Espaitec2, 5th floor <br> Universitat Jaume I, Spain
-
-[Tutorías](https://e-ujier.uji.es/pls/www/!gri_www.euji23797?p_profesor=6273) (virtuales).
-
-[Horarios y localización](https://ujiapps.uji.es/sia/rest/publicacion/2023/estudio/225/asignatura/EI1039) de las clases teóricas (TE), seminarios (SE) y laboratorio (LA).
-
 ## Objetivo y resultados de aprendizaje
 
 Según el SIA "la asignatura Diseño de Software se imparte en el primer semestre de cuarto curso del grado en Ingeniería Informática de la Universitat Jaume I, como parte del itinerario de Ingeniería del Software. El objetivo de esta asignatura es proporcionar al alumnado conocimientos y habilidades sobre las distintas etapas del diseño del software dentro del proceso de desarrollo."
@@ -29,7 +21,7 @@ Al final de la EI1039, deberías ser capaz de:
 
 Tan importante como los resultados de aprendizaje listados antes son las competencias blandas (o *soft skills*) tales como la habilidad de comunicación, trabajo en equipo, capacidad de sintesis de información, capacidad de toma de decisiones y resolución de conflictos, gestión del tiempo o liderazgo. Trabajaremos estas competencias blandas a lo largo del curso pues, lo creas o no, son aspectos vitales en el día a día de un arquitecto/a de software.
 
-Arquitectura software, patrones de diseño, comunicación, trabajo en equipo, .... Suena bien, ¿no? No menos importante, espero que te diviertas en el aprendizaje y comprensión del contenido de la asignatura para el diseño y desarrollo de aplicaciones avanzadas.
+Arquitectura software, patrones de diseño, comunicación, trabajo en equipo, .... Suena bien, ¿no? No menos importante, espero que encuentres atractivo e interesante el contenido de la asignatura para el diseño y desarrollo de aplicaciones.
 
 ## Método de instrucción
 
