@@ -1,0 +1,84 @@
+---
+title: "Overview - EI1039"
+author: "Carlos Granell"
+affiliation: "Universitat Jaume I"
+date: "09/16/2024"
+date-modified: last-modified
+date-format: "MMM D, YYYY"
+format: html
+---
+
+
+## Contacto
+
+Carlos Granell <br> Office [UB1520DD](http://smart.uji.es/index.php?room=UB1520DD), Espaitec2, 5th floor <br> Universitat Jaume I, Spain
+
+[Tutorías](https://e-ujier.uji.es/pls/www/!gri_www.euji23797?p_profesor=6273) (virtuales).
+
+[Horarios y localización](https://ujiapps.uji.es/sia/rest/publicacion/2023/estudio/225/asignatura/EI1039) de las clases teóricas (TE), seminarios (SE) y laboratorio (LA).
+
+## Objetivo y resultados de aprendizaje
+
+Según el SIA "la asignatura Diseño de Software se imparte en el primer semestre de cuarto curso del grado en Ingeniería Informática de la Universitat Jaume I, como parte del itinerario de Ingeniería del Software. El objetivo de esta asignatura es proporcionar al alumnado conocimientos y habilidades sobre las distintas etapas del diseño del software dentro del proceso de desarrollo."
+
+Al final de la EI1039, deberías ser capaz de:
+
+-   Comparar las distintas estrategias que se pueden utilizar en el diseño de un sistema software.
+-   Seleccionar, aplicar y evaluar patrones de arquitectura y diseño adecuados a la resolución de un determinado problema de desarrollo del software.
+-   Diseñar y evaluar la interfaz de usuario utilizando principios y técnicas propias de la interacción persona-computador.
+
+Tan importante como los resultados de aprendizaje listados antes son las competencias blandas (o *soft skills*) tales como la habilidad de comunicación, trabajo en equipo, capacidad de sintesis de información, capacidad de toma de decisiones y resolución de conflictos, gestión del tiempo o liderazgo. Trabajaremos estas competencias blandas a lo largo del curso pues, lo creas o no, son aspectos vitales en el día a día de un arquitecto/a de software.
+
+Arquitectura software, patrones de diseño, comunicación, trabajo en equipo, .... Suena bien, ¿no? No menos importante, espero que te diviertas en el aprendizaje y comprensión del contenido de la asignatura para el diseño y desarrollo de aplicaciones avanzadas.
+
+## Método de instrucción
+
+> Tenemos millones de neuronas. que "hacen amigos fácilmente". Las neuronas se conectan con otras neuronas con cada nueva experiencia que tenemos (nuevas emociones, pensamientos, acciones. etc.) formando redes. Las redes al principio son débiles., pero cada vez que repetimos la experiencia o acción, la red se consolida y se hace más fuerte. **Cuando aprendemos, nuestro cerebro cambia** por la formación de nuevas conexiones entre neuronas**.**
+>
+> Cuando reflexionamos y aplicamos cierto conocimento a contextos nuevos, lo comprendemos más profundamente, provocando que la red sea más densa y tenga conexiones con otras redes. La differencia entre la red de un principiante y la de un experto radica justamente en el número y densidad de conexiones**. Cuanto más interconexiones, mayor comprensión**.
+
+<aside>¿Te has preguntado alguna vez qué pasa en tu cerebro cuando aprendes? [@lang2016]</aside>
+
+Si esperas presentaciones largas por mi parte todos los viernes por la tarde, entonces creo que te has matriculado de la asignatura equivocada. Hay evidencia científica de sobra que demuestra una y otra vez que los métodos de *aprendizaje activo* (por *activo* me refiero a todos, tanto dentro como fuera de clase) son mucho más efectivos que escucharme y tomar apuntes de forma pasiva. Vale, es cierto que a veces son necesarias presentaciones breves aclaratorias; pero tú debes ser el protagonista (y no yo) de tu propio proceso de aprendizaje para alcanzar los resultados esperados con éxito. Por lo tanto, esta asignatura mezcla diversas estrategias de aprendizaje, algunas más tradicionales como presentaciones por mi parte cuando sea necesario combinadas con estrategias de apredizaje colaborativas y activas para trabajo en grupo, exploración y aplicación de conceptos, y competencias de proceso (o [process skills](http://elipss.com/process-skills.html)), como por ejemplo [*Flipped Classroom*](https://www.theflippedclassroom.es/) (lecturas y ejercicios básicos fuera del aula que requieren competencias cognitivas bajas, con análisis y resolución de problemas en aula que requiren competencias cognitivas altas).
+
+![Taxonomía de Bloom](images/bloom_taxonomy.jpg){width="350"}
+
+Para que te hagas una idea, una semana típica de clase de teoría podría ser así:
+
+-   Hasta el miércoles (a las 12:00): Fecha límite para entregar las actividades previas de forma individual en el Aula Virtual.
+
+-   Viernes (en aula): Comentamos las actividades previas, junto con mini-presentaciones y actividades en clase.
+
+La asignatura también consta de sesiones de seminarios (SE) donde explorarás temas adicionales al diseño de patrones, como arquitectura de software e interfaces de usuario, relacionados con el proyecto común a desarrollar.
+
+-   **Seminario 1** (*29 septiembre*) - MVC y variantes + interfaces de usuario
+
+-   **Seminario 2** (*13 octubre*) - Caso de estudio: Software architecture patterns
+
+-   **Seminario 3** (*26-27 octubre*) - Conjunto con EI1048. Relacionado con proyecto común
+
+-   **Seminario 4** (*23-24 noviembre*) - Conjunto con EI1048. Relacionado con proyecto común
+
+-   **Seminario 5** (*1 diciembre*) - Comunicación oral del proyecto
+
+Las asignaturas [EI1039 (Diseño de software)](https://ujiapps.uji.es/sia/rest/publicacion/2022/estudio/225/asignatura/EI1039) y [EI1048 (Paradigmas de Software)](https://ujiapps.uji.es/sia/rest/publicacion/2022/estudio/225/asignatura/EI1048) están muy relacionadas, ya que son dos caras de la misma moneda a la hora de diseñar y desarrollar aplicaciones avanzadas. Para facilitar el aprendizaje de las competencias de ambas asignaturas, el profesorado nos hemos organizado para proponerte un proyecto común que viene detallado en un documento separado colgado en el Aula Virtual de las dos asignaturas. Las clases de laboratorio (LA) de la EI1039 son de trabajo (en grupo) para la consecución del proyecto común.
+
+## Materiales y contenido
+
+Los materiales del curso están disponibles en el [Aula Virtual](https://aulavirtual.uji.es/course/view.php?id=75377). Las actividades previas a título indivual se entregan a través de las tareas correspondientes en el Aula Virtual de la asignatura. Voy a utilizar el Aula Virtual para proporcionarte feedback sobre las actividades propuestas, para anuncios de la asignatura y, en definitiva, para cualquier tipo de comunicación oficial. Agradecería enormemente que todas las comunicaciones entre nosotros relativas a la asignatura fueran canalizadas a través del Aula Virtual, y no a través de mi correo personal.
+
+## Métodos de evaluación
+
+La participación en clase es fundamental. Las actividades propuestas en aula invitan al trabajo colaborativo y participativo, fomentado el aprendizaje activo, la discusión y la comunicación. Las actividades previas cuentan un 10%. Es necesario entregarlas todas. Los seminarios computan otro 20% de la nota final, según se desglosa en la tabla abajo. A lo largo del curso se informará con más detalle de la naturaleza de los seminarios evaluables. El desarrollo, entrega y defensa del proyecto común cubre el 70% de la nota.
+
+| Actividad                     |            | Peso | Tipo                  | Instrumento                                         |
+|---------------|---------------|---------------|---------------|---------------|
+| Actividades previas           | Individual | 10%  | Formativa / Formadora | Código y/o reflexión personal                       |
+| Seminario 1 y 2               | Individual | 10%  | Formativa / Formadora | Reflexión personal                                  |
+| Seminarios 3 y 4 (con EI1048) | Grupo      | 10%  | Formativa / Formadora | Presentación y discusión                            |
+| Proyecto común (con EI1048)   | Grupo      | 70%  | Acreditativa          | Código, documento escrito, presentación y discusión |
+
+: Instrumentos de evaluación
+
+> [Política de entrega tardía/retrasada*:*]{.underline} *Las fechas límite semanales (miércoles mediodía para las activiades previas a clase ) tienen sentido para que pueda evaluar el trabajo y proporcionar feedback rápido en la siguiente clase de teoría (viernes). Por lo tanto, las actividades entregadas con retraso no se aceptarán sin permiso especial o debida justificación.*
+

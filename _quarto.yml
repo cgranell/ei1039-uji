@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  title: "EI1039 - Curso 2024/2025"
+  description: "Software Design"
+  site-url: "https://cgranell.github.io/ei1039-quarto"
+  repo-url: "https://www.github.com/cgranell/ei1039-quarto"
+  reader-mode: true
+
+  page-footer:
+    left: "[cgranell.github.io/ei1039-quarto](https://cgranell.github.io/ei1039-quarto)"
+    right:
+    - text: "License"
+      href: LICENSE.md
+    - text: "Code of Conduct"
+      href: CODE_OF_CONDUCT.md
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Overview
+
+
+
+format:
+  html:
+    theme:
+      light: minty
+      dark: darkly
+    toc: true
+

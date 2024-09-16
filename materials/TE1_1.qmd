@@ -1,0 +1,41 @@
+---
+title: "Streamlining with R"
+author: "Meghan Hall<br>NEAIR<br>July 12, 2022"
+format: 
+  revealjs:
+    slide-number: true
+    show-slide-number: all
+    progress: true
+    footer: "[github.com/meghall06/neair](https://github.com/meghall06/neair)&nbsp;&nbsp;&nbsp;"
+    theme: [moon]
+    preview-links: auto
+    chalkboard: 
+      boardmarker-width: 5
+from: markdown+emoji
+execute:
+  echo: true
+---
+
+# In the morning
+
+## Getting up
+
+- Turn off alarm
+- Get out of bed
+
+## Breakfast
+
+- Eat eggs
+- Drink coffee
+
+# In the evening
+
+## Dinner
+
+- Eat spaghetti
+- Drink wine
+
+## Going to sleep
+
+- Get in bed
+- Count sheep

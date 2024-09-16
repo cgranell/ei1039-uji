@@ -1,0 +1,12 @@
+version: '3'
+services:
+  ei1039:
+    image: rocker/rstudio:4.3.0
+    ports:
+      - '8787:8787'
+    volumes:
+      - ./:/home/rstudio
+    working_dir: /home/rstudio
+    container_name: ei1039_course
+    environment:
+      - PASSWORD=ei1039
