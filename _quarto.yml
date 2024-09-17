@@ -21,7 +21,52 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Overview
+        text: "Hola!"
+      - href: materials/01-arquitectura.qmd
+        text: "Fundamentos de arquitectura"
+      - href: materials/02-patrones.qmd
+        text: "Patrones de diseño"
+      - href: materials/03-seminarios.qmd
+        text: "Seminarios"
+      - href: materials/04-extras.qmd
+        text: "Extras"
+
+
+    right:
+      - icon: github
+        href: https://www.github.com/cgranell/ei1039-uji
+
+
+  sidebar:
+    - id: "01-arquitectura"
+      style: "docked"
+      align: left
+      contents:
+        - href: materials/01-arquitectura.qmd
+
+    - id: "02-patrones"
+      style: "docked"
+      align: left
+      contents:
+        - href: materials/02-patrones.qmd
+        - href: materials/02-patrones-creacionales.qmd
+        - href: materials/02-patrones-estructurales.qmd
+        - href: materials/02-patrones-comportamiento.qmd
+
+
+    - id: "03-seminarios"
+      align: left
+      contents:
+        - href: materials/03-seminarios.qmd
+
+
+    - id: "04-extras"
+      style: "docked"
+      align: left
+      contents:
+        - href: materials/04-extras.qmd
+        - href: materials/04-referencias.qmd
+
 
 format:
   html:

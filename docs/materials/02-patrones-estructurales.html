@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>EI1039 - Curso 2024/2025 - Code of Conduct</title>
+<title>EI1039 - Curso 2024/2025 - Patrones estructurales</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../materials/02-patrones-comportamiento.html" rel="next">
+<link href="../materials/02-patrones-creacionales.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -64,14 +66,14 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">EI1039 - Curso 2024/2025</span>
     </a>
   </div>
@@ -82,23 +84,23 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
+    <a class="nav-link" href="../index.html" rel="" target="">
  <span class="menu-text">Hola!</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./materials/01-arquitectura.html" rel="" target="">
+    <a class="nav-link" href="../materials/01-arquitectura.html" rel="" target="">
  <span class="menu-text">Fundamentos de arquitectura</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./materials/02-patrones.html" rel="" target="">
+    <a class="nav-link active" href="../materials/02-patrones.html" rel="" target="" aria-current="page">
  <span class="menu-text">Patrones de diseño</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./materials/03-seminarios.html" rel="" target="">
+    <a class="nav-link" href="../materials/03-seminarios.html" rel="" target="">
  <span class="menu-text">Seminarios</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./materials/04-extras.html" rel="" target="">
+    <a class="nav-link" href="../materials/04-extras.html" rel="" target="">
  <span class="menu-text">Extras</span></a>
   </li>  
 </ul>
@@ -120,21 +122,61 @@ ul.task-list li input[type="checkbox"] {
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../materials/02-patrones-estructurales.html">Patrones estructurales</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../materials/02-patrones.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introducción a los patrones de diseño de software</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../materials/02-patrones-creacionales.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Patrones creacionales</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../materials/02-patrones-estructurales.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Patrones estructurales</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../materials/02-patrones-comportamiento.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Patrones de comportamiento</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Code of Conduct</h1>
-<p class="subtitle lead">CoC</p>
+<h1 class="title">Patrones estructurales</h1>
 </div>
 
 
@@ -149,30 +191,6 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<blockquote class="blockquote">
-<p>To ensure a welcoming environment for all, we require everyone participating in the course to conform to the Code of Conduct given below. This code applies to all spaces related to the course including, but not limited to, classroom, ‘aula virtual’, emails, shared documents, and code repositories. We strongly recommend that anyone running workshops or classes of any kind choose and publish a similar code so that everyone will know what is expected of them and what to do when those expectations are not met.</p>
-</blockquote>
-<p>You can report Code of Conduct violations in person to Carlos Granell.</p>
-<p>We are dedicated to providing a welcoming and supportive environment for all people, regardless of background or identity. However, we recognize that some groups in our community are subject to historical and ongoing discrimination, and may be vulnerable or disadvantaged. Membership in such a specific group can be on the basis of characteristics such as gender, sexual orientation, disability, physical appearance, body size, race, nationality, sex, colour, ethnic or social origin, pregnancy, citizenship, familial status, veteran status, genetic information, religion or belief, political or any other opinion, membership of a national minority, property, birth, age, or choice of text editor. We do not tolerate harassment of participants on the basis of these categories, or for any other reason.</p>
-<p>Harassment is any form of behaviour intended to exclude, intimidate, or cause discomfort. Because we are a diverse community, we may have different ways of communicating and of understanding the intent behind actions. Therefore we have chosen to prohibit certain forms of behaviour in our community, regardless of intent.</p>
-<p>Prohibited harassing behaviour includes but is not limited to:</p>
-<ul>
-<li>written or verbal comments which have the effect of excluding people on the basis of membership of a specific group listed above;</li>
-<li>causing someone to fear for their safety, such as through stalking, following, or intimidation;</li>
-<li>the display of sexual or violent images;</li>
-<li>unwelcome sexual attention;</li>
-<li>non-consensual or unwelcome physical contact;</li>
-<li>sustained disruption of talks, events or communications;</li>
-<li>incitement to violence, suicide, or self-harm;</li>
-<li>continuing to initiate interaction (including photography or recording) with someone after being asked to stop; and</li>
-<li>publication of private communication without consent.</li>
-</ul>
-<p>Behaviour not explicitly mentioned above may still constitute harassment. The list above should not be taken as exhaustive but rather as a guide to make it easier to enrich all of us and the communities in which we participate. All interactions should be professional regardless of location: harassment is prohibited whether it occurs on or offline, and the same standards apply to both.</p>
-<p>Enforcement of the Code of Conduct will be respectful and not include any harassing behaviours.</p>
-<p>Thank you for helping make this a welcoming, friendly community for all.</p>
-<aside>
-<p>This code of conduct is a simplification of the CoC for <a href="https://o2r.info/reproducible-agile/">Reproducible Research workshos at AGILE</a>, which is based on a CoC for <a href="http://teachtogether.tech/">Teaching Tech Together</a> by Greg Wilson, which in turn is based on that used by PyCon, which in turn is forked from a template written by the Ada Initiative and hosted on the Geek Feminism Wiki.</p>
-</aside>
 
 
 
@@ -525,6 +543,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../materials/02-patrones-creacionales.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Patrones creacionales</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../materials/02-patrones-comportamiento.html" class="pagination-link">
+        <span class="nav-page-text">Patrones de comportamiento</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -535,10 +565,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./LICENSE.html">License</a>
+    <a class="nav-link" href="../LICENSE.html">License</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link active" href="./CODE_OF_CONDUCT.html" aria-current="page">Code of Conduct</a>
+    <a class="nav-link" href="../CODE_OF_CONDUCT.html">Code of Conduct</a>
   </li>  
 </ul>
     </div>

@@ -2,18 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://cgranell.github.io/ei1039-quarto/CODE_OF_CONDUCT.html</loc>
-    <lastmod>2024-09-16T16:22:08.098Z</lastmod>
+    <lastmod>2024-09-17T17:30:44.385Z</lastmod>
   </url>
   <url>
     <loc>https://cgranell.github.io/ei1039-quarto/index.html</loc>
-    <lastmod>2024-09-16T16:22:09.116Z</lastmod>
+    <lastmod>2024-09-17T17:30:46.015Z</lastmod>
   </url>
   <url>
     <loc>https://cgranell.github.io/ei1039-quarto/LICENSE.html</loc>
-    <lastmod>2024-09-16T16:22:10.194Z</lastmod>
+    <lastmod>2024-09-17T17:30:48.445Z</lastmod>
   </url>
   <url>
-    <loc>https://cgranell.github.io/ei1039-quarto/materials/TE1_1.html</loc>
-    <lastmod>2024-09-16T16:22:10.993Z</lastmod>
+    <loc>https://cgranell.github.io/ei1039-quarto/materials/01-arquitectura.html</loc>
+    <lastmod>2024-09-17T17:30:49.696Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cgranell.github.io/ei1039-quarto/materials/02-patrones-comportamiento.html</loc>
+    <lastmod>2024-09-17T17:30:50.897Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cgranell.github.io/ei1039-quarto/materials/02-patrones-creacionales.html</loc>
+    <lastmod>2024-09-17T17:30:52.143Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cgranell.github.io/ei1039-quarto/materials/02-patrones-estructurales.html</loc>
+    <lastmod>2024-09-17T17:30:53.353Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cgranell.github.io/ei1039-quarto/materials/02-patrones-slides.html</loc>
+    <lastmod>2024-09-17T17:30:57.716Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cgranell.github.io/ei1039-quarto/materials/02-patrones.html</loc>
+    <lastmod>2024-09-17T17:30:59.022Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cgranell.github.io/ei1039-quarto/materials/03-seminarios.html</loc>
+    <lastmod>2024-09-17T17:31:00.274Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cgranell.github.io/ei1039-quarto/materials/04-extras.html</loc>
+    <lastmod>2024-09-17T17:31:01.549Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cgranell.github.io/ei1039-quarto/materials/04-referencias.html</loc>
+    <lastmod>2024-09-17T17:31:02.920Z</lastmod>
   </url>
 </urlset>

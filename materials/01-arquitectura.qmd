@@ -1,0 +1,12 @@
+---
+title: "Fundammentos de arquitectura"
+---
+
+
+## Conceptos, roles y compromisos
+
+
+## Características
+
+
+## Estilos

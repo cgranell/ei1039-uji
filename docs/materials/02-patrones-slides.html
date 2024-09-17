@@ -10,8 +10,9 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.3.353">
 
-  <meta name="author" content="Meghan Hall NEAIR July 12, 2022">
-  <title>EI1039 - Curso 2024/2025 - Streamlining with R</title>
+  <meta name="author" content="Carlos Granell">
+  <meta name="dcterms.date" content="17/09/2024">
+  <title>EI1039 - Curso 2024/2025 - Patrones de Diseño</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -29,7 +30,26 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -327,57 +347,186 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Streamlining with R</h1>
+  <h1 class="title">Patrones de Diseño</h1>
+  <p class="subtitle">Concepto, catálogo y principios</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Meghan Hall<br>NEAIR<br>July 12, 2022 
+Carlos Granell 
 </div>
-</div>
+        <p class="quarto-title-affiliation">
+            <a href="https://geotec.uji.es/">GEOTEC</a>, Universitat Jaume I
+          </p>
+    </div>
 </div>
 
+  <p class="date">Sep 17, 2024</p>
 </section>
 <section>
-<section id="in-the-morning" class="title-slide slide level1 center">
-<h1>In the morning</h1>
+<section id="recuerda" class="title-slide slide level1 center">
+<h1>Recuerda</h1>
 
 </section>
-<section id="getting-up" class="slide level2">
-<h2>Getting up</h2>
-<ul>
-<li>Turn off alarm</li>
-<li>Get out of bed</li>
-</ul>
+<section id="section" class="slide level2 center" data-menu-title="Concepto">
+<h2></h2>
+<h3 id="los-patrones-de-diseño-son">Los patrones de diseño son…</h3>
 </section>
-<section id="breakfast" class="slide level2">
-<h2>Breakfast</h2>
-<ul>
-<li>Eat eggs</li>
-<li>Drink coffee</li>
-</ul>
+<section id="section-1" class="slide level2 center" data-menu-title="Concepto (II)">
+<h2></h2>
+<h3 id="soluciones-habituales-y-bien-testeadas-a-problemas-recurrentes-en-diseño-de-software">…soluciones habituales y bien testeadas a problemas recurrentes en diseño de software</h3>
 </section></section>
 <section>
-<section id="in-the-evening" class="title-slide slide level1 center">
-<h1>In the evening</h1>
+<section id="catálogo-de-patrones-de-diseño" class="title-slide slide level1 center">
+<h1>Catálogo de patrones de diseño</h1>
 
 </section>
-<section id="dinner" class="slide level2">
-<h2>Dinner</h2>
+<section id="gang-of-four" class="slide level2">
+<h2>Gang of Four</h2>
+<p>Los cuatro autores del libro <strong>Design Patterns: Elements of Reusable Object-Oriented Software</strong> <span class="citation" data-cites="gamma1994">(<a href="#/referencias" role="doc-biblioref" onclick="">Gamma et al. 1994</a>)</span></p>
+<div>
 <ul>
-<li>Eat spaghetti</li>
-<li>Drink wine</li>
+<li class="fragment">Todos eran desarrolladores de aplicaciones e interfaces gráficas.</li>
+<li class="fragment">Descubrieron patrones que surgían en sus soluciones de diseño.</li>
+<li class="fragment">Formalizaron esos patrones en este libro clásico.</li>
+</ul>
+</div>
+</section>
+<section id="patrones-creacionales" class="slide level2">
+<h2>Patrones creacionales</h2>
+<p>Proporcionan mecanismos de creación de objetos</p>
+<div>
+<ul>
+<li class="fragment">Factory Method</li>
+<li class="fragment">Abstract Factory</li>
+<li class="fragment">Builder</li>
+<li class="fragment">Prototype</li>
+<li class="fragment">Singleton</li>
+</ul>
+</div>
+</section>
+<section id="patrones-estructurales" class="slide level2">
+<h2>Patrones estructurales</h2>
+<p>Explican cómo ensamblar (o como están conectados) objetos y clases en estructuras más grandes (como el maridaje culinario).</p>
+<div class="columns">
+<div class="column">
+<div>
+<ul>
+<li class="fragment">Adapter</li>
+<li class="fragment">Bridge</li>
+<li class="fragment">Composite</li>
+<li class="fragment">Decorator</li>
+</ul>
+</div>
+</div><div class="column">
+<div>
+<ul>
+<li class="fragment">Facade</li>
+<li class="fragment">Flyweight</li>
+<li class="fragment">Proxy</li>
+</ul>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Analogía para los estructural es el maridaje culinario: juntamos ingrediantes de distintas formas para formar nuevas relacionas, ya sea combinando ingredientes físicalmente (ensalada) o sin combinación (queso y vino)</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="patrones-de-comportamiento" class="slide level2">
+<h2>Patrones de comportamiento</h2>
+<p>Se encargan de una comunicación efectiva y la asignación de responsabilidades entre objetos (como equipo F1).</p>
+<div class="columns">
+<div class="column">
+<div>
+<ul>
+<li class="fragment">Chain of responsability</li>
+<li class="fragment">Command</li>
+<li class="fragment">Iterator</li>
+<li class="fragment">Mediator</li>
+<li class="fragment">Memento</li>
+</ul>
+</div>
+</div><div class="column">
+<div>
+<ul>
+<li class="fragment">Observer</li>
+<li class="fragment">State</li>
+<li class="fragment">Strategy</li>
+<li class="fragment">Template Method</li>
+<li class="fragment">Visitor</li>
+</ul>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Una analogía para los patrones de comportamiento es el pit/box en una carrera de F1: cada miembro del equipo tiene un rol asignado, pero juntos consiguen un objetivo común</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section>
+<section id="principios-básicos-de-diseño-de-software" class="title-slide slide level1 center">
+<h1>Principios básicos de diseño de software</h1>
+<p>(presentes en casi todos los patrones de diseño)</p>
+</section>
+<section id="section-2" class="slide level2" data-background-image="../images/rawpixel/balance.jpg" data-background-size="cover">
+<h2></h2>
+<p><span class="emoji" data-emoji="star">⭐</span>Encapsula lo que varía y sepáralo de lo que no cambia</p>
+<div class="fragment">
+<p><span class="emoji" data-emoji="arrow_right">➡️</span>Minimiza/aisla el efecto provocado por los cambios</p>
+<aside class="notes">
+<p>Stones Wooden Table Group of Objects Concept Image credits: <a href="https://www.rawpixel.com/image/69379/">Rawpixel.com</a></p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="resumen" class="slide level2">
+<h2>Resumen</h2>
+<ul>
+<li><p>Soluciones conceptuales muy probadas y testeadas</p></li>
+<li><p>Proporcionan un vocabulario común</p></li>
+<li><p>No es siempre obvio que patrón utilizar</p></li>
+<li><p>No abuses de los patrones si existe una solución más sencilla y eficiente</p></li>
 </ul>
 </section>
-<section id="going-to-sleep" class="slide level2">
-<h2>Going to sleep</h2>
-<ul>
-<li>Get in bed</li>
-<li>Count sheep</li>
-</ul>
+<section id="referencias" class="slide level2 scrollable smaller">
+<h2>Referencias</h2>
 
-<div class="footer footer-default">
-<p><a href="https://github.com/meghall06/neair">github.com/meghall06/neair</a>&nbsp;&nbsp;&nbsp;</p>
+
+<img src="../images/marca-uji-blanc.png" class="slide-logo r-stretch"><div class="footer footer-default">
+<p><a href="https://cgranell.github.io/ei1039-uji">cgranell.github.io/ei1039-uji</a></p>
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-gamma1994" class="csl-entry" role="listitem">
+Gamma, Erich, Richard Helm, Ralph Johnson, and John Vlissides. 1994. <em>Design Patterns: Elements of Reusable Object-Oriented Software</em>. Addison-Wesley.
+</div>
 </div>
 </section></section>
     </div>
@@ -406,14 +555,14 @@ Meghan Hall<br>NEAIR<br>July 12, 2022
       // https://revealjs.com/config/
       Reveal.initialize({
 'controlsAuto': true,
-'previewLinksAuto': true,
+'previewLinksAuto': false,
 'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'chalkboard': {"buttons":true,"boardmarkerWidth":5},
+'chalkboard': {"buttons":false,"theme":"whiteboard","boardmarkerWidth":3},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -536,10 +685,10 @@ Meghan Hall<br>NEAIR<br>July 12, 2022
         hideCursorTime: 5000,
 
         // Opens links in an iframe preview overlay
-        previewLinks: false,
+        previewLinks: true,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'none',
+        transition: 'fade',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'default',

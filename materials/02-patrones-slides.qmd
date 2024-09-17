@@ -1,0 +1,146 @@
+---
+title: "Patrones de Diseño"
+subtitle: "Concepto, catálogo y principios"
+author: "Carlos Granell"
+institute: "[GEOTEC](https://geotec.uji.es/), Universitat Jaume I"
+date: last-modified
+date-format: "MMM D, YYYY"
+format: 
+  revealjs:
+    slide-number: true
+    show-slide-number: all
+    progress: true
+    logo: ../images/marca-uji-blanc.png
+    footer: "[cgranell.github.io/ei1039-uji](https://cgranell.github.io/ei1039-uji)"
+    theme: dark
+    transition: fade
+    preview-links: true
+    author-meta: "Carlos Granell"
+    date-meta: "17/09/2024"
+    chalkboard: 
+      theme: whiteboard
+      buttons: false
+      boardmarker-width: 3
+from: markdown+emoji
+execute:
+  echo: true
+---
+
+# Recuerda
+
+##  {.center data-menu-title="Concepto"}
+
+### Los patrones de diseño son...
+
+##  {.center data-menu-title="Concepto (II)"}
+
+### ...soluciones habituales y bien testeadas a problemas recurrentes en diseño de software
+
+# Catálogo de patrones de diseño
+
+## Gang of Four
+
+Los cuatro autores del libro **Design Patterns: Elements of Reusable Object-Oriented Software** [@gamma1994]
+
+::: incremental
+-   Todos eran desarrolladores de aplicaciones e interfaces gráficas.
+-   Descubrieron patrones que surgían en sus soluciones de diseño.
+-   Formalizaron esos patrones en este libro clásico.
+:::
+
+## Patrones creacionales
+
+Proporcionan mecanismos de creación de objetos
+
+::: incremental
+-   Factory Method
+-   Abstract Factory
+-   Builder
+-   Prototype
+-   Singleton
+:::
+
+## Patrones estructurales
+
+Explican cómo ensamblar (o como están conectados) objetos y clases en estructuras más grandes (como el maridaje culinario).
+
+::: columns
+::: column
+::: incremental
+-   Adapter
+-   Bridge
+-   Composite
+-   Decorator
+:::
+:::
+
+::: column
+::: incremental
+-   Facade
+-   Flyweight
+-   Proxy
+:::
+:::
+:::
+
+::: notes
+Analogía para los estructural es el maridaje culinario: juntamos ingrediantes de distintas formas para formar nuevas relacionas, ya sea combinando ingredientes físicalmente (ensalada) o sin combinación (queso y vino)
+:::
+
+## Patrones de comportamiento
+
+Se encargan de una comunicación efectiva y la asignación de responsabilidades entre objetos (como equipo F1).
+
+::: columns
+::: column
+::: incremental
+-   Chain of responsability
+-   Command
+-   Iterator
+-   Mediator
+-   Memento
+:::
+:::
+
+::: column
+::: incremental
+-   Observer
+-   State
+-   Strategy
+-   Template Method
+-   Visitor
+:::
+:::
+:::
+
+::: notes
+Una analogía para los patrones de comportamiento es el pit/box en una carrera de F1: cada miembro del equipo tiene un rol asignado, pero juntos consiguen un objetivo común
+:::
+
+# Principios básicos de diseño de software
+
+(presentes en casi todos los patrones de diseño)
+
+##  {background-image="../images/rawpixel/balance.jpg" background-size="cover"}
+
+:star:Encapsula lo que varía y sepáralo de lo que no cambia
+
+. . .
+
+:arrow_right:Minimiza/aisla el efecto provocado por los cambios
+
+::: notes
+Stones Wooden Table Group of Objects Concept Image credits: [Rawpixel.com](https://www.rawpixel.com/image/69379/)
+:::
+
+## Resumen
+
+-   Soluciones conceptuales muy probadas y testeadas
+
+-   Proporcionan un vocabulario común
+
+-   No es siempre obvio que patrón utilizar
+
+-   No abuses de los patrones si existe una solución más sencilla y eficiente
+
+## Referencias {.scrollable}
