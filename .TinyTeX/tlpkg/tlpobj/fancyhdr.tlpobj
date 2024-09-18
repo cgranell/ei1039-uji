@@ -1,0 +1,25 @@
+name fancyhdr
+category Package
+revision 71883
+shortdesc Extensive control of page headers and footers in LaTeX2e
+longdesc The package provides extensive facilities, both for
+longdesc constructing headers and footers, and for controlling their use
+longdesc (for example, at times when LaTeX would automatically change
+longdesc the heading style in use).
+containersize 5488
+containerchecksum 6b9e23e88d86984fecef5552ff5e0038f358d2a98104833098276bbd5e471a25094a7775e78fcd1bc5d59c18089b560256a5a08b7808c707eeeb5bec04ad9ce6
+doccontainersize 855508
+doccontainerchecksum 147f143d8a4a63fbf1024b0163e0f337b4140c9e37ae1a7213fac2a2e8b4140775b27809d1cb102d6b328b887d35ebe1005f228d352ecd9b9e5af5c74a401ca1
+srccontainersize 49032
+srccontainerchecksum 964e476c476333880bf4ce8515c97eb3422b666e2c421bade8004db74327c6bb8ac34efbbc3d5ca31b32b6f545fd5c07984bfda35bf7573683a9ec4f25fa4c69
+runfiles size=7
+ texmf-dist/tex/latex/fancyhdr/extramarks.sty
+ texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+ texmf-dist/tex/latex/fancyhdr/fancyheadings.sty
+catalogue-also titleps
+catalogue-contact-bugs https://github.com/pietvo/fancyhdr/issues
+catalogue-contact-repository https://github.com/pietvo/fancyhdr
+catalogue-ctan /macros/latex/contrib/fancyhdr
+catalogue-license lppl1.3
+catalogue-topics page-hf
+catalogue-version 4.3.1

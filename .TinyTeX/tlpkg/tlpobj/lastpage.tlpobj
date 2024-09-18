@@ -1,0 +1,26 @@
+name lastpage
+category Package
+revision 71883
+shortdesc Reference last page for Page N of M type footers
+longdesc Reference the number of pages in your LaTeX document through
+longdesc the introduction of a new label which can be referenced like
+longdesc \pageref{LastPage} to give a reference to the last page of a
+longdesc document. It is particularly useful in the page footer that
+longdesc says: Page N of M.
+containersize 4528
+containerchecksum eaab6f9366911524336085e2fee070a81c60225b5e6640b42cd9bbada8992d94ff17f0160af3abee7ef3d4167a6e1b95c25a230882566e818f3aef6276aa2e72
+doccontainersize 579984
+doccontainerchecksum af25364ead9f3b8dc8d45619c009575b809cea2a63e3a2f89684c61ba7b32356949f1b7308ec8d0399381ed5289675308a00737ec9ceff05a908ac7379cecd00
+srccontainersize 22676
+srccontainerchecksum b63e43a23fba37905ee97c7a04c0d769cc1500be0b2ceb76b97639a1755d45b4fe07a660f5e7333ecfb3b85dcf8766b95963cf83b75b6746e08ff40a552b074c
+runfiles size=9
+ texmf-dist/tex/latex/lastpage/lastpage.sty
+ texmf-dist/tex/latex/lastpage/lastpage209.sty
+ texmf-dist/tex/latex/lastpage/lastpage2e.sty
+ texmf-dist/tex/latex/lastpage/lastpageclassic.sty
+ texmf-dist/tex/latex/lastpage/lastpagemodern.sty
+catalogue-also totpages
+catalogue-ctan /macros/latex/contrib/lastpage
+catalogue-license lppl1.3c
+catalogue-topics label-ref
+catalogue-version 2.1c

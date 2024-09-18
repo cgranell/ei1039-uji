@@ -1,0 +1,4 @@
+1726667671958:quarto install tinytex
+1726668094248:sessionInfo()
+1726668141225:packageVersion("quarto")
+1726668805305:sessionInfo()

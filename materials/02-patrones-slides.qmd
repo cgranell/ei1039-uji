@@ -12,7 +12,7 @@ format:
     progress: true
     logo: ../images/marca-uji-blanc.png
     footer: "[cgranell.github.io/ei1039-uji](https://cgranell.github.io/ei1039-uji)"
-    theme: dark
+    theme: [default]
     transition: fade
     preview-links: true
     author-meta: "Carlos Granell"
@@ -62,7 +62,7 @@ Proporcionan mecanismos de creación de objetos
 
 ## Patrones estructurales
 
-Explican cómo ensamblar (o como están conectados) objetos y clases en estructuras más grandes (como el maridaje culinario).
+Explican cómo ensamblar (o como están conectados) objetos y clases en estructuras más grandes (como maridaje culinario).
 
 ::: columns
 ::: column
@@ -127,20 +127,106 @@ Una analogía para los patrones de comportamiento es el pit/box en una carrera d
 
 . . .
 
+::: {style="text-align: right"}
 :arrow_right:Minimiza/aisla el efecto provocado por los cambios
+:::
 
 ::: notes
 Stones Wooden Table Group of Objects Concept Image credits: [Rawpixel.com](https://www.rawpixel.com/image/69379/)
 :::
 
+##  {background-image="../images/rawpixel/balance.jpg" background-size="cover"}
+
+:star:Programa a una interfaz, no a una implementación
+
+. . .
+
+::: {style="text-align: right"}
+:arrow_right:Diseño flexible depende de abstracciones, no de clases concretas
+:::
+
+##  {background-image="../images/rawpixel/balance.jpg" background-size="cover"}
+
+:star:Favorece la composición sobre la herencia
+
+. . .
+
+::: {style="text-align: right"}
+:arrow_right:HAS-A puede ser mejor que IS-A
+:::
+
+::: notes
+La herencia es probablemente la forma más obvia de reutilizar código entre clases. Tienes dos clases con el mismo código. Creas una clase base común para estas dos clases y colocas dentro el código similar. Fet!
+
+Sin embargo, la herencia establece despendencias fuertes entre clases. Puedes hacer más débil una dependencia haciendo que tu código dependa de interfaces o clases abstractas en lugar de clases concretas.
+
+En vez de *heredar* un comportamiento, un objeto obtiene un comportamiento cuando *se compone* con un objeto de ese comportamiento.
+:::
+
+# Y supongo que os preguntaréis....
+
+## ¿Puedo trabajar como programador sin conocer un solo patrón de diseño?
+
+. . .
+
+Sí, puedes. A lo mejor los has utilizado sin saberlo.
+
+## ¿Por qué tengo que dedicar tiempo a aprenderlos?
+
+. . .
+
+Como ingenieros/as, proporcionamos soluciones a problemas. Cuanto mayor sea tu **juego de herramientas** para resolver problemas, mejor ingeniero/a serás.
+
+## Si aplico un patrón, ¿copio su código y listo?
+
+. . .
+
+Los patrones no son código ya preparado como funciones o algoritmos. Son **soluciones conceptuales** para resolver un problema frecuente de diseño en tu código.
+
+patrón **≌** plano
+
+::: notes
+Un algoritmo == una receta de cocina: ambos cuentan con pasos claros para alcanzar una meta.
+
+Un patrón == un plano, ya que puedes observar el resultado y sus funciones, pero el orden exacto de la implementación depende de ti.
+:::
+
+## Y entonces, ¿cómo implemento un patrón en mi código?
+
+. . .
+
+Sigue los detalles de la solución conceptual del patrón pero la implementación depende de ti, para que encaje con las **restricciones** y **objetivo** de tu código.
+
+## ¿Lo más difícil entonces es implementar una versión personalizada del patrón?
+
+. . .
+
+No, esa es la parte "mecánica" (sin despreciar la dificultad que atañe escribir código).
+
+
+## ¿Qué es lo más difícil? :fearful:
+
+. . .
+
+Reconocer si un patrón en particular *es o no es* la **solución** a tu **problema** particular
+
+## Y además los patrones definen un vocabulario común para comunicarte con tu equipo
+
+. . .
+
+"Sí, claro, utiliza un *singleton* para eso que quieres hacer".
+
+
 ## Resumen
 
+::: incremental
 -   Soluciones conceptuales muy probadas y testeadas
 
 -   Proporcionan un vocabulario común
 
--   No es siempre obvio que patrón utilizar
+-   No es siempre obvio qué patrón utilizar
 
--   No abuses de los patrones si existe una solución más sencilla y eficiente
+-   No abuses de los patrones si existe una solución más sencilla
+:::
 
 ## Referencias {.scrollable}

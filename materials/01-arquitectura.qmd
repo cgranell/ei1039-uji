@@ -6,7 +6,33 @@ title: "Fundammentos de arquitectura"
 ## Conceptos, roles y compromisos
 
 
-## Características
+::: {.callout-tip icon=false}
+## **Slide Deck** 
+
+::: slides
+[Conceptos, roles y compromisos](https://cgranell.github.io/ei1039/slides/TE2_fundamentos_arquitectura.html)
+:::
+
+:::
 
 
-## Estilos
+
+::: {.callout-tip icon=false}
+## **Slide Deck** 
+
+::: slides
+[Caracteristicas](https://cgranell.github.io/ei1039/slides/TE2_caracteristicas_arquitectura.html)
+:::
+
+:::
+
+
+::: {.callout-tip icon=false}
+## **Slide Deck** 
+
+::: slides
+[Estilos de arquitectura](https://cgranell.github.io/ei1039/slides/TE2_estilos_arquitectura.html)
+:::
+
+:::
+

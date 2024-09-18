@@ -5,7 +5,10 @@ affiliation: "Universitat Jaume I"
 date: "09/16/2024"
 date-modified: last-modified
 date-format: "MMM D, YYYY"
-format: html
+#format: html
+format:
+  html: default
+  pdf: default
 ---
 
 ## Objetivo y resultados de aprendizaje

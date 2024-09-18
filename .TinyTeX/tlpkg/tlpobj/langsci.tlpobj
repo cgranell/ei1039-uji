@@ -1,0 +1,57 @@
+name langsci
+category Package
+revision 70025
+shortdesc Typeset books for publication with Language Science Press
+longdesc This package allows you to typeset monographs and edited
+longdesc volumes for publication with Language Science Press
+longdesc (https://www.langsci-press.org). It includes all necessary
+longdesc files for title pages, frontmatter, main content, list of
+longdesc references and indexes. Dust jackets for BoD and Createspace
+longdesc (print-on-demand service providers) can also be produced.
+containersize 65968
+containerchecksum af3100e7254ba029b82bc7ffb1fe5134cd76bbfae5b3d5c10b002d8d450d8ffdf5441c849ba7c64914889d6d40939dd8f848bad02bf94fe2cf8c9c11f1bf28d2
+doccontainersize 274584
+doccontainerchecksum 6018bfc249de196227395bc67c75a3e42eb1e2d6a3445959721a696e6d608ac4bf3291803d7f38f2295980a45a79cabe54638b663a8c7a7ffe7103ef7034b367
+runfiles size=92
+ texmf-dist/tex/xelatex/langsci/langsci-affiliations.sty
+ texmf-dist/tex/xelatex/langsci/langsci-bidi.sty
+ texmf-dist/tex/xelatex/langsci/langsci-gb4e.sty
+ texmf-dist/tex/xelatex/langsci/langsci-lgr.sty
+ texmf-dist/tex/xelatex/langsci/langsci-optional.sty
+ texmf-dist/tex/xelatex/langsci/langsci-plot-templates.sty
+ texmf-dist/tex/xelatex/langsci/langsci-series.def
+ texmf-dist/tex/xelatex/langsci/langsci-subparts.sty
+ texmf-dist/tex/xelatex/langsci/langsci-tbls.sty
+ texmf-dist/tex/xelatex/langsci/langsci-textipa.sty
+ texmf-dist/tex/xelatex/langsci/langsci-unified.bbx
+ texmf-dist/tex/xelatex/langsci/langsci-unified.cbx
+ texmf-dist/tex/xelatex/langsci/langsci-unified.dbx
+ texmf-dist/tex/xelatex/langsci/langscibook.cls
+ texmf-dist/tex/xelatex/langsci/tbls-alarm.pdf
+ texmf-dist/tex/xelatex/langsci/tbls-book.pdf
+ texmf-dist/tex/xelatex/langsci/tbls-bulb.pdf
+ texmf-dist/tex/xelatex/langsci/tbls-bulbon.pdf
+ texmf-dist/tex/xelatex/langsci/tbls-code.pdf
+ texmf-dist/tex/xelatex/langsci/tbls-explore.pdf
+ texmf-dist/tex/xelatex/langsci/tbls-filter.pdf
+ texmf-dist/tex/xelatex/langsci/tbls-glass.pdf
+ texmf-dist/tex/xelatex/langsci/tbls-glass2.pdf
+ texmf-dist/tex/xelatex/langsci/tbls-law.pdf
+ texmf-dist/tex/xelatex/langsci/tbls-more.pdf
+ texmf-dist/tex/xelatex/langsci/tbls-pencil.pdf
+ texmf-dist/tex/xelatex/langsci/tbls-people.pdf
+ texmf-dist/tex/xelatex/langsci/tbls-plus.pdf
+ texmf-dist/tex/xelatex/langsci/tbls-r.pdf
+ texmf-dist/tex/xelatex/langsci/tbls-receipt.pdf
+ texmf-dist/tex/xelatex/langsci/tbls-refresh.pdf
+ texmf-dist/tex/xelatex/langsci/tbls-report.pdf
+ texmf-dist/tex/xelatex/langsci/tbls-test.pdf
+ texmf-dist/tex/xelatex/langsci/tbls-tree.pdf
+catalogue-contact-bugs https://github.com/langsci/langscibook/issues
+catalogue-contact-development https://github.com/glottotopia
+catalogue-contact-home https://www.langsci-press.org
+catalogue-contact-repository https://github.com/langsci/langscibook
+catalogue-contact-support mailto:support@langsci-press.org
+catalogue-ctan /macros/xetex/latex/langsci
+catalogue-license lppl1.3
+catalogue-topics journalpub book-pub class

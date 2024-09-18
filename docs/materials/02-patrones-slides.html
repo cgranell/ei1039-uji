@@ -7,7 +7,7 @@
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.3.353">
 
   <meta name="author" content="Carlos Granell">
@@ -342,7 +342,7 @@
     }
   </style>
 </head>
-<body class="quarto-dark">
+<body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
@@ -361,7 +361,7 @@ Carlos Granell
     </div>
 </div>
 
-  <p class="date">Sep 17, 2024</p>
+  <p class="date">Sep 18, 2024</p>
 </section>
 <section>
 <section id="recuerda" class="title-slide slide level1 center">
@@ -407,7 +407,7 @@ Carlos Granell
 </section>
 <section id="patrones-estructurales" class="slide level2">
 <h2>Patrones estructurales</h2>
-<p>Explican cómo ensamblar (o como están conectados) objetos y clases en estructuras más grandes (como el maridaje culinario).</p>
+<p>Explican cómo ensamblar (o como están conectados) objetos y clases en estructuras más grandes (como maridaje culinario).</p>
 <div class="columns">
 <div class="column">
 <div>
@@ -491,7 +491,9 @@ Carlos Granell
 <h2></h2>
 <p><span class="emoji" data-emoji="star">⭐</span>Encapsula lo que varía y sepáralo de lo que no cambia</p>
 <div class="fragment">
+<div style="text-align: right">
 <p><span class="emoji" data-emoji="arrow_right">➡️</span>Minimiza/aisla el efecto provocado por los cambios</p>
+</div>
 <aside class="notes">
 <p>Stones Wooden Table Group of Objects Concept Image credits: <a href="https://www.rawpixel.com/image/69379/">Rawpixel.com</a></p>
 <style type="text/css">
@@ -507,14 +509,111 @@ Carlos Granell
       }</style></aside>
 </div>
 </section>
+<section id="section-3" class="slide level2" data-background-image="../images/rawpixel/balance.jpg" data-background-size="cover">
+<h2></h2>
+<p><span class="emoji" data-emoji="star">⭐</span>Programa a una interfaz, no a una implementación</p>
+<div class="fragment">
+<div style="text-align: right">
+<p><span class="emoji" data-emoji="arrow_right">➡️</span>Diseño flexible depende de abstracciones, no de clases concretas</p>
+</div>
+</div>
+</section>
+<section id="section-4" class="slide level2" data-background-image="../images/rawpixel/balance.jpg" data-background-size="cover">
+<h2></h2>
+<p><span class="emoji" data-emoji="star">⭐</span>Favorece la composición sobre la herencia</p>
+<div class="fragment">
+<div style="text-align: right">
+<p><span class="emoji" data-emoji="arrow_right">➡️</span>HAS-A puede ser mejor que IS-A</p>
+</div>
+<aside class="notes">
+<p>La herencia es probablemente la forma más obvia de reutilizar código entre clases. Tienes dos clases con el mismo código. Creas una clase base común para estas dos clases y colocas dentro el código similar. Fet!</p>
+<p>Sin embargo, la herencia establece despendencias fuertes entre clases. Puedes hacer más débil una dependencia haciendo que tu código dependa de interfaces o clases abstractas en lugar de clases concretas.</p>
+<p>En vez de <em>heredar</em> un comportamiento, un objeto obtiene un comportamiento cuando <em>se compone</em> con un objeto de ese comportamiento.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section></section>
+<section>
+<section id="y-supongo-que-os-preguntaréis." class="title-slide slide level1 center">
+<h1>Y supongo que os preguntaréis….</h1>
+
+</section>
+<section id="puedo-trabajar-como-programador-sin-conocer-un-solo-patrón-de-diseño" class="slide level2">
+<h2>¿Puedo trabajar como programador sin conocer un solo patrón de diseño?</h2>
+<div class="fragment">
+<p>Sí, puedes. A lo mejor los has utilizado sin saberlo.</p>
+</div>
+</section>
+<section id="por-qué-tengo-que-dedicar-tiempo-a-aprenderlos" class="slide level2">
+<h2>¿Por qué tengo que dedicar tiempo a aprenderlos?</h2>
+<div class="fragment">
+<p>Como ingenieros/as, proporcionamos soluciones a problemas. Cuanto mayor sea tu <strong>juego de herramientas</strong> para resolver problemas, mejor ingeniero/a serás.</p>
+</div>
+</section>
+<section id="si-aplico-un-patrón-copio-su-código-y-listo" class="slide level2">
+<h2>Si aplico un patrón, ¿copio su código y listo?</h2>
+<div class="fragment">
+<p>Los patrones no son código ya preparado como funciones o algoritmos. Son <strong>soluciones conceptuales</strong> para resolver un problema frecuente de diseño en tu código.</p>
+<p>patrón <strong>≌</strong> plano</p>
+<aside class="notes">
+<p>Un algoritmo == una receta de cocina: ambos cuentan con pasos claros para alcanzar una meta.</p>
+<p>Un patrón == un plano, ya que puedes observar el resultado y sus funciones, pero el orden exacto de la implementación depende de ti.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="y-entonces-cómo-implemento-un-patrón-en-mi-código" class="slide level2">
+<h2>Y entonces, ¿cómo implemento un patrón en mi código?</h2>
+<div class="fragment">
+<p>Sigue los detalles de la solución conceptual del patrón pero la implementación depende de ti, para que encaje con las <strong>restricciones</strong> y <strong>objetivo</strong> de tu código.</p>
+</div>
+</section>
+<section id="lo-más-difícil-entonces-es-implementar-una-versión-personalizada-del-patrón" class="slide level2">
+<h2>¿Lo más difícil entonces es implementar una versión personalizada del patrón?</h2>
+<div class="fragment">
+<p>No, esa es la parte “mecánica” (sin despreciar la dificultad que atañe escribir código).</p>
+</div>
+</section>
+<section id="qué-es-lo-más-difícil" class="slide level2">
+<h2>¿Qué es lo más difícil? <span class="emoji" data-emoji="fearful">😨</span></h2>
+<div class="fragment">
+<p>Reconocer si un patrón en particular <em>es o no es</em> la <strong>solución</strong> a tu <strong>problema</strong> particular</p>
+</div>
+</section>
+<section id="y-además-los-patrones-definen-un-vocabulario-común-para-comunicarte-con-tu-equipo" class="slide level2">
+<h2>Y además los patrones definen un vocabulario común para comunicarte con tu equipo</h2>
+<div class="fragment">
+<p>“Sí, claro, utiliza un <em>singleton</em> para eso que quieres hacer”.</p>
+</div>
+</section>
 <section id="resumen" class="slide level2">
 <h2>Resumen</h2>
+<div>
 <ul>
-<li><p>Soluciones conceptuales muy probadas y testeadas</p></li>
-<li><p>Proporcionan un vocabulario común</p></li>
-<li><p>No es siempre obvio que patrón utilizar</p></li>
-<li><p>No abuses de los patrones si existe una solución más sencilla y eficiente</p></li>
+<li class="fragment"><p>Soluciones conceptuales muy probadas y testeadas</p></li>
+<li class="fragment"><p>Proporcionan un vocabulario común</p></li>
+<li class="fragment"><p>No es siempre obvio qué patrón utilizar</p></li>
+<li class="fragment"><p>No abuses de los patrones si existe una solución más sencilla</p></li>
 </ul>
+</div>
 </section>
 <section id="referencias" class="slide level2 scrollable smaller">
 <h2>Referencias</h2>

@@ -43,11 +43,3 @@ Es importante dejar claro que los patrones de diseño no son únicamente código
 
 :::
 
-::: {.callout-tip icon=false}
-## **Slide Deck** 
-
-::: slides
-[Patrones de Diseño: Concepto, catálogo y principios](https://cgranell.github.io/ei1039/slides/TE1_intro_patrones.html)
-:::
-
-:::

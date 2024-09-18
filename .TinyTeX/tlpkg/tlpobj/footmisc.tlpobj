@@ -1,0 +1,34 @@
+name footmisc
+category Package
+revision 70885
+shortdesc A range of footnote options
+longdesc A collection of ways to change the typesetting of footnotes.
+longdesc The package provides means of changing the layout of the
+longdesc footnotes themselves (including setting them in 'paragraphs' --
+longdesc the para option), a way to number footnotes per page (the
+longdesc perpage option), to make footnotes disappear in a 'moving'
+longdesc argument (stable option) and to deal with multiple references
+longdesc to footnotes from the same place (multiple option). The package
+longdesc also has a range of techniques for labelling footnotes with
+longdesc symbols rather than numbers. Some of the functions of the
+longdesc package are overlap with the functionality of other packages.
+longdesc The para option is also provided by the manyfoot and bigfoot
+longdesc packages, though those are both also portmanteau packages.
+longdesc (Don't be seduced by fnpara, whose implementation is improved
+longdesc by the present package.) The perpage option is also offered by
+longdesc footnpag and by the rather more general-purpose perpage
+containersize 7692
+containerchecksum 209f43ddebaa6266ac6cc65a9dc6d0bd78f3be76955151e3417e94c6ab90edd94f2974609e83d232be85c0beb04456c3a350ce0412f6b779cfd1de24c40bd410
+doccontainersize 514740
+doccontainerchecksum 0c0bb9a04199aa1297b5de402ff773c4e928dcf541eb60516853de1193dc4f96c6d2bf096262cd6f300c72a742f20ba70179fc75c1edab36d9697be742cec751
+srccontainersize 22408
+srccontainerchecksum 4ffc61f4ca836ae1857f1f308770ce3cc8125f8523c965114913016fa3e90e4d29fbd3bb9b10ebbe47471d410a454c8849f126760472f4473ba0bb9faf63a6c9
+runfiles size=13
+ texmf-dist/tex/latex/footmisc/footmisc-2011-06-06.sty
+ texmf-dist/tex/latex/footmisc/footmisc.sty
+catalogue-also endnotes ftnright footmisx multifootnote
+catalogue-contact-repository https://github.com/frankmittelbach/fmitex-footmisc
+catalogue-ctan /macros/latex/contrib/footmisc
+catalogue-license lppl1.3c
+catalogue-topics footnote
+catalogue-version 6.0f

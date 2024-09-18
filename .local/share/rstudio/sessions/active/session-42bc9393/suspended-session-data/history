@@ -1,0 +1,4 @@
+quarto install tinytex
+sessionInfo()
+packageVersion("quarto")
+sessionInfo()
