@@ -183,7 +183,13 @@ Como ingenieros/as, proporcionamos soluciones a problemas. Cuanto mayor sea tu *
 
 Los patrones no son código ya preparado como funciones o algoritmos. Son **soluciones conceptuales** para resolver un problema frecuente de diseño en tu código.
 
+::: {.callout-important}
+## **Recuerda** 
+
 patrón **≌** plano
+
+:::
+
 
 ::: notes
 Un algoritmo == una receta de cocina: ambos cuentan con pasos claros para alcanzar una meta.
@@ -203,7 +209,6 @@ Sigue los detalles de la solución conceptual del patrón pero la implementació
 
 No, esa es la parte "mecánica" (sin despreciar la dificultad que atañe escribir código).
 
-
 ## ¿Qué es lo más difícil? :fearful:
 
 . . .
@@ -215,7 +220,6 @@ Reconocer si un patrón en particular *es o no es* la **solución** a tu **probl
 . . .
 
 "Sí, claro, utiliza un *singleton* para eso que quieres hacer".
-
 
 ## Resumen
 

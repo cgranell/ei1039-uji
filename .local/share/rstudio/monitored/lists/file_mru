@@ -1,9 +1,10 @@
-~/install.R
-~/index.qmd
-~/materials/01-arquitectura.qmd
-~/materials/02-patrones.qmd
 ~/materials/02-patrones-slides.qmd
 ~/_quarto.yml
+~/materials/02-patrones.qmd
+~/install.R
+~/.gitignore
+~/index.qmd
+~/materials/01-arquitectura.qmd
 ~/materials/02-patrones-estructurales.qmd
 ~/materials/02-patrones-comportamiento.qmd
 ~/materials/02-patrones-creacionales.qmd
@@ -12,4 +13,3 @@
 ~/references.bib
 ~/materials/arquitectura.qmd
 ~/materials/patrones.qmd
-~/compose.yaml

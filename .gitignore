@@ -1,21 +1,22 @@
 # History files
 .Rhistory
+.bash_history
 
 # Session Data files
 .RData
 .Ruserdata
 
-/.quarto/
+.quarto/
 
-.local
+.local/
 
 
 # RStudio files
 .Rproj.user/
-.config
+.config/
 
 # knitr and R markdown default cache directories
-/.cache/
+.cache/
 
-.TinyText
+.TinyText/
 

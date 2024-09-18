@@ -1,5 +1,5 @@
 ---
-title: "Hola!"
+title: "Hola! "
 author: "Carlos Granell"
 affiliation: "Universitat Jaume I"
 date: "09/16/2024"

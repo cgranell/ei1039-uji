@@ -4,14 +4,14 @@ project:
 
 website:
   page-navigation: true
-  title: "EI1039 - Curso 2024/2025"
+  title: "EI1039 - 2024/2025"
   description: "Software Design"
-  site-url: "https://cgranell.github.io/ei1039-quarto"
-  repo-url: "https://www.github.com/cgranell/ei1039-quarto"
+  site-url: "https://cgranell.github.io/ei1039-uji"
+  repo-url: "https://www.github.com/cgranell/ei1039-uji"
   reader-mode: true
 
   page-footer:
-    left: "[cgranell.github.io/ei1039-quarto](https://cgranell.github.io/ei1039-quarto)"
+    left: "[cgranell.github.io/ei1039-uji](https://cgranell.github.io/ei1039-uji)"
     right:
     - text: "License"
       href: LICENSE.md
@@ -19,6 +19,10 @@ website:
       href: CODE_OF_CONDUCT.md
 
   navbar:
+    logo: "images/marca-uji-blanc.png"
+    logo-alt: "UJI"
+    logo-href: "https://www.uji.es"
+
     left:
       - href: index.qmd
         text: "Hola!"

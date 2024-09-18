@@ -151,7 +151,7 @@
     "href": "materials/02-patrones-slides.html#si-aplico-un-patrón-copio-su-código-y-listo",
     "title": "Patrones de Diseño",
     "section": "Si aplico un patrón, ¿copio su código y listo?",
-    "text": "Si aplico un patrón, ¿copio su código y listo?\n\nLos patrones no son código ya preparado como funciones o algoritmos. Son soluciones conceptuales para resolver un problema frecuente de diseño en tu código.\npatrón ≌ plano\n\nUn algoritmo == una receta de cocina: ambos cuentan con pasos claros para alcanzar una meta.\nUn patrón == un plano, ya que puedes observar el resultado y sus funciones, pero el orden exacto de la implementación depende de ti."
+    "text": "Si aplico un patrón, ¿copio su código y listo?\n\nLos patrones no son código ya preparado como funciones o algoritmos. Son soluciones conceptuales para resolver un problema frecuente de diseño en tu código.\n\n\n\n\n\n\nRecuerda\n\n\npatrón ≌ plano\n\n\n\n\nUn algoritmo == una receta de cocina: ambos cuentan con pasos claros para alcanzar una meta.\nUn patrón == un plano, ya que puedes observar el resultado y sus funciones, pero el orden exacto de la implementación depende de ti."
   },
   {
     "objectID": "materials/02-patrones-slides.html#y-entonces-cómo-implemento-un-patrón-en-mi-código",
