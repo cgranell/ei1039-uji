@@ -1,6 +1,21 @@
-.Rproj.user
+# History files
 .Rhistory
+
+# Session Data files
 .RData
 .Ruserdata
 
 /.quarto/
+
+.local
+
+
+# RStudio files
+.Rproj.user/
+.config
+
+# knitr and R markdown default cache directories
+/.cache/
+
+.TinyText
+
