@@ -121,7 +121,7 @@ Una analogía para los patrones de comportamiento es el pit/box en una carrera d
 
 (presentes en casi todos los patrones de diseño)
 
-##  {background-image="../images/rawpixel/balance.jpg" background-size="cover"}
+##  {#encapsula background-image="../images/rawpixel/balance.jpg" background-size="cover"}
 
 :star:Encapsula lo que varía y sepáralo de lo que no cambia
 
@@ -135,7 +135,7 @@ Una analogía para los patrones de comportamiento es el pit/box en una carrera d
 Stones Wooden Table Group of Objects Concept Image credits: [Rawpixel.com](https://www.rawpixel.com/image/69379/)
 :::
 
-##  {background-image="../images/rawpixel/balance.jpg" background-size="cover"}
+##  {#interfaz background-image="../images/rawpixel/balance.jpg" background-size="cover"}
 
 :star:Programa a una interfaz, no a una implementación
 
@@ -145,7 +145,7 @@ Stones Wooden Table Group of Objects Concept Image credits: [Rawpixel.com](https
 :arrow_right:Diseño flexible depende de abstracciones, no de clases concretas
 :::
 
-##  {background-image="../images/rawpixel/balance.jpg" background-size="cover"}
+##  {#composicion background-image="../images/rawpixel/balance.jpg" background-size="cover"}
 
 :star:Favorece la composición sobre la herencia
 

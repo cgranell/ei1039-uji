@@ -72,10 +72,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="https://www.uji.es" class="navbar-brand navbar-brand-logo">
-    <img src="../images/marca-uji-blanc.png" alt="UJI" class="navbar-logo">
+    <a href="https://cgranell.github.io/ei1039-uji" class="navbar-brand navbar-brand-logo">
+    <img src="../images/marca-uji-blanc.png" alt="EI1039 - 2024/2025" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="https://www.uji.es">
+    <a class="navbar-brand" href="https://cgranell.github.io/ei1039-uji">
     <span class="navbar-title">EI1039 - 2024/2025</span>
     </a>
   </div>
@@ -171,7 +171,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#qué-es-un-patrón" id="toc-qué-es-un-patrón" class="nav-link active" data-scroll-target="#qué-es-un-patrón">¿Qué es un patrón?</a></li>
+  <li><a href="#principios-solid" id="toc-principios-solid" class="nav-link" data-scroll-target="#principios-solid">Principios SOLID</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content page-columns page-full" id="quarto-document-content">
@@ -193,6 +200,8 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="qué-es-un-patrón" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="qué-es-un-patrón">¿Qué es un patrón?</h2>
 <p>El término <strong>patrón</strong> tiene multiples significados según el contexto: patrones numéricos, patrones geométricos, etc.</p>
 <p>En informática, el área de <a href="https://es.wikipedia.org/wiki/Aprendizaje_autom%C3%A1tico">aprendizaje automático</a> utiliza técnicas computacionales avanzadas para buscar y encontrar patrones en los datos.</p>
 <p>En ingeniería de software, descubrirás a lo largo de tu carrera profesional que los mismos problemas de diseño se repiten una y otra vez. Hay muchas formas de abordar estos problemas, pero en la industria se prefieren las soluciones más flexibles y/o reutilizables. Ahí es donde los <strong>patrones de diseño</strong> entran en juego.</p>
@@ -209,8 +218,8 @@ ul.task-list li input[type="checkbox"] {
 <p>Un patrón de diseño es una solución práctica y bien testeada a problemas recurrentes.</p>
 </div>
 </div>
-<p>Los patrones de diseño nos permiten (re)utilizar soluciones previamente testeadas que los desarrolladores han utilizado a menudo para resolver un problema de diseño de software, de modo que no es necesario crear una <em>nueva</em> solución a partir de los principios básicos de la programación orientada a objetos. Los patrones de diseño no son solo soluciones teóricas, son soluciones reales que se utilizan en la industria del software.</p>
-<p>Una buena analogía para entender el concepto de patrones de diseños es quiparalos a <em>planos predefinidos</em> que se pueden personalizar para resolver un problema de diseño recurrente en tu código.</p>
+<p>Los patrones de diseño nos permiten (re)utilizar soluciones previamente testeadas que los desarrolladores han utilizado a menudo para resolver un problema de diseño de software, de modo que no es necesario crear una <em>nueva</em> solución a partir de los principios básicos de la programación orientada a objetos. Los patrones de diseño no son solo soluciones teóricas o académicas, son soluciones reales que se utilizan en la industria del software.</p>
+<p>Una buena analogía para entender el concepto de patrones de diseño es equipararlos a <em>planos predefinidos</em> que se pueden personalizar para resolver un problema de diseño recurrente en tu código.</p>
 
 <div class="no-row-height column-margin column-container"><div class="">
 <div class="quarto-figure quarto-figure-center">
@@ -219,7 +228,7 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 <p><em>Source: <a href="https://www.rawpixel.com/image/691263/">Rawpixel.com</a></em></p>
-</div></div><p>Es importante dejar claro que los patrones de diseño no son únicamente código (clases, interfaces, etc) que se añaden a tu proyecto de software. En cambio, los patrones de diseño son más como <strong>soluciones conceptuales</strong>: soluciones que se pùeden aplicar (y personalizar) en el diseño de software en contextos concretos para mejorar la estructura, modularidad, abstracción, flexibilidad y reutilización de tu código. Por ese motivo, en este curso describimos los patrones de diseño de forma conceptual (clases, interfaces, relaciones, etc.); obviamente, podrás implementar los patrones de diseño en el contecto del proyecto común.</p>
+</div></div><p>Es importante dejar claro que los patrones de diseño no son únicamente código (clases, interfaces, etc) que se añaden a tu proyecto de software. En cambio, los patrones de diseño son como <strong>soluciones conceptuales</strong>: soluciones que se pueden aplicar (y personalizar) en el diseño de software en contextos concretos para mejorar la estructura, modularidad, abstracción, flexibilidad y reutilización de tu código. Por ese motivo, en este curso describimos los patrones de diseño de forma conceptual (clases, interfaces, relaciones, etc.); obviamente, podrás implementar patrones de diseño en el contexto del proyecto común.</p>
 <div class="callout callout-style-default callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -235,8 +244,71 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
+</section>
+<section id="principios-solid" class="level2">
+<h2 class="anchored" data-anchor-id="principios-solid">Principios SOLID</h2>
+<p>Varios autores (<a href="https://michaelfeathers.silvrback.com/">Michael Feathers</a>, <a href="https://blog.cleancoder.com/">Robert C. Martin</a>, etc. ) han contribuido a definir una serie de principios (recomendaciones, etc.) para que desarrolladores/programadores generen software de <em>calidad</em>. ¿Y qué entendemos por software de calidad? Software que sea</p>
+<ul>
+<li>robusto y estable,</li>
+<li>reutilizable y mantenible,</li>
+<li>escalable, es deicr, que se pueda modificar/extender fácilmente.</li>
+</ul>
+<p>Sin embargo, que el código resultante sea robusto y estable por un lado, pero que también sea fácilmente extendible y reutilizable por otro, parece que sean objetivos contradictorios. En ingeniería y desarrollo de software, tenemos dos conceptos que tenemos que balancear adecuadamente al mismo tiempo para producir software de calidad.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<strong>Definición</strong>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Acoplamiento</strong> indica el grado de <em>interdependencia</em> entre entidades/componentes de software (ya sean clases, métodos, módulos, funciones, etc. ). Si dos componentes son completamente independientes entre sí, entonces están <em>desacoplados</em>.</p>
+</div>
+</div>
+<p>Como ingenieros/as de software, queremos que el software generado tenga <strong>un bajo acomplamiento</strong>.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<strong>Definición</strong>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Cohesión</strong> indica el grado en que entidades/componentes de software independientes se combinan para alcanzar un resultado (comporatemeionte, etc) mejor que si trabajaran por separado. Se refiere a la forma en que podemos agrupar componentes de software.</p>
+</div>
+</div>
+<p>Como ingenieros/as de software, queremos que el software generado tenga <strong>una alta cohesión</strong>.</p>
+<p>Los principios SOLID están estrechamente relacionados con el uso de patrones de diseño, ya que las solucciones conceptuales de muchos patrones apuntan directamente a uno o varios de los principios SOLID. Luego, cuando utilizas patrones de diseño de forma eficaz, estarás poniendo en práctiva alguno de los principios SOLID para que el código resultante sea de la mejor calidad posible.</p>
+<p>Los 5 principios SOLID de diseño de aplicaciones de software son:</p>
+<ul>
+<li><strong>S</strong> – Single Responsibility Principle (SRP)</li>
+<li><strong>O</strong> – Open/Closed Principle (OCP)</li>
+<li><strong>L</strong> – Liskov Substitution Principle (LSP)</li>
+<li><strong>I</strong> – Interface Segregation Principle (ISP)</li>
+<li><strong>D</strong> – Dependency Inversion Principle (DIP)</li>
+</ul>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<strong>Slide Deck</strong>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<div class="slides">
+<p><a href="https://cgranell.github.io/ei1039/slides/TE3_solid.html">Principios SOLID</a></p>
+</div>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

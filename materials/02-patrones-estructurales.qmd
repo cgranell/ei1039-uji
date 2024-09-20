@@ -2,3 +2,55 @@
 title: "Patrones estructurales"
 ---
 
+::: {.callout-tip icon=false}
+## **Slide Deck** 
+
+::: slides
+[Adapter pattern ](https://cgranell.github.io/ei1039/slides/TE5_adapter.html)
+:::
+
+:::
+
+::: {.callout-tip icon=false}
+## **Slide Deck** 
+
+::: slides
+[Facade pattern](https://cgranell.github.io/ei1039/slides/TE5_facade.html)
+:::
+
+:::
+
+
+::: {.callout-tip icon=false}
+## **Slide Deck** 
+
+::: slides
+[Proxy pattern](https://cgranell.github.io/ei1039/slides/TE5_proxy.html)
+:::
+
+:::
+
+
+::: {.callout-tip icon=false}
+## **Slide Deck** 
+
+::: slides
+[Composite pattern](https://cgranell.github.io/ei1039/slides/TE6_composite.html)
+:::
+
+:::
+
+
+::: {.callout-tip icon=false}
+## **Slide Deck** 
+
+::: slides
+[Decorator pattern](https://cgranell.github.io/ei1039/slides/TE6_decorator.html)
+:::
+
+:::
+
+ 
+
+
+

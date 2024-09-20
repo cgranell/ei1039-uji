@@ -2,3 +2,15 @@
 title: "Patrones creacionales"
 ---
 
+
+
+::: {.callout-tip icon=false}
+## **Slide Deck** 
+
+::: slides
+[Factory objects & Factory Method pattern](https://cgranell.github.io/ei1039/slides/TE3_factory.html)
+:::
+
+:::
+
+

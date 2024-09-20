@@ -2,3 +2,36 @@
 title: "Patrones de comportamiento"
 ---
 
+
+::: {.callout-tip icon=false}
+## **Slide Deck** 
+
+::: slides
+[Observer pattern](https://cgranell.github.io/ei1039/slides/TE6_observer.html)
+:::
+
+:::
+
+
+::: {.callout-tip icon=false}
+## **Slide Deck** 
+
+::: slides
+[Template Method pattern](https://cgranell.github.io/ei1039/slides/TE7_templatemethod.html)
+:::
+
+:::
+
+
+::: {.callout-tip icon=false}
+## **Slide Deck** 
+
+::: slides
+[Strategy pattern](https://cgranell.github.io/ei1039/slides/TE7_strategy.html)
+:::
+
+:::
+
+
+
+
