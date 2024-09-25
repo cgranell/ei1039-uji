@@ -63,13 +63,6 @@
     "text": "Slide Deck\n\n\n\n\nConceptos, roles y compromisos\n\n\n\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nCaracteristicas\n\n\n\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nEstilos de arquitectura"
   },
   {
-    "objectID": "materials/01-arquitectura.html#conceptos-roles-y-compromisos",
-    "href": "materials/01-arquitectura.html#conceptos-roles-y-compromisos",
-    "title": "Fundamentos de arquitectura",
-    "section": "",
-    "text": "Slide Deck\n\n\n\n\nConceptos, roles y compromisos\n\n\n\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nCaracteristicas\n\n\n\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nEstilos de arquitectura"
-  },
-  {
     "objectID": "materials/02-patrones-comportamiento.html",
     "href": "materials/02-patrones-comportamiento.html",
     "title": "Patrones de comportamiento",
@@ -236,6 +229,20 @@
     "title": "Introducción a los patrones de diseño de software",
     "section": "Principios SOLID",
     "text": "Principios SOLID\nVarios autores (Michael Feathers, Robert C. Martin, etc. ) han contribuido a definir una serie de principios (recomendaciones, etc.) para que desarrolladores/programadores generen software de calidad. ¿Y qué entendemos por software de calidad? Software que sea\n\nrobusto y estable,\nreutilizable y mantenible,\nescalable, es deicr, que se pueda modificar/extender fácilmente.\n\nSin embargo, que el código resultante sea robusto y estable por un lado, pero que también sea fácilmente extendible y reutilizable por otro, parece que sean objetivos contradictorios. En ingeniería y desarrollo de software, tenemos dos conceptos que tenemos que balancear adecuadamente al mismo tiempo para producir software de calidad.\n\n\n\n\n\n\nDefinición\n\n\n\nAcoplamiento indica el grado de interdependencia entre entidades/componentes de software (ya sean clases, métodos, módulos, funciones, etc. ). Si dos componentes son completamente independientes entre sí, entonces están desacoplados.\n\n\nComo ingenieros/as de software, queremos que el software generado tenga un bajo acomplamiento.\n\n\n\n\n\n\nDefinición\n\n\n\nCohesión indica el grado en que entidades/componentes de software independientes se combinan para alcanzar un resultado (comporatemeionte, etc) mejor que si trabajaran por separado. Se refiere a la forma en que podemos agrupar componentes de software.\n\n\nComo ingenieros/as de software, queremos que el software generado tenga una alta cohesión.\nLos principios SOLID están estrechamente relacionados con el uso de patrones de diseño, ya que las solucciones conceptuales de muchos patrones apuntan directamente a uno o varios de los principios SOLID. Luego, cuando utilizas patrones de diseño de forma eficaz, estarás poniendo en práctiva alguno de los principios SOLID para que el código resultante sea de la mejor calidad posible.\nLos 5 principios SOLID de diseño de aplicaciones de software son:\n\nS – Single Responsibility Principle (SRP)\nO – Open/Closed Principle (OCP)\nL – Liskov Substitution Principle (LSP)\nI – Interface Segregation Principle (ISP)\nD – Dependency Inversion Principle (DIP)\n\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nPrincipios SOLID"
+  },
+  {
+    "objectID": "materials/03-seminario-mvc.html",
+    "href": "materials/03-seminario-mvc.html",
+    "title": "MVC y variantes",
+    "section": "",
+    "text": "Imagínate que estás en una entrevista de trabajo y el entrevistador de recuros humanos os hace la siguiente pregunta"
+  },
+  {
+    "objectID": "materials/03-seminario-mvc.html#caso",
+    "href": "materials/03-seminario-mvc.html#caso",
+    "title": "MVC y variantes",
+    "section": "Caso",
+    "text": "Caso\nLas herramientas para lenguajes de programación visual (LPV) normalmente están basadas en el patrón MVC. Algunas herramientas permite crear multiples lengaujes visuales a partir de un mismo código ¿Qué es el Modelo y la Vista en ese tipo de herrramientas?\nOtro tipo de herramientas LPV permiten programar de manera visual utilizando un conjunto de elementos gráficos como sucede en Scratch. En este caso, ¿qué representa el Modelo y qué la Vista?\n\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nMVC y variantes"
   },
   {
     "objectID": "materials/04-referencias.html",
