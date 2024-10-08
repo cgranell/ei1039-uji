@@ -6,8 +6,6 @@
 .RData
 .Ruserdata
 
-.quarto/
-
 .local/
 
 
@@ -17,7 +15,9 @@
 
 # knitr and R markdown default cache directories
 .cache/
+.quarto/
 
+# pdf
 .TinyText/
 
 

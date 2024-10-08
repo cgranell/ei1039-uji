@@ -1,4 +1,3 @@
-version: '3'
 services:
   ei1039:
     image: rocker/rstudio:4.3.0

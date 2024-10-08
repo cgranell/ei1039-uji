@@ -3,9 +3,72 @@ title: "Patrones creacionales"
 ---
 
 
+Motivación, Problemas comunes y Ventajas que aportan los patrones creacionales 
+
+
+
+::: {.callout-note}
+# Definición
+
+Los **patrones creacionales** proporcionan mecanismos de creación de objetos que incrementan la flexibilidad y la reutilización del código.
+
+:::
+
+
+
+Las secciones relativas a los patrones creacionales se dividen en los mismos apartados, tal como reflejan los mapas conceptuales:
+
+- Propósito (*aim*)
+- Problema (*what problem does it solve?*)
+- Solución (*conceptual solution*)
+- Ventajas e inconvenientes (*pros and cons*)
+
+Dejamos para la argumentación y discusión en clase la tarea de [conectar y relacionar](#relaciones-entre-patrones) los distintos patrones creacionales entre ellos, y sugerir [situaciones o aplicaciones](#aplicabilidad) donde se puedan aplicar.
+
+
+### Singleton
+
+
+
+| Propósito |  Problema |
+|-----------|-----------|
+| asegura que una clase tenga una **única instancia** y proporciona un punto de **acceso global** a dicha instancia | ... porque quiero centralizar o controlar el acceso a un recurso. |
+
+
+::: column-screen-inset-right
+
+![](../images/concept-maps/SINGLETON-map.png)
+
+:::
+
 
 ::: {.callout-tip icon=false}
-## **Slide Deck** 
+# Implementación
+
+![](https://refactoring.guru/images/content-public/logos/logo-new.png?id=97d554614702483f31e38b32e82d8e34){width=25} [Singleton en Java (refactoring.guru)](https://refactoring.guru/es/design-patterns/singleton/java/example#lang-features)
+
+:::
+
+
+### Factory method
+
+
+
+| Propósito |  Problema |
+|-----------|-----------|
+| crea objetos **sin especificar las clases concretas** | ... porque quiero crear objetos especializados  en tiempo de ejecución |
+
+
+
+::: column-screen-inset-right
+![](../images/concept-maps/FACTORYMETHOD-map.png)
+:::
+
+
+
+
+::: {.callout-tip icon=false}
+# Slide Deck 
 
 ::: slides
 [Factory objects & Factory Method pattern](https://cgranell.github.io/ei1039/slides/TE3_factory.html)
@@ -13,4 +76,64 @@ title: "Patrones creacionales"
 
 :::
 
+
+
+::: {.callout-tip icon=false}
+# Implementación
+
+![](https://refactoring.guru/images/content-public/logos/logo-new.png?id=97d554614702483f31e38b32e82d8e34){width=25} [Factory Method en Java (refactoring.guru)](https://refactoring.guru/es/design-patterns/factory-method/java/example#lang-features)
+
+:::
+
+### Abstract Factory
+
+
+
+| Propósito |  Problema |
+|-----------|-----------|
+| **agrupa factorias** relacionadas temáticamente sin especificar las clases concretas | ... porque quiero crear familias de objetos especializados en tiempo de ejecución |
+
+
+
+::: column-screen-inset-right
+![](../images/concept-maps/ABSTRACTFACTORY-map.png)
+:::
+
+::: {.callout-tip icon=false}
+# Implementación
+
+![](https://refactoring.guru/images/content-public/logos/logo-new.png?id=97d554614702483f31e38b32e82d8e34){width=25} [Abstract Factory en Java (refactoring.guru)](https://refactoring.guru/es/design-patterns/abstract-factory/java/example#lang-features)
+
+:::
+
+
+
+### Builder
+
+
+| Propósito |  Problema |
+|-----------|-----------|
+| crea objetos complejos separando el proceso de **construcción de su representación** | ... porque tengo clases constructuras con muchos argumentos |
+
+::: column-screen-inset-right
+![](../images/concept-maps/BUILDER-map.png)
+:::
+
+
+::: {.callout-tip icon=false}
+# Implementación
+
+![](https://refactoring.guru/images/content-public/logos/logo-new.png?id=97d554614702483f31e38b32e82d8e34){width=25} [Builder en Java (refactoring.guru)](https://refactoring.guru/es/design-patterns/builder/java/example#lang-features)
+
+:::
+
+### Prototype
+
+
+
+### Relaciones entre patrones
+
+
+
+### Aplicabilidad
 

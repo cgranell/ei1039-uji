@@ -172,10 +172,22 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#singleton" id="toc-singleton" class="nav-link active" data-scroll-target="#singleton">Singleton</a></li>
+  <li><a href="#factory-method" id="toc-factory-method" class="nav-link" data-scroll-target="#factory-method">Factory method</a></li>
+  <li><a href="#abstract-factory" id="toc-abstract-factory" class="nav-link" data-scroll-target="#abstract-factory">Abstract Factory</a></li>
+  <li><a href="#builder" id="toc-builder" class="nav-link" data-scroll-target="#builder">Builder</a></li>
+  <li><a href="#prototype" id="toc-prototype" class="nav-link" data-scroll-target="#prototype">Prototype</a></li>
+  <li><a href="#relaciones-entre-patrones" id="toc-relaciones-entre-patrones" class="nav-link" data-scroll-target="#relaciones-entre-patrones">Relaciones entre patrones</a></li>
+  <li><a href="#aplicabilidad" id="toc-aplicabilidad" class="nav-link" data-scroll-target="#aplicabilidad">Aplicabilidad</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -194,13 +206,95 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<p>Motivación, Problemas comunes y Ventajas que aportan los patrones creacionales</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Definición
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Los <strong>patrones creacionales</strong> proporcionan mecanismos de creación de objetos que incrementan la flexibilidad y la reutilización del código.</p>
+</div>
+</div>
+<p>Las secciones relativas a los patrones creacionales se dividen en los mismos apartados, tal como reflejan los mapas conceptuales:</p>
+<ul>
+<li>Propósito (<em>aim</em>)</li>
+<li>Problema (<em>what problem does it solve?</em>)</li>
+<li>Solución (<em>conceptual solution</em>)</li>
+<li>Ventajas e inconvenientes (<em>pros and cons</em>)</li>
+</ul>
+<p>Dejamos para la argumentación y discusión en clase la tarea de <a href="#relaciones-entre-patrones">conectar y relacionar</a> los distintos patrones creacionales entre ellos, y sugerir <a href="#aplicabilidad">situaciones o aplicaciones</a> donde se puedan aplicar.</p>
+<section id="singleton" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="singleton">Singleton</h3>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Propósito</th>
+<th>Problema</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>asegura que una clase tenga una <strong>única instancia</strong> y proporciona un punto de <strong>acceso global</strong> a dicha instancia</td>
+<td>… porque quiero centralizar o controlar el acceso a un recurso.</td>
+</tr>
+</tbody>
+</table>
+<div class="column-screen-inset-right">
+<p><img src="../images/concept-maps/SINGLETON-map.png" class="img-fluid"></p>
+</div>
 <div class="callout callout-style-default callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<strong>Slide Deck</strong>
+Implementación
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><img src="https://refactoring.guru/images/content-public/logos/logo-new.png?id=97d554614702483f31e38b32e82d8e34" class="img-fluid" width="25"> <a href="https://refactoring.guru/es/design-patterns/singleton/java/example#lang-features">Singleton en Java (refactoring.guru)</a></p>
+</div>
+</div>
+</section>
+<section id="factory-method" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="factory-method">Factory method</h3>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Propósito</th>
+<th>Problema</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>crea objetos <strong>sin especificar las clases concretas</strong></td>
+<td>… porque quiero crear objetos especializados en tiempo de ejecución</td>
+</tr>
+</tbody>
+</table>
+<div class="column-screen-inset-right">
+<p><img src="../images/concept-maps/FACTORYMETHOD-map.png" class="img-fluid"></p>
+</div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Slide Deck
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -209,8 +303,105 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Implementación
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><img src="https://refactoring.guru/images/content-public/logos/logo-new.png?id=97d554614702483f31e38b32e82d8e34" class="img-fluid" width="25"> <a href="https://refactoring.guru/es/design-patterns/factory-method/java/example#lang-features">Factory Method en Java (refactoring.guru)</a></p>
+</div>
+</div>
+</section>
+<section id="abstract-factory" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="abstract-factory">Abstract Factory</h3>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Propósito</th>
+<th>Problema</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>agrupa factorias</strong> relacionadas temáticamente sin especificar las clases concretas</td>
+<td>… porque quiero crear familias de objetos especializados en tiempo de ejecución</td>
+</tr>
+</tbody>
+</table>
+<div class="column-screen-inset-right">
+<p><img src="../images/concept-maps/ABSTRACTFACTORY-map.png" class="img-fluid"></p>
+</div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Implementación
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><img src="https://refactoring.guru/images/content-public/logos/logo-new.png?id=97d554614702483f31e38b32e82d8e34" class="img-fluid" width="25"> <a href="https://refactoring.guru/es/design-patterns/abstract-factory/java/example#lang-features">Abstract Factory en Java (refactoring.guru)</a></p>
+</div>
+</div>
+</section>
+<section id="builder" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="builder">Builder</h3>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Propósito</th>
+<th>Problema</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>crea objetos complejos separando el proceso de <strong>construcción de su representación</strong></td>
+<td>… porque tengo clases constructuras con muchos argumentos</td>
+</tr>
+</tbody>
+</table>
+<div class="column-screen-inset-right">
+<p><img src="../images/concept-maps/BUILDER-map.png" class="img-fluid"></p>
+</div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Implementación
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><img src="https://refactoring.guru/images/content-public/logos/logo-new.png?id=97d554614702483f31e38b32e82d8e34" class="img-fluid" width="25"> <a href="https://refactoring.guru/es/design-patterns/builder/java/example#lang-features">Builder en Java (refactoring.guru)</a></p>
+</div>
+</div>
+</section>
+<section id="prototype" class="level3">
+<h3 class="anchored" data-anchor-id="prototype">Prototype</h3>
+</section>
+<section id="relaciones-entre-patrones" class="level3">
+<h3 class="anchored" data-anchor-id="relaciones-entre-patrones">Relaciones entre patrones</h3>
+</section>
+<section id="aplicabilidad" class="level3">
+<h3 class="anchored" data-anchor-id="aplicabilidad">Aplicabilidad</h3>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
