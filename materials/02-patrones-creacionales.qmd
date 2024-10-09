@@ -3,10 +3,6 @@ title: "Patrones creacionales"
 ---
 
 
-Motivación, Problemas comunes y Ventajas que aportan los patrones creacionales 
-
-
-
 ::: {.callout-note}
 # Definición
 
