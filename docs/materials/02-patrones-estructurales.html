@@ -172,10 +172,24 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#adapter" id="toc-adapter" class="nav-link active" data-scroll-target="#adapter">Adapter</a></li>
+  <li><a href="#bridge" id="toc-bridge" class="nav-link" data-scroll-target="#bridge">Bridge</a></li>
+  <li><a href="#facade" id="toc-facade" class="nav-link" data-scroll-target="#facade">Facade</a></li>
+  <li><a href="#proxy" id="toc-proxy" class="nav-link" data-scroll-target="#proxy">Proxy</a></li>
+  <li><a href="#composite" id="toc-composite" class="nav-link" data-scroll-target="#composite">Composite</a></li>
+  <li><a href="#decorator" id="toc-decorator" class="nav-link" data-scroll-target="#decorator">Decorator</a></li>
+  <li><a href="#flyweight" id="toc-flyweight" class="nav-link" data-scroll-target="#flyweight">Flyweight</a></li>
+  <li><a href="#relaciones-entre-patrones" id="toc-relaciones-entre-patrones" class="nav-link" data-scroll-target="#relaciones-entre-patrones">Relaciones entre patrones</a></li>
+  <li><a href="#aplicabilidad" id="toc-aplicabilidad" class="nav-link" data-scroll-target="#aplicabilidad">Aplicabilidad</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -194,13 +208,57 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Definición
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Los <strong>patrones estrcuturales</strong> se refieren a la organización del código, es decir, a la composición de clases y objetos. Definen formas de componer y organizar clases para obtener fines estructurales (nuevas funciones, etc.).</p>
+</div>
+</div>
+<p>Las secciones relativas a los patrones estructurales se dividen en los mismos apartados, tal como reflejan los mapas conceptuales:</p>
+<ul>
+<li>Propósito (<em>aim</em>)</li>
+<li>Problema (<em>what problem does it solve?</em>)</li>
+<li>Solución (<em>conceptual solution</em>)</li>
+<li>Ventajas e inconvenientes (<em>pros and cons</em>)</li>
+</ul>
+<p>Dejamos para la argumentación y discusión en clase la tarea de <a href="#relaciones-entre-patrones">conectar y relacionar</a> los distintos patrones estructurales entre ellos, y sugerir <a href="#aplicabilidad">situaciones o aplicaciones</a> donde se puedan aplicar.</p>
+<section id="adapter" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="adapter">Adapter</h3>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Propósito</th>
+<th>Problema</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>permite que clases con <strong>interfaces incompatibles</strong> colaboren…</td>
+<td>… porque quiero utilizar cierta clase o librería externa</td>
+</tr>
+</tbody>
+</table>
+<div class="column-screen-inset-right">
+<p><img src="../images/concept-maps/ADAPTER-map.png" class="img-fluid"></p>
+</div>
 <div class="callout callout-style-default callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<strong>Slide Deck</strong>
+Slide Deck
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -215,14 +273,123 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<strong>Slide Deck</strong>
+Implementación
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<div class="slides">
+<p><img src="https://refactoring.guru/images/content-public/logos/logo-new.png?id=97d554614702483f31e38b32e82d8e34" class="img-fluid" width="25"> <a href="https://refactoring.guru/es/design-patterns/adapter/java/example#lang-features">Adapter en Java (refactoring.guru)</a></p>
+</div>
+</div>
+</section>
+<section id="bridge" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="bridge">Bridge</h3>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Propósito</th>
+<th>Problema</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>separa subsistemas</strong>…</td>
+<td>… porque puede que un subsistema cambie completamente sin que eso afecte al otro subsistema</td>
+</tr>
+</tbody>
+</table>
+<div class="column-screen-inset-right">
+<p><img src="../images/concept-maps/BRIDGE-map.png" class="img-fluid"></p>
+</div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Implementación
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><img src="https://refactoring.guru/images/content-public/logos/logo-new.png?id=97d554614702483f31e38b32e82d8e34" class="img-fluid" width="25"> <a href="https://refactoring.guru/es/design-patterns/bridge/java/example#lang-features">Bridge en Java (refactoring.guru)</a></p>
+</div>
+</div>
+</section>
+<section id="facade" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="facade">Facade</h3>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Propósito</th>
+<th>Problema</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>simplifica la interfaz</strong> a un subsistema…</td>
+<td>… porque quiero ocultar la complejidad de un subsistema a los clientes</td>
+</tr>
+</tbody>
+</table>
+<div class="column-screen-inset-right">
+<p><img src="../images/concept-maps/FACADE-map.png" class="img-fluid"></p>
+</div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Slide Deck
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p><a href="https://cgranell.github.io/ei1039/slides/TE5_facade.html">Facade pattern</a></p>
 </div>
 </div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Implementación
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><img src="https://refactoring.guru/images/content-public/logos/logo-new.png?id=97d554614702483f31e38b32e82d8e34" class="img-fluid" width="25"> <a href="https://refactoring.guru/es/design-patterns/facade/java/example#lang-features">Facade en Java (refactoring.guru)</a></p>
+</div>
+</div>
+</section>
+<section id="proxy" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="proxy">Proxy</h3>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Propósito</th>
+<th>Problema</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>suplanta</strong> recursos reales de forma transparente al cliente…</td>
+<td>… porque quiero implantar restricciones de acceso o reducir coste</td>
+</tr>
+</tbody>
+</table>
+<div class="column-screen-inset-right">
+<p><img src="../images/concept-maps/PROXY-map.png" class="img-fluid"></p>
 </div>
 <div class="callout callout-style-default callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -230,47 +397,70 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<strong>Slide Deck</strong>
+Slide Deck
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<div class="slides">
 <p><a href="https://cgranell.github.io/ei1039/slides/TE5_proxy.html">Proxy pattern</a></p>
 </div>
 </div>
-</div>
 <div class="callout callout-style-default callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<strong>Slide Deck</strong>
+Implementación
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<div class="slides">
+<p><img src="https://refactoring.guru/images/content-public/logos/logo-new.png?id=97d554614702483f31e38b32e82d8e34" class="img-fluid" width="25"> <a href="https://refactoring.guru/es/design-patterns/proxy/java/example#lang-features">Proxy en Java (refactoring.guru)</a></p>
+</div>
+</div>
+</section>
+<section id="composite" class="level3">
+<h3 class="anchored" data-anchor-id="composite">Composite</h3>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Slide Deck
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p><a href="https://cgranell.github.io/ei1039/slides/TE6_composite.html">Composite pattern</a></p>
 </div>
 </div>
-</div>
+</section>
+<section id="decorator" class="level3">
+<h3 class="anchored" data-anchor-id="decorator">Decorator</h3>
 <div class="callout callout-style-default callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<strong>Slide Deck</strong>
+Slide Deck
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<div class="slides">
 <p><a href="https://cgranell.github.io/ei1039/slides/TE6_decorator.html">Decorator pattern</a></p>
 </div>
 </div>
-</div>
+</section>
+<section id="flyweight" class="level3">
+<h3 class="anchored" data-anchor-id="flyweight">Flyweight</h3>
+</section>
+<section id="relaciones-entre-patrones" class="level3">
+<h3 class="anchored" data-anchor-id="relaciones-entre-patrones">Relaciones entre patrones</h3>
+</section>
+<section id="aplicabilidad" class="level3">
+<h3 class="anchored" data-anchor-id="aplicabilidad">Aplicabilidad</h3>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
