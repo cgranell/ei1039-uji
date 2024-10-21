@@ -3,3 +3,5 @@
 1726668141225:packageVersion("quarto")
 1726668805305:sessionInfo()
 1726692635552:Sys.getenv("QUARTO_VERSION")
+1729514892127:![](../images/concept-maps/COMPOSITE-map.png)
+1729518159479:![](../images/concept-maps/FLYWEIGHT-map.png)
