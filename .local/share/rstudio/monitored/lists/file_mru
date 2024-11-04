@@ -1,3 +1,4 @@
+~/materials/02-patrones-comportamiento.qmd
 ~/materials/02-patrones-estructurales.qmd
 ~/materials/02-patrones-creacionales.qmd
 ~/materials/02-patrones.qmd
@@ -7,7 +8,6 @@
 ~/_quarto.yml
 ~/materials/02-patrones-slides.qmd
 ~/index.qmd
-~/materials/02-patrones-comportamiento.qmd
 ~/install.R
 ~/.gitignore
 ~/materials/04-referencias.qmd
