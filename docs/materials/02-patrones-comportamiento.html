@@ -178,13 +178,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#command" id="toc-command" class="nav-link active" data-scroll-target="#command">Command</a></li>
   <li><a href="#memento" id="toc-memento" class="nav-link" data-scroll-target="#memento">Memento</a></li>
   <li><a href="#chain-of-responsibility" id="toc-chain-of-responsibility" class="nav-link" data-scroll-target="#chain-of-responsibility">Chain of responsibility</a></li>
+  <li><a href="#template-method" id="toc-template-method" class="nav-link" data-scroll-target="#template-method">Template method</a></li>
   <li><a href="#interpreter" id="toc-interpreter" class="nav-link" data-scroll-target="#interpreter">Interpreter</a></li>
   <li><a href="#iterator" id="toc-iterator" class="nav-link" data-scroll-target="#iterator">Iterator</a></li>
   <li><a href="#mediator" id="toc-mediator" class="nav-link" data-scroll-target="#mediator">Mediator</a></li>
   <li><a href="#observer" id="toc-observer" class="nav-link" data-scroll-target="#observer">Observer</a></li>
   <li><a href="#state" id="toc-state" class="nav-link" data-scroll-target="#state">State</a></li>
   <li><a href="#strategy" id="toc-strategy" class="nav-link" data-scroll-target="#strategy">Strategy</a></li>
-  <li><a href="#template-method" id="toc-template-method" class="nav-link" data-scroll-target="#template-method">Template method</a></li>
   <li><a href="#relaciones-entre-patrones" id="toc-relaciones-entre-patrones" class="nav-link" data-scroll-target="#relaciones-entre-patrones">Relaciones entre patrones</a></li>
   <li><a href="#aplicabilidad" id="toc-aplicabilidad" class="nav-link" data-scroll-target="#aplicabilidad">Aplicabilidad</a></li>
   </ul>
@@ -320,8 +320,29 @@ Implementación
 </div>
 </div>
 </section>
-<section id="chain-of-responsibility" class="level3">
+<section id="chain-of-responsibility" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="chain-of-responsibility">Chain of responsibility</h3>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Propósito</th>
+<th>Problema</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>permite distribuir responsabilidad de una petición …</td>
+<td>… porque tengo un número variable de objetos que pueden gestionarla</td>
+</tr>
+</tbody>
+</table>
+<div class="column-screen-inset-right">
+<p><img src="../images/concept-maps/CHAIN-OF-RESPONSIBILITY-map.png" class="img-fluid"></p>
+</div>
 <div class="callout callout-style-default callout-tip no-icon callout-titled" title="Implementación">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -335,6 +356,59 @@ Implementación
 <p><img src="https://refactoring.guru/images/content-public/logos/logo-new.png?id=97d554614702483f31e38b32e82d8e34" class="img-fluid" width="25"> <a href="https://refactoring.guru/es/design-patterns/chain-of-responsibility/java/example#lang-features">Chain of Reponsibility en Java (refactoring.guru)</a></p>
 </div>
 </div>
+</section>
+<section id="template-method" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="template-method">Template method</h3>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Propósito</th>
+<th>Problema</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>define un algoritmo a nivel de superclase…</td>
+<td>… pero permite que subclases sobrescriban partes del algoritmo</td>
+</tr>
+</tbody>
+</table>
+<div class="column-screen-inset-right">
+<p><img src="../images/concept-maps/TEMPLATE-METHOD-map.png" class="img-fluid"></p>
+</div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled" title="Slide Deck">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Slide Deck
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<div class="slides">
+<p><a href="https://cgranell.github.io/ei1039/slides/TE7_templatemethod.html">Template Method pattern</a></p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled" title="Implementación">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Implementación
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><img src="https://refactoring.guru/images/content-public/logos/logo-new.png?id=97d554614702483f31e38b32e82d8e34" class="img-fluid" width="25"> <a href="https://refactoring.guru/es/design-patterns/template-method/java/example#lang-features">Template Method en Java (refactoring.guru)</a></p>
+</div>
+</div>
+<hr>
 </section>
 <section id="interpreter" class="level3">
 <h3 class="anchored" data-anchor-id="interpreter">Interpreter</h3>
@@ -435,37 +509,6 @@ Implementación
 </div>
 <div class="callout-body-container callout-body">
 <p><img src="https://refactoring.guru/images/content-public/logos/logo-new.png?id=97d554614702483f31e38b32e82d8e34" class="img-fluid" width="25"> <a href="https://refactoring.guru/es/design-patterns/strategy/java/example#lang-features">Strategy en Java (refactoring.guru)</a></p>
-</div>
-</div>
-</section>
-<section id="template-method" class="level3">
-<h3 class="anchored" data-anchor-id="template-method">Template method</h3>
-<div class="callout callout-style-default callout-tip no-icon callout-titled" title="Slide Deck">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Slide Deck
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<div class="slides">
-<p><a href="https://cgranell.github.io/ei1039/slides/TE7_templatemethod.html">Template Method pattern</a></p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-tip no-icon callout-titled" title="Implementación">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Implementación
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><img src="https://refactoring.guru/images/content-public/logos/logo-new.png?id=97d554614702483f31e38b32e82d8e34" class="img-fluid" width="25"> <a href="https://refactoring.guru/es/design-patterns/template-method/java/example#lang-features">Template Method en Java (refactoring.guru)</a></p>
 </div>
 </div>
 </section>
