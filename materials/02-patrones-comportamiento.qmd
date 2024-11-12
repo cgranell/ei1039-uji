@@ -131,12 +131,13 @@ Dejamos para la argumentación y discusión en clase la tarea de [conectar y rel
 
 | Propósito |  Problema |
 |-----------|-----------|
-| ...  | ...  |
+| define un mecanismo de suscripción sobre un objeto (sujeto) ...  | ... porque hay un número variable de objetos observadores que dependen de sus cambios |
 
 
 ::: column-screen-inset-right
 
 ![](../images/concept-maps/OBSERVER-map.png)
+
 :::
 
 ::: {.callout-tip icon=false title="Slide Deck"}
@@ -159,8 +160,14 @@ Dejamos para la argumentación y discusión en clase la tarea de [conectar y rel
 
 | Propósito |  Problema |
 |-----------|-----------|
-| ...  | ...  |
+| Permite seleccionar un método/algoritmo en tiempo real ...  | ... porque hay diferentes algoritmos intercambiables para resolver un mismo problema |
 
+
+::: column-screen-inset-right
+
+![](../images/concept-maps/STRATEGY-map.png)
+
+:::
 
 ::: {.callout-tip icon=false title="Slide Deck"}
 
@@ -183,7 +190,14 @@ Dejamos para la argumentación y discusión en clase la tarea de [conectar y rel
 
 | Propósito |  Problema |
 |-----------|-----------|
-| ...  | ...  |
+| Encapsula comunicaciones/interacciones entre objetos ...  | ... para evitar dependencias directas y código *spaguetti* |
+
+
+::: column-screen-inset-right
+
+![](../images/concept-maps/MEDIATOR-map.png)
+
+:::
 
 
 ::: {.callout-tip icon=false title="Implementación"}
@@ -199,8 +213,14 @@ Dejamos para la argumentación y discusión en clase la tarea de [conectar y rel
 
 | Propósito |  Problema |
 |-----------|-----------|
-| ...  | ...  |
+| Proporciona un mecanismo de acceso a los elementos de una colección sin exponer su estructura/representación interna...  | ... porque tengo diferentes tipos de colecciones y quiero acceder de forma homegénea a todas |
 
+
+::: column-screen-inset-right
+
+![](../images/concept-maps/ITERATOR-map.png)
+
+:::
 
 ::: {.callout-tip icon=false title="Slide Deck"}
 
