@@ -127,12 +127,79 @@ Dejamos para la argumentación y discusión en clase la tarea de [conectar y rel
 
 ---
 
+### Observer
 
-### Interpreter
+| Propósito |  Problema |
+|-----------|-----------|
+| ...  | ...  |
+
+
+::: column-screen-inset-right
+
+![](../images/concept-maps/OBSERVER-map.png)
+:::
+
+::: {.callout-tip icon=false title="Slide Deck"}
+
+::: slides
+[Observer pattern](https://cgranell.github.io/ei1039/slides/TE6_observer.html)
+:::
+
+:::
+
+::: {.callout-tip icon=false title="Implementación"}
+
+![](https://refactoring.guru/images/content-public/logos/logo-new.png?id=97d554614702483f31e38b32e82d8e34){width=25} [Observer en Java (refactoring.guru)](https://refactoring.guru/es/design-patterns/observer/java/example#lang-features)
+
+:::
+
+
+### Strategy
+
+
+| Propósito |  Problema |
+|-----------|-----------|
+| ...  | ...  |
+
+
+::: {.callout-tip icon=false title="Slide Deck"}
+
+::: slides
+[Strategy pattern](https://cgranell.github.io/ei1039/slides/TE7_strategy.html)
+:::
+
+:::
+
+::: {.callout-tip icon=false title="Implementación"}
+
+![](https://refactoring.guru/images/content-public/logos/logo-new.png?id=97d554614702483f31e38b32e82d8e34){width=25} [Strategy en Java (refactoring.guru)](https://refactoring.guru/es/design-patterns/strategy/java/example#lang-features)
+
+:::
+
+
+
+### Mediator
+
+
+| Propósito |  Problema |
+|-----------|-----------|
+| ...  | ...  |
+
+
+::: {.callout-tip icon=false title="Implementación"}
+
+![](https://refactoring.guru/images/content-public/logos/logo-new.png?id=97d554614702483f31e38b32e82d8e34){width=25} [Mediator en Java (refactoring.guru)](https://refactoring.guru/es/design-patterns/mediator/java/example#lang-features)
+
+:::
+
 
 
 ### Iterator
 
+
+| Propósito |  Problema |
+|-----------|-----------|
+| ...  | ...  |
 
 
 ::: {.callout-tip icon=false title="Slide Deck"}
@@ -151,53 +218,14 @@ Dejamos para la argumentación y discusión en clase la tarea de [conectar y rel
 :::
 
 
-### Mediator
-
-
-
-
-
-### Observer
-
-
-::: {.callout-tip icon=false title="Slide Deck"}
-
-::: slides
-[Observer pattern](https://cgranell.github.io/ei1039/slides/TE6_observer.html)
-:::
-
-:::
-
-::: {.callout-tip icon=false title="Implementación"}
-
-![](https://refactoring.guru/images/content-public/logos/logo-new.png?id=97d554614702483f31e38b32e82d8e34){width=25} [Observer en Java (refactoring.guru)](https://refactoring.guru/es/design-patterns/observer/java/example#lang-features)
-
-:::
 
 
 ### State
 
 
-### Strategy
-
-::: {.callout-tip icon=false title="Slide Deck"}
-
-::: slides
-[Strategy pattern](https://cgranell.github.io/ei1039/slides/TE7_strategy.html)
-:::
-
-:::
-
-::: {.callout-tip icon=false title="Implementación"}
-
-![](https://refactoring.guru/images/content-public/logos/logo-new.png?id=97d554614702483f31e38b32e82d8e34){width=25} [Strategy en Java (refactoring.guru)](https://refactoring.guru/es/design-patterns/strategy/java/example#lang-features)
-
-:::
+### Interpreter
 
 
-
-
- 
  
 ### Relaciones entre patrones
 
