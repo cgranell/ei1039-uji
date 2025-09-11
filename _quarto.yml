@@ -32,7 +32,7 @@ website:
         text: "Patrones de diseño"
       - href: materials/03-seminario-mvc.qmd
         text: "Seminarios"
-      - href: materials/04-extras.qmd
+      - href: materials/04-referencias.qmd
         text: "Extras"
 
 
@@ -68,7 +68,6 @@ website:
       style: "docked"
       align: left
       contents:
-        - href: materials/04-extras.qmd
         - href: materials/04-referencias.qmd
 
 

@@ -32,7 +32,9 @@ Arquitectura software, patrones de diseño, comunicación, trabajo en equipo, ..
 ::: callout-tip
 ## ¿Te has preguntado alguna vez qué pasa en tu cerebro cuando aprendes? [@lang2016]
 
-Tenemos millones de neuronas que "hacen amigos fácilmente". Las neuronas se conectan con otras neuronas con cada nueva experiencia que tenemos (nuevas emociones, pensamientos, acciones, conocimiento, etc.) formando redes. Las redes al principio son débiles, pero cada vez que repetimos la experiencia o acción, es camimo de la red se consolida y se hace más fuerte. **Cuando aprendemos, nuestro cerebro cambia** por la formación de nuevas conexiones entre neuronas.
+Tenemos millones de neuronas que "hacen amigos fácilmente". Las neuronas se conectan con otras neuronas con cada nueva experiencia que tenemos (nuevas emociones, pensamientos, acciones, conocimiento, etc.) formando redes. Las redes al principio son débiles, pero cada vez que repetimos la experiencia o acción, el camimo de la red se consolida y se hace más fuerte. **Cuando aprendemos, nuestro cerebro cambia** por la formación de nuevas conexiones entre neuronas.
+
+¿Quieres saber más? [10 Things Software Developers Should Learn about Learning](https://cacm.acm.org/research/10-things-software-developers-should-learn-about-learning/) [@brown2023]
 :::
 
 ::: callout-tip

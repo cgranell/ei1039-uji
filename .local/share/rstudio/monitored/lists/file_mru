@@ -1,8 +1,10 @@
+~/materials/04-referencias.qmd
+~/materials/04-extras.qmd
+~/_quarto.yml
+~/references.bib
+~/index.qmd
 ~/README.md
 ~/README
-~/references.bib
-~/_quarto.yml
-~/index.qmd
 ~/materials/02-patrones-comportamiento.qmd
 ~/materials/02-patrones-estructurales.qmd
 ~/materials/02-patrones-creacionales.qmd
@@ -11,5 +13,3 @@
 ~/materials/01-arquitectura.qmd
 ~/materials/03-seminarios.qmd
 ~/materials/02-patrones-slides.qmd
-~/install.R
-~/.gitignore
