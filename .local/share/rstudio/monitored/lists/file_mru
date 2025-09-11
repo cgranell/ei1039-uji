@@ -1,3 +1,4 @@
+~/README
 ~/references.bib
 ~/_quarto.yml
 ~/index.qmd
@@ -12,4 +13,3 @@
 ~/install.R
 ~/.gitignore
 ~/materials/04-referencias.qmd
-~/materials/arquitectura.qmd
