@@ -1,6 +1,12 @@
+# RStudio Server: https://rocker-project.org/images/versioned/rstudio.html
+# Open browser tab: http://localhost:8787/
+# USER: rstudio
+# PASS: q
 services:
   ei1039:
-    image: rocker/rstudio:4.3.0
+    #image: rocker/rstudio:4.3.0
+    build:
+      dockerfile: Dockerfile
     ports:
       - '8787:8787'
     volumes:
@@ -8,4 +14,4 @@ services:
     working_dir: /home/rstudio
     container_name: ei1039_course
     environment:
-      - PASSWORD=ei1039
+      - PASSWORD=q

@@ -8,12 +8,12 @@ date-format: "MMM D, YYYY"
 #format: html
 format:
   html: default
-  pdf: default
+  #pdf: default
 ---
 
 ## Objetivo y resultados de aprendizaje
 
-Según el SIA,
+Según el [SIA](https://ujiapps.uji.es/sia/rest/publicacion/2025/estudio/225/asignatura/EI1039),
 
 > "la asignatura Diseño de Software se imparte en el primer semestre de cuarto curso del grado en Ingeniería Informática de la Universitat Jaume I, como parte del itinerario de Ingeniería del Software. El objetivo de esta asignatura es proporcionar al alumnado conocimientos y habilidades sobre las distintas etapas del diseño del software dentro del proceso de desarrollo."
 
@@ -23,9 +23,9 @@ Y al finalizar satisfactoriamente la EI1039, deberías ser capaz de:
 -   Seleccionar, aplicar y evaluar patrones de arquitectura y diseño adecuados a la resolución de un determinado problema de desarrollo del software.
 -   Diseñar y evaluar la interfaz de usuario utilizando principios y técnicas propias de la interacción persona-computador.
 
-Tan importante como los resultados de aprendizaje listados antes son las competencias blandas (o *soft skills*) tales como la habilidad de comunicación, trabajo en equipo, capacidad de síntesis de información, capacidad de toma de decisiones y resolución de conflictos, gestión del tiempo o liderazgo. Trabajaremos estas competencias blandas a lo largo del curso pues, lo creas o no, son aspectos vitales en el día a día de un arquitecto/a y/o diseñador/a de software.
+Tan importantes, o incluso más, que los resultados de aprendizaje mencionados anteriormente son las competencias blandas o habilidades interpersonales (*soft skills*), como la comunicación, el trabajo en equipo, la síntesis de información, la toma de decisiones, la resolución de conflictos, la gestión del tiempo, y el liderazgo. Trabajaremos en estas competencias o habilidades a lo largo del curso porque, aunque parezca increíble, son aspectos vitales del día a día de un arquitecto/a o diseñador/a de software.
 
-Arquitectura software, patrones de diseño, comunicación, trabajo en equipo, .... Suena bien, ¿no? No menos importante, espero que encuentres atractivo e interesante el contenido de la asignatura a lo largo del semestre.
+Arquitectura software, patrones de diseño, comunicación, trabajo en equipo, .... Suena bien, ¿no? Espero que encuentres atractivo e interesante el contenido de la asignatura a lo largo del semestre.
 
 ## Método de instrucción
 
@@ -52,25 +52,32 @@ Hay evidencia científica de sobra que demuestra una y otra vez que los métodos
 
 Para que te hagas una idea, una semana típica de clase de teoría podría ser así:
 
--   Hasta el miércoles (a las 12:00): Fecha límite para entregar las actividades previas a la siguiente clase de teoría de forma individual en el Aula Virtual.
+-   Hasta el miércoles (a las 9:00): Fecha límite para entregar las actividades previas a la siguiente clase de teoría de forma individual en el Aula Virtual.
 
 -   Viernes (en aula): Comentamos las actividades previas, junto con presentaciones y actividades en clase.
 
 La asignatura también consta de sesiones de seminarios (SE) donde explorarás temas adicionales al diseño de patrones, como arquitectura de software e interfaces de usuario, relacionados con el proyecto común a desarrollar.
 
--   **Seminario 1** (*27 septiembre*) - MVC y variantes + interfaces de usuario
+-   **Seminario 1** (*26 septiembre*) - MVC y variantes + interfaces de usuario + LLM
 
--   **Seminario 2** (*24/25* *octubre*) - Conjunto con EI1048. Relacionado con proyecto común
+-   **Seminario 2** (*17 octubre*) - Caso de estudio: Software architecture patterns
 
--   **Seminario 3** (*22 noviembre*) - Caso de estudio: Software architecture patterns
+-   **Seminario 3** (*30/31 octubre*) - Conjunto con EI1048. Relacionado con proyecto común
 
--   **Seminario 4** (*28-29 noviembre*) - Conjunto con EI1048. Relacionado con proyecto común
+-   **Seminario 4** (*20/21 noviembre*) - Conjunto con EI1048. Relacionado con proyecto común
 
--   **Seminario 5** (*13 diciembre*) - Comunicación oral del proyecto
+-   **Seminario 5** (*12 diciembre*) - Comunicación oral del proyecto
 
-Las asignaturas [EI1039 (Diseño de software)](https://ujiapps.uji.es/sia/rest/publicacion/2024/estudio/225/asignatura/EI1039) y [EI1048 (Paradigmas de Software)](https://ujiapps.uji.es/sia/rest/publicacion/2024/estudio/225/asignatura/EI1048) están muy relacionadas, ya que son dos caras de la misma moneda a la hora de diseñar y desarrollar aplicaciones avanzadas. Para facilitar el aprendizaje de las competencias de ambas asignaturas, el profesorado nos hemos organizadoy coordinado para proponerte un proyecto común que viene detallado en un documento separado colgado en el Aula Virtual de las dos asignaturas. Las clases de laboratorio (LA) de la EI1039 /y de la EI1048) son de trabajo (en grupo) para el desarrollo del proyecto común.
+Las asignaturas [EI1039 (Diseño de software)](https://ujiapps.uji.es/sia/rest/publicacion/2025/estudio/225/asignatura/EI1039) y [EI1048 (Paradigmas de Software)](https://ujiapps.uji.es/sia/rest/publicacion/2025/estudio/225/asignatura/EI1048) están muy relacionadas, ya que son dos caras de la misma moneda a la hora de diseñar y desarrollar aplicaciones avanzadas. Para facilitar el aprendizaje de las competencias de ambas asignaturas, el profesorado nos hemos organizado y coordinado para proponerte un proyecto común que viene detallado en un documento separado colgado en el Aula Virtual de las dos asignaturas. Las clases de laboratorio (LA) de la EI1039 y de la EI1048 son de trabajo (en grupo) para el desarrollo del proyecto común.
 
-Llevamos varios años colaborando entre el profesorado de ambas asignaturas y presentando los resultados en foros sobre educación universitaria en informática ([JENUI](https://aenui.org/jenui/)): [@gonzalez2021jenui], [@gonzalez2022jenui] y [@matey2024jenui]. En la edición de la JENUI 2024, se reconoció nuestro trabajo en [@matey2024jenui] con el [premio SISTEDES al mejor trabajo sobre ingeniería del software](https://jenui2024.udc.es/premios-jenui-2024/).
+Llevamos varios años colaborando entre el profesorado de ambas asignaturas y presentando los resultados en foros sobre educación universitaria en informática ([JENUI](https://aenui.org/jenui/)): 
+
+- [@gonzalez2021jenui], 
+- [@gonzalez2022jenui], 
+- [@matey2024jenui] y 
+- [@matey2025jenui]. 
+
+En la edición de la JENUI 2024, se reconoció nuestro trabajo en [@matey2024jenui] con el [premio SISTEDES al mejor trabajo sobre ingeniería del software](https://jenui2024.udc.es/premios-jenui-2024/).
 
 ## Materiales y contenido
 
@@ -86,8 +93,8 @@ El desarrollo, entrega y defensa del proyecto común cubre el 70% de la nota.
 | Actividad                     |            | Peso | Tipo         | Instrumento                                         |
 |---------------|---------------|---------------|---------------|---------------|
 | Actividades previas           | Individual | 10%  | Formativa    | Código y/o reflexión personal                       |
-| Seminarios 1 y 3              | Individual | 10%  | Formativa    | Reflexión personal                                  |
-| Seminarios 2 y 4 (con EI1048) | Grupo      | 10%  | Formativa    | Presentación y discusión                            |
+| Seminarios 1 y 2              | Individual | 10%  | Formativa    | Reflexión personal                                  |
+| Seminarios 3 y 4 (con EI1048) | Grupo      | 10%  | Formativa    | Presentación y discusión                            |
 | Proyecto común (con EI1048)   | Grupo      | 70%  | Acreditativa | Código, documento escrito, presentación y discusión |
 
 : Instrumentos de evaluación {#tbl-evaluacion} {.hover}

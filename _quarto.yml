@@ -4,7 +4,7 @@ project:
 
 website:
   page-navigation: true
-  title: "EI1039 - 2024/2025"
+  title: "EI1039 - 2025/2026"
   description: "Software Design"
   site-url: "https://cgranell.github.io/ei1039-uji"
   repo-url: "https://www.github.com/cgranell/ei1039-uji"
@@ -20,7 +20,7 @@ website:
 
   navbar:
     logo: "images/marca-uji-blanc.png"  # To do logo with UJI + EI1039
-    logo-alt: "EI1039 - 2024/2025"
+    logo-alt: "EI1039 - 2025/2026"
     logo-href: "https://cgranell.github.io/ei1039-uji"
 
     left:

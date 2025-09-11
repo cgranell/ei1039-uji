@@ -1,1 +1,1 @@
-quarto install tinytex
+#quarto install tinytex

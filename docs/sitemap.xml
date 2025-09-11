@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://cgranell.github.io/ei1039-uji/CODE_OF_CONDUCT.html</loc>
-    <lastmod>2024-11-12T14:46:24.969Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cgranell.github.io/ei1039-uji/index.html</loc>
-    <lastmod>2024-11-12T14:46:29.012Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cgranell.github.io/ei1039-uji/LICENSE.html</loc>
-    <lastmod>2024-11-12T14:46:31.872Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cgranell.github.io/ei1039-uji/materials/01-arquitectura.html</loc>
-    <lastmod>2024-11-12T14:46:32.871Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cgranell.github.io/ei1039-uji/materials/02-patrones-comportamiento.html</loc>
-    <lastmod>2024-11-12T14:46:34.468Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cgranell.github.io/ei1039-uji/materials/02-patrones-creacionales.html</loc>
-    <lastmod>2024-11-12T14:46:35.728Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cgranell.github.io/ei1039-uji/materials/02-patrones-estructurales.html</loc>
-    <lastmod>2024-11-12T14:46:39.623Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cgranell.github.io/ei1039-uji/materials/02-patrones-slides.html</loc>
-    <lastmod>2024-11-12T14:46:50.692Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cgranell.github.io/ei1039-uji/materials/02-patrones.html</loc>
-    <lastmod>2024-11-12T14:46:52.513Z</lastmod>
+    <loc>https://cgranell.github.io/ei1039-uji/materials/04-referencias.html</loc>
+    <lastmod>2025-09-10T13:49:55.169Z</lastmod>
   </url>
   <url>
     <loc>https://cgranell.github.io/ei1039-uji/materials/03-seminario-mvc.html</loc>
-    <lastmod>2024-11-12T14:46:54.707Z</lastmod>
+    <lastmod>2025-09-10T13:49:55.165Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cgranell.github.io/ei1039-uji/materials/02-patrones-slides.html</loc>
+    <lastmod>2025-09-10T13:49:55.157Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cgranell.github.io/ei1039-uji/materials/02-patrones-creacionales.html</loc>
+    <lastmod>2025-09-10T13:49:55.149Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cgranell.github.io/ei1039-uji/materials/01-arquitectura.html</loc>
+    <lastmod>2025-09-10T13:49:55.141Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cgranell.github.io/ei1039-uji/index.html</loc>
+    <lastmod>2025-09-11T11:24:32.605Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cgranell.github.io/ei1039-uji/CODE_OF_CONDUCT.html</loc>
+    <lastmod>2025-09-10T13:49:52.537Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cgranell.github.io/ei1039-uji/LICENSE.html</loc>
+    <lastmod>2025-09-10T13:49:52.541Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cgranell.github.io/ei1039-uji/materials/02-patrones-comportamiento.html</loc>
+    <lastmod>2025-09-10T13:49:55.146Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cgranell.github.io/ei1039-uji/materials/02-patrones-estructurales.html</loc>
+    <lastmod>2025-09-10T13:49:55.151Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cgranell.github.io/ei1039-uji/materials/02-patrones.html</loc>
+    <lastmod>2025-09-10T13:49:55.161Z</lastmod>
   </url>
   <url>
     <loc>https://cgranell.github.io/ei1039-uji/materials/04-extras.html</loc>
-    <lastmod>2024-11-12T14:46:57.718Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cgranell.github.io/ei1039-uji/materials/04-referencias.html</loc>
-    <lastmod>2024-11-12T14:47:02.492Z</lastmod>
+    <lastmod>2025-09-10T13:49:55.167Z</lastmod>
   </url>
 </urlset>
