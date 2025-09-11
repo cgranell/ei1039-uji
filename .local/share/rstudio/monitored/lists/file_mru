@@ -1,3 +1,4 @@
+~/README.md
 ~/README
 ~/references.bib
 ~/_quarto.yml
@@ -12,4 +13,3 @@
 ~/materials/02-patrones-slides.qmd
 ~/install.R
 ~/.gitignore
-~/materials/04-referencias.qmd
