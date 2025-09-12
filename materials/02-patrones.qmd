@@ -51,7 +51,7 @@ Varios autores ([Michael Feathers](https://michaelfeathers.silvrback.com/), [Rob
 
 - robusto y estable, 
 - reutilizable y mantenible, 
-- escalable, es deicr, que se pueda modificar/extender fácilmente.
+- escalable, es decir, que se pueda modificar/extender fácilmente.
 
 
 Sin embargo, que el código resultante sea robusto y estable por un lado, pero que también sea fácilmente extendible y reutilizable por otro, parece que sean objetivos contradictorios. En ingeniería y desarrollo de software, tenemos dos conceptos que tenemos que balancear adecuadamente al mismo tiempo para producir software de calidad.
@@ -81,7 +81,7 @@ Como ingenieros/as de software, queremos que el software generado tenga **una al
 
 
 
-Los principios SOLID están estrechamente relacionados con el uso de patrones de diseño, ya que las solucciones conceptuales de muchos patrones apuntan directamente a uno o varios de los principios SOLID. Luego, cuando utilizas patrones de diseño de forma eficaz, estarás poniendo en práctiva alguno de los principios SOLID para que el código resultante sea de la mejor calidad posible. 
+Los principios SOLID están estrechamente relacionados con el uso de patrones de diseño, ya que las solucciones conceptuales de muchos patrones apuntan directamente a uno o varios de los principios SOLID. Luego, cuando utilizas patrones de diseño de forma eficaz, estarás poniendo en práctica alguno de los principios SOLID para que el código resultante sea de la mejor calidad posible. 
 
 Los 5 principios SOLID de diseño de aplicaciones de software son:
 
@@ -96,7 +96,8 @@ Los 5 principios SOLID de diseño de aplicaciones de software son:
 ## **Slide Deck** 
 
 ::: slides
-[Principios SOLID](https://cgranell.github.io/ei1039/slides/TE3_solid.html)
+<!--[Principios SOLID](https://cgranell.github.io/ei1039/slides/TE3_solid.html)-->
+[Principios SOLID](02-solid-slides.qmd)
 :::
 
 :::

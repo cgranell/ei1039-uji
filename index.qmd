@@ -9,6 +9,7 @@ date-format: "MMM D, YYYY"
 format:
   html: default
   #pdf: default
+  typst: default
 ---
 
 ## Objetivo y resultados de aprendizaje
@@ -42,7 +43,7 @@ Tenemos millones de neuronas que "hacen amigos fácilmente". Las neuronas se con
 
 Cuando **reflexionamos** y **aplicamos** (en contraposición a simplemente leer o subrayar, ver @fig-bloom) cierto conocimiento a contextos nuevos, lo comprendemos más profundamente, provocando que la red sea más densa y tenga conexiones con otras redes. La differencia entre la red de un principiante y la de un experto radica justamente en el número y densidad de conexiones**. Cuanto más interconexiones, mayor comprensión**.
 
-![Taxonomía de Bloom](images/bloom_taxonomy.jpg){#fig-bloom width="350"}
+![Taxonomía de Bloom](images/bloom_taxonomy.jpg){#fig-bloom width="60%"}
 :::
 
 

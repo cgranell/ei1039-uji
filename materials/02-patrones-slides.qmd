@@ -233,4 +233,4 @@ Reconocer si un patrón en particular *es o no es* la **solución** a tu **probl
 -   No abuses de los patrones si existe una solución más sencilla
 :::
 
-## Referencias {.scrollable}
+# Referencias {.scrollable}
