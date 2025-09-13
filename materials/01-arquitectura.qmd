@@ -2,13 +2,24 @@
 title: "Fundamentos de arquitectura"
 ---
 
+## ¿Qué es una arquitectura de software?
+
+
+El término **arquitectura** tiene multiples significados según el contexto. En ingeniería de software/sistemas, ¿de qué hablamos cuando decimos **arquitectura software**? 
+
+- ¿Nos referimos a una aplicación móvil?
+- ¿A una librería software?
+- ¿O una aplicación empresarial?
+- ¿Tal vez una red de sensores desplegados en la ciudad junto a un centro (hub) de datos?
+- ¿O simplemente el conjunto de diagramas de clases u casos de usos asociados?
+- ¿Una red de *data centers* como lod que posee Meta, Google, etc.?
 
 
 ::: {.callout-tip icon=false}
 ## **Slide Deck** 
 
 ::: slides
-[Conceptos, roles y compromisos](https://cgranell.github.io/ei1039/slides/TE2_fundamentos_arquitectura.html)
+[Conceptos, roles y compromisos](01-arquitectura-conceptos.qmd)
 :::
 
 :::

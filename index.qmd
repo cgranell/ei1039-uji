@@ -9,7 +9,14 @@ date-format: "MMM D, YYYY"
 format:
   html: default
   #pdf: default
-  typst: default
+  typst: 
+    papersize: a4
+    toc: true
+format-links:
+  - html
+  - format: typst
+    text: PDF
+    icon: file-pdf
 ---
 
 ## Objetivo y resultados de aprendizaje
@@ -59,18 +66,6 @@ Para que te hagas una idea, una semana típica de clase de teoría podría ser a
 
 -   Viernes (en aula): Comentamos las actividades previas, junto con presentaciones y actividades en clase.
 
-La asignatura también consta de sesiones de seminarios (SE) donde explorarás temas adicionales al diseño de patrones, como arquitectura de software e interfaces de usuario, relacionados con el proyecto común a desarrollar.
-
--   **Seminario 1** (*26 septiembre*) - MVC y variantes + interfaces de usuario + LLM
-
--   **Seminario 2** (*17 octubre*) - Caso de estudio: Software architecture patterns
-
--   **Seminario 3** (*30/31 octubre*) - Conjunto con EI1048. Relacionado con proyecto común
-
--   **Seminario 4** (*20/21 noviembre*) - Conjunto con EI1048. Relacionado con proyecto común
-
--   **Seminario 5** (*12 diciembre*) - Comunicación oral del proyecto
-
 Las asignaturas [EI1039 (Diseño de software)](https://ujiapps.uji.es/sia/rest/publicacion/2025/estudio/225/asignatura/EI1039) y [EI1048 (Paradigmas de Software)](https://ujiapps.uji.es/sia/rest/publicacion/2025/estudio/225/asignatura/EI1048) están muy relacionadas, ya que son dos caras de la misma moneda a la hora de diseñar y desarrollar aplicaciones avanzadas. Para facilitar el aprendizaje de las competencias de ambas asignaturas, el profesorado nos hemos organizado y coordinado para proponerte un proyecto común que viene detallado en un documento separado colgado en el Aula Virtual de las dos asignaturas. Las clases de laboratorio (LA) de la EI1039 y de la EI1048 son de trabajo (en grupo) para el desarrollo del proyecto común.
 
 Llevamos varios años colaborando entre el profesorado de ambas asignaturas y presentando los resultados en foros sobre educación universitaria en informática ([JENUI](https://aenui.org/jenui/)): 
@@ -84,7 +79,22 @@ En la edición de la JENUI 2024, se reconoció nuestro trabajo en [@matey2024jen
 
 ## Materiales y contenido
 
-Los materiales del curso están disponibles en el [Aula Virtual](https://aulavirtual.uji.es/course/view.php?id=81645). Las actividades previas a título individual se entregan a través de las tareas correspondientes en el Aula Virtual de la asignatura. Voy a utilizar el Aula Virtual para proporcionarte feedback sobre las actividades propuestas, para anuncios de la asignatura y, en definitiva, para cualquier tipo de comunicación oficial. Agradecería enormemente que todas las comunicaciones entre nosotros relativas a la asignatura fueran canalizadas a través del Aula Virtual, y no a través de mi correo personal.
+Los materiales del curso relativos a Teoria (TE) están disponibles en el [Aula Virtual](https://aulavirtual.uji.es/course/view.php?id=84498), organizados por semanas. Obviamente, el AV enlaza con este sitio web de la asignatura. Desde el punto de vista del estudiantes, es conveniente tener tanto el AV como este sitio web abiertos.  
+
+En el Aula Virtual de la asignatura se especifican las actividades previas a título individual que se entregan a través de tareas correspondientes. Voy a utilizar el Aula Virtual para proporcionarte feedback sobre las actividades propuestas, para anuncios de la asignatura y, en definitiva, para cualquier tipo de comunicación oficial. Agradecería enormemente que todas las comunicaciones entre nosotros relativas a la asignatura fueran canalizadas a través del Aula Virtual, y **no a través de mi correo personal**.
+
+La asignatura también consta de sesiones de seminarios (SE) donde exploraremos temas adicionales al diseño de software, como arquitectura de software o comunicación oral, relacionados de algún modo con el proyecto común a desarrollar. La información de los seminarios se encuentra únicamente en el Aula Virtual. Las cinco sesiones de seminarios se organizan como sigue:
+
+-   **Seminario 1** (*26 septiembre*) - MVC y variantes + LLM
+
+-   **Seminario 2** (*17 octubre*) - Caso de estudio: Software architecture patterns
+
+-   **Seminario 3** (*30/31 octubre*) - Conjunto con EI1048. Relacionado con el proyecto común
+
+-   **Seminario 4** (*20/21 noviembre*) - Conjunto con EI1048. Relacionado con el proyecto común
+
+-   **Seminario 5** (*12 diciembre*) - Comunicación oral efectiva
+
 
 ## Métodos de evaluación
 
