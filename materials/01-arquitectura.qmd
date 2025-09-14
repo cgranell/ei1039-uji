@@ -12,8 +12,9 @@ El término **arquitectura** tiene multiples significados según el contexto. En
 - ¿O una aplicación empresarial?
 - ¿Tal vez una red de sensores desplegados en la ciudad junto a un centro (hub) de datos?
 - ¿O simplemente el conjunto de diagramas de clases u casos de usos asociados?
-- ¿Una red de *data centers* como lod que posee Meta, Google, etc.?
+- ¿Una red de *data centers* como los que posee Meta, Google, etc.?
 
+Es importante definir, o al menos caracterizar, qué implica el diseño y desarrollo de una arquitectura de software. Especialmente si queremos dedicarnos al desarrollo de arquitecturas de software en el futuro. ¿Lo has pensado como profesión?
 
 ::: {.callout-tip icon=false}
 ## **Slide Deck** 
@@ -24,17 +25,30 @@ El término **arquitectura** tiene multiples significados según el contexto. En
 
 :::
 
+## Características de la arquitectura de software
 
+Según [@richards2020], las dimensiones de una arquitecrua de software son:
+
+- Estructura o estilo
+- Características
+- Decisiones o reglas
+- Principios de diseño
+
+Ahora nos cetramos en la dimensión de **características de la arquitectura**, donde se engloban todos aquellos criterios y requisitos no funcionales (nombres terminaddos en *idad*, como seguridad, fiabilidad, escalabildiad, etc.) para garantizar el correcto y deseable funcionamiento de un sistema.
 
 ::: {.callout-tip icon=false}
 ## **Slide Deck** 
 
 ::: slides
-[Caracteristicas](https://cgranell.github.io/ei1039/slides/TE2_caracteristicas_arquitectura.html)
+[Características](01-arquitectura-caracteristicas.qmd)
 :::
 
 :::
 
+
+## Estructura de la arquitectura de software
+
+La estructura o el estilo es otra dimensión de la arquitectura de software [@richards2020]. Quizás mucho más conocida y popular, y precisamente por eso, existe la errónea tendencia a reducir la arquitectura de software únicamente a la dimensión de la estructura o el estilo. Hablamos de arquitectura **en capas** o basada en **microservicios**, como si la estructura en sí misma abarcara toda la complejidad de una arquitectura de software.
 
 ::: {.callout-tip icon=false}
 ## **Slide Deck** 

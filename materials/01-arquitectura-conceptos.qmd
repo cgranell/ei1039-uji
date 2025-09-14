@@ -20,7 +20,7 @@ format:
     transition: fade
     preview-links: true
     author-meta: "Carlos Granell"
-    date-meta: "17/09/2024"
+    date-meta: "15/09/2025"
     chalkboard: 
       theme: whiteboard
       buttons: false
@@ -32,6 +32,10 @@ execute:
 
 # ¿Arquitectura de software? 
 
+:::notes
+A European city. Original public domain image from Wikimedia Commons.
+Title Image credits: [Rawpixel.com](https://www.rawpixel.com/image/3285415)
+:::
 
 ## {data-menu-title="según Fowler & Johnson"} 
 
@@ -269,7 +273,7 @@ Image credits: [@richards2020]
 :::
 
 
-## ¿Qué roles desempeña un/a arquitecto/a
+## ¿Qué roles desempeña un/a arquitecto/a {.smaller}
 
 ::: incremental
 

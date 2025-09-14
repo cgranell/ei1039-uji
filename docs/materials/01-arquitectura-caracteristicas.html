@@ -350,9 +350,9 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="../images/rawpixel/europeancity.jpg" data-background-opacity="0.5" data-background-size="cover" class="quarto-title-block center">
+<section id="title-slide" data-background-image="../images/rawpixel/greenapartment.jpg" data-background-opacity="0.5" data-background-size="cover" class="quarto-title-block center">
   <h1 class="title">Fundamentos de arquitectura</h1>
-  <p class="subtitle">Conceptos y roles</p>
+  <p class="subtitle">Características de una arquitectura</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -368,10 +368,10 @@ Carlos Granell
   <p class="date">Sep 14, 2025</p>
 </section>
 <section>
-<section id="arquitectura-de-software" class="title-slide slide level1 center">
-<h1>¿Arquitectura de software?</h1>
+<section id="qué-son-las-características-de-una-arquitectura" class="title-slide slide level1 center">
+<h1>¿Qué son las características de una arquitectura?</h1>
 <aside class="notes">
-<p>A European city. Original public domain image from Wikimedia Commons. Title Image credits: <a href="https://www.rawpixel.com/image/3285415">Rawpixel.com</a></p>
+<p>Green apartment building. Original public domain image from Wikimedia Commons. Title Image credits: <a href="https://www.rawpixel.com/image/3285587">Rawpixel.com</a></p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -384,38 +384,54 @@ Carlos Granell
           display:block!important;
       }</style></aside>
 </section>
-<section id="section" class="slide level2" data-menu-title="según Fowler &amp; Johnson">
-<h2></h2>
-<blockquote>
-<p>Architecture is about the important stuff. Whatever that is.</p>
-</blockquote>
-<div style="text-align: right">
-<p>Ralph Johnson, citado en <span class="citation" data-cites="fowler2003">(<a href="#/referencias" role="doc-biblioref" onclick="">Fowler 2003</a>)</span></p>
-</div>
-<p><br></p>
-<blockquote>
-<p>Architecture is a social construct, a shared understanding of the system. It doesn’t just depend on the software, but on what part of the software is considered important by group consensus.</p>
-</blockquote>
-<div style="text-align: right">
-<p>Ralph Johnson, citado en <span class="citation" data-cites="fowler2003">(<a href="#/referencias" role="doc-biblioref" onclick="">Fowler 2003</a>)</span></p>
-</div>
-</section>
-<section id="section-1" class="slide level2" data-menu-title="según Tai">
-<h2></h2>
-<blockquote>
-<p>Software architecture can be seen as the centrepiece sitting between the business goals and the software system that supports the business to meet these goals.</p>
-</blockquote>
-<div style="text-align: right">
-<p><span class="citation" data-cites="tai2022">(<a href="#/referencias" role="doc-biblioref" onclick="">Tai 2022</a>)</span></p>
+<section id="requisitos" class="slide level2">
+<h2>Requisitos</h2>
+<p>Todo lo que el software a desarrollar debe hacer</p>
+<div class="fragment">
+<div class="columns">
+<div class="column">
+<h3 id="requisitos-funcionales-o-de-negocio">Requisitos funcionales o de negocio</h3>
+</div><div class="column">
+<h3 id="requisitos-no-funcionales">Requisitos no funcionales</h3>
+<p><i class="fa-solid fa-circle-arrow-right" aria-label="circle-arrow-right"></i> <strong>características de la arquitectura</strong></p>
+</div></div>
 </div>
 <div class="fragment">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="../images/SoftwareArchitecture01-Tai.png" class="quarto-figure quarto-figure-center" style="width:65.0%"></p>
-</figure>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
+<p><strong><strong>Recuerda</strong></strong></p>
+</div>
+<div class="callout-content">
+<p>Un/a arquitecto/a considera tanto los requisitos funcionales como las características de la arquitectura.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="libro-de-referencia" class="slide level2">
+<h2>Libro de referencia</h2>
+<div class="columns">
+<div class="column">
+<p><img data-src="../images/FundamentalsSoftwareArchitecture00.jpg" style="width:65.0%"></p>
+</div><div class="column">
+<h3 id="by-mark-richards-and-neal-ford">By Mark Richards and Neal Ford</h3>
+<h3 id="january-2020">January 2020</h3>
+<p>Capítulos 4 y 5 <span class="citation" data-cites="richards2020">(<a href="#/referencias" role="doc-biblioref" onclick="">Richards and Ford 2020</a>)</span></p>
+</div></div>
+</section></section>
+<section>
+<section id="categorías-de-características" class="title-slide slide level1 center">
+<h1>Categorías de características</h1>
+
+</section>
+<section id="section" class="slide level2" data-menu-title="-ilities" data-background-image="../images/SoftwareArchitecture02-Tai.png" data-background-size="cover">
+<h2></h2>
 <aside class="notes">
-<p>An architect would create just enough design for implementation to satisfy business needs. The idea here is that as the world changes, so do the business requirements. This should be an iterative process. he software architecture should support the business to adopt changes by evolving with the requirements.</p>
+<p>Software Architecture “-ilities”: I probably won’t be able to see quality attributes by just looking at the high-level design diagram with some lines connecting to some boxes</p>
 <p>Image credits: <span class="citation" data-cites="tai2022">(<a href="#/referencias" role="doc-biblioref" onclick="">Tai 2022</a>)</span></p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -428,38 +444,73 @@ Carlos Granell
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+</section>
+<section id="operacionales" class="slide level2 smaller">
+<h2>Operacionales</h2>
+<div>
+<ul>
+<li class="fragment"><p><strong>Availability/Disponibilidad</strong>: cuánto tiempo deberá estar disponible el sistema</p></li>
+<li class="fragment"><p><strong>Continuity/Continuidad</strong>: capacidad de recuperación ante desastres</p></li>
+<li class="fragment"><p><strong>Performance/Rendimiento</strong>: pruebas de estrés, análisis de picos, análisis de la frecuencia de las funciones utilizadas, capacidad requerida y tiempos de respuesta</p></li>
+<li class="fragment"><p><strong>Reliability/Fiabilidad</strong>: Sistema a prueba de fallos</p></li>
+<li class="fragment"><p><strong>Robustness/Robustez</strong>: Habilidad para manejar condiciones límite y de error (fallo hw)</p></li>
+<li class="fragment"><p><strong>Scalability/Escalabilidad</strong>: Capacidad para gestionar un numero creciente de usuarios/solicitudes sin degradar rendimiento</p></li>
+<li class="fragment"><p><strong>Elasticity/Elasticidad</strong>: Capacidad para gestionar picos masivos de usuarios/solicitudes</p></li>
+</ul>
+</div>
+<aside class="notes">
+<p>Continuity/continuidad = Recoverability/recuperabilidad</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="estructurales" class="slide level2">
+<h2>Estructurales</h2>
+<div>
+<ul>
+<li class="fragment"><p><strong>Configurability/Configurabilidad</strong>: cambiar fácilmente aspectos de la configuración del software</p></li>
+<li class="fragment"><p><strong>Extensibility/Extensibilidad</strong>: Importancia de añadir nuevas funcionalidades</p></li>
+<li class="fragment"><p><strong>Installability/Instalabilidad</strong>: Facilidad de instalación del sistema en las plataformas necesarias.</p></li>
+<li class="fragment"><p><strong>Reuse/Reutilización</strong>: Capacidad para aprovechar componentes comunes en múltiples productos</p></li>
+<li class="fragment"><p><strong>I18n</strong>: Soporte para múltiples idiomas; unidades de medida; monedas</p></li>
+</ul>
 </div>
 </section>
-<section id="section-2" class="slide level2" data-menu-title="según Richards">
+<section id="transversales" class="slide level2">
+<h2>Transversales</h2>
+<div>
+<ul>
+<li class="fragment"><p><strong>Maintainability/Mantenibilidad</strong>: Facilidad de aplicar cambios y mejorar el sistema</p></li>
+<li class="fragment"><p><strong>Portability/Portabilidad</strong>: ¿Es necesario que el sistema se ejecute en más de una plataforma?</p></li>
+<li class="fragment"><p><strong>Supportability/Soporte</strong>: ¿Qué nivel de soporte técnico (logging) necesita la aplicación?</p></li>
+<li class="fragment"><p><strong>Upgradeability/Actualización</strong>: Capacidad para actualizar rápidamente desde una versión anterior a una versión más nueva en servidores y clientes.</p></li>
+</ul>
+</div>
+</section>
+<section id="section-1" class="slide level2 center" data-menu-title="Pero...">
 <h2></h2>
-<blockquote>
-<p>Arquitectura de software es algo difícil de definir, depende del escenario/proyecto, y de todo lo que se considera importante para el éxito del proyecto.</p>
-</blockquote>
-<div style="text-align: right">
-<p><span class="citation" data-cites="richards2020">(<a href="#/referencias" role="doc-biblioref" onclick="">Richards and Ford 2020</a>)</span></p>
-</div>
-</section>
-<section id="libro-de-referencia" class="slide level2">
-<h2>Libro de referencia</h2>
-<div class="columns">
-<div class="column">
-<p><img data-src="../images/FundamentalsSoftwareArchitecture00.jpg" style="width:65.0%"></p>
-</div><div class="column">
-<h3 id="by-mark-richards-and-neal-ford">By Mark Richards and Neal Ford</h3>
-<h3 id="january-2020">January 2020</h3>
-<p>Capítulos 1 y 2 <span class="citation" data-cites="richards2020">(<a href="#/referencias" role="doc-biblioref" onclick="">Richards and Ford 2020</a>)</span></p>
-</div></div>
+<h3 id="la-mayoría-de-estas-características-no-estan-explícitamente-descritas-en-los-requisitos">¡La mayoría de estas características no estan <em>explícitamente</em> descritas en los requisitos!</h3>
 </section></section>
 <section>
-<section id="cómo-caracterizamos-o-especificamos-una-arquitectura-software" class="title-slide slide level1 center">
-<h1>¿Cómo caracterizamos o especificamos una arquitectura software?</h1>
+<section id="cómo-sé-las-características-que-son-relevantes-de-las-que-no-lo-son" class="title-slide slide level1 center">
+<h1>¿Cómo sé las características que SON relevantes de las que NO lo son?</h1>
 
 </section>
-<section id="dimensiones-de-la-arquitectura-richards2020" class="slide level2">
-<h2>Dimensiones de la arquitectura <span class="citation" data-cites="richards2020">(<a href="#/referencias" role="doc-biblioref" onclick="">Richards and Ford 2020</a>)</span></h2>
-
-<img data-src="../images/FundamentalsSoftwareArquitecture01.png" class="quarto-figure quarto-figure-center r-stretch" style="width:70.0%"><aside class="notes">
-<p>Image credits: <span class="citation" data-cites="richards2020">(<a href="#/referencias" role="doc-biblioref" onclick="">Richards and Ford 2020</a>)</span></p>
+<section id="section-2" class="slide level2" data-background-image="../images/rawpixel/tips.jpg" data-background-size="cover">
+<h2></h2>
+<h3 id="selecciona-las-justas.">#1 Selecciona las justas.</h3>
+<p><span class="emoji" data-emoji="arrow_right">➡️</span> No diseñes a <em>generic architecture</em></p>
+<aside class="notes">
+<p>Cada característica que añades complicará el diseño global del sistema. Mantén la lista corta!</p>
+<p>Helpful Tips Information Knowledge Concept. Image credits: <a href="https://www.rawpixel.com/image/1033876">Rawpixel.com</a></p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -472,15 +523,14 @@ Carlos Granell
           display:block!important;
       }</style></aside>
 </section>
-<section id="estructura" class="slide level2">
-<h2>Estructura</h2>
-<h3 id="estilos-de-la-arquitectura-i.e.-por-capas-microservicios-etc."><span class="emoji" data-emoji="arrow_right">➡️</span> Estilo(s) de la arquitectura, i.e., por capas, microservicios, etc.</h3>
-</section>
-<section id="estructura---ejemplos" class="slide level2">
-<h2>Estructura - ejemplos</h2>
-
-<img data-src="../images/FundamentalsSoftwareArquitecture02.png" class="quarto-figure quarto-figure-center r-stretch" style="width:70.0%"><aside class="notes">
-<p>Image credits: <span class="citation" data-cites="richards2020">(<a href="#/referencias" role="doc-biblioref" onclick="">Richards and Ford 2020</a>)</span></p>
+<section id="section-3" class="slide level2" data-background-image="../images/rawpixel/tips.jpg" data-background-size="cover">
+<h2></h2>
+<h3 id="existen-compromisos-opuestos-entre-características.">#2 Existen compromisos opuestos entre características.</h3>
+<p><span class="emoji" data-emoji="arrow_right">➡️</span> Todo es compromiso</p>
+<p>(<em>First Law of Software Architecture</em>)</p>
+<aside class="notes">
+<p>Por ejemplo, rendimiento vs seguridad. Aumentar la seguridad de un sistema, puede degradar su rendimiento.</p>
+<p>Helpful Tips Information Knowledge Concept. Image credits: <a href="https://www.rawpixel.com/image/1033876">Rawpixel.com</a></p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -493,57 +543,13 @@ Carlos Granell
           display:block!important;
       }</style></aside>
 </section>
-<section id="características-de-la-arquitectura" class="slide level2">
-<h2>Características de la arquitectura</h2>
-<h3 id="criteriosrequisitos-para-el-funcionamiento-correcto-del-sistema-ortogonal-a-la-funcionalidad"><span class="emoji" data-emoji="arrow_right">➡️</span> Criterios/requisitos para el funcionamiento correcto del sistema (ortogonal a la funcionalidad)</h3>
-</section>
-<section id="características---ejemplos" class="slide level2">
-<h2>Características - ejemplos</h2>
-
-<img data-src="../images/FundamentalsSoftwareArquitecture03.png" class="quarto-figure quarto-figure-center r-stretch" style="width:70.0%"><aside class="notes">
-<p>Image credits: <span class="citation" data-cites="richards2020">(<a href="#/referencias" role="doc-biblioref" onclick="">Richards and Ford 2020</a>)</span></p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="decisiones-de-la-arquitectura" class="slide level2">
-<h2>Decisiones de la arquitectura</h2>
-<h3 id="reglasrestricciones-tajantes-del-sistema-i.e.-qué-se-puede-y-no-se-puede-hacer"><span class="emoji" data-emoji="arrow_right">➡️</span> Reglas/restricciones (tajantes) del sistema, i.e.&nbsp;qué se puede y no se puede hacer</h3>
-</section>
-<section id="decisiones---ejemplos" class="slide level2">
-<h2>Decisiones - ejemplos</h2>
-
-<img data-src="../images/FundamentalsSoftwareArquitecture04.png" class="quarto-figure quarto-figure-center r-stretch" style="width:70.0%"><aside class="notes">
-<p>Image credits: <span class="citation" data-cites="richards2020">(<a href="#/referencias" role="doc-biblioref" onclick="">Richards and Ford 2020</a>)</span></p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="principios-de-diseño" class="slide level2">
-<h2>Principios de diseño</h2>
-<h3 id="guías-recomendaciones-o-preferencias-en-vez-de-reglas-tajantes-como-las-decisiones"><span class="emoji" data-emoji="arrow_right">➡️</span> Guías, recomendaciones o preferencias (en vez de <em>reglas tajantes</em> como las decisiones)</h3>
-</section>
-<section id="principios-de-diseño---ejemplos" class="slide level2">
-<h2>Principios de diseño - ejemplos</h2>
-
-<img data-src="../images/FundamentalsSoftwareArquitecture05.png" class="quarto-figure quarto-figure-center r-stretch" style="width:70.0%"><aside class="notes">
-<p>Image credits: <span class="citation" data-cites="richards2020">(<a href="#/referencias" role="doc-biblioref" onclick="">Richards and Ford 2020</a>)</span></p>
+<section id="section-4" class="slide level2" data-background-image="../images/rawpixel/tips.jpg" data-background-size="cover">
+<h2></h2>
+<h3 id="nunca-busques-la-mejor-arquitectura">#3 Nunca busques la <em>mejor</em> arquitectura,</h3>
+<p><span class="emoji" data-emoji="arrow_right">➡️</span> sino la <em>menos mala</em>.</p>
+<aside class="notes">
+<p>¿Sabes? la architectura, como el software, cambiará en el futuro. Diseña para que esos cambios sean fáciles en el futuro.</p>
+<p>Helpful Tips Information Knowledge Concept. Image credits: <a href="https://www.rawpixel.com/image/1033876">Rawpixel.com</a></p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -557,196 +563,85 @@ Carlos Granell
       }</style></aside>
 </section></section>
 <section>
-<section id="qué-tareas-desempeña-una-arquitectoa-de-software" class="title-slide slide level1 center">
-<h1>¿Qué tareas desempeña un/a arquitecto/a de software?</h1>
-<aside class="notes">
-<p>Las tareas de un programador o analista son más conocidas. Incluso, hay especializaciones de programador, como programador back-end, front-end, of full-stack. ¿Qué tareas desempeña una persona con el rol de <em>Software Architect</em>?</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="section-3" class="slide level2" data-menu-title="Analogía" data-background-image="../images/rawpixel/architect.jpg" data-background-size="cover">
-<h2></h2>
-<aside class="notes">
-<p>Analogy: The building architect creates the blueprint of the building. The engineers build it physically and make it work according to the blueprint. Yet, this is a poor analogy to define what Software Architecture is because the building analogy makes people focus too much on the static aspects of the system. Source: <span class="citation" data-cites="tai2022">(<a href="#/referencias" role="doc-biblioref" onclick="">Tai 2022</a>)</span></p>
-<p>Similar analogy: One of the differences between building architecture and software architecture is that a lot of decisions about a building are hard to change. It is hard to go back and change your basement, though it is possible. Source: <span class="citation" data-cites="fowler2003">(<a href="#/referencias" role="doc-biblioref" onclick="">Fowler 2003</a>)</span></p>
-<p>Home Decor Renovation Style Architecture Building Image by <a href="https://www.rawpixel.com/image/65068">rawpixel.com</a></p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="section-4" class="slide level2" data-menu-title="Analogía (II)" data-background-image="../images/rawpixel/nyc.jpg" data-background-size="cover">
-<h2></h2>
-<aside class="notes">
-<p>Analogy (continue): The creation of a city is a better analogy since it involves both static elements like roads, buildings and bridges, and dynamic elements like traffic flows and people living in the city. The architect is the person who comes up with the design of the city, the plan of how it should be built, and how everything is going to fit together. The city architect has a vision of how the city would <strong>evolve</strong>. Source: <span class="citation" data-cites="tai2022">(<a href="#/referencias" role="doc-biblioref" onclick="">Tai 2022</a>)</span></p>
-<p>New York city Image by <a href="https://www.rawpixel.com/image/5959681">rawpixel.com</a></p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="arquitecto-vs.-desarrollador" class="slide level2">
-<h2>Arquitecto vs.&nbsp;Desarrollador</h2>
+<section id="pero-cómo-identifico-las-características-relevantes" class="title-slide slide level1 center">
+<h1>Pero, ¿cómo identifico las características RELEVANTES?</h1>
 
-<img data-src="../images/FundamentalsSoftwareArquitecture06.png" class="quarto-figure quarto-figure-center r-stretch" style="width:60.0%"><aside class="notes">
-<p>Pirámide del conocimiento. Un desarrollador, al principio de su carrera, se centra en la parte alta de la pirámide, para adquirir experiencia y conocimiento técnico, y también para manternerse actualizado sobre lo que sabe.</p>
-<p>Image credits: <span class="citation" data-cites="richards2020">(<a href="#/referencias" role="doc-biblioref" onclick="">Richards and Ford 2020</a>)</span></p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
 </section>
-<section id="arquitecto-vs.-desarrollador-ii" class="slide level2">
-<h2>Arquitecto vs.&nbsp;Desarrollador (II)</h2>
-
-<img data-src="../images/FundamentalsSoftwareArquitecture07.png" class="quarto-figure quarto-figure-center r-stretch" style="width:55.0%"><aside class="notes">
-<p>Pirámide del conocimiento: profundidad vs.&nbsp;amplitud técnica. Lo que uno sabe es <em>technical depth</em>, y lo mucho que uno abarca o sabe es <em>technical breadth</em>.</p>
-<p>Image credits: <span class="citation" data-cites="richards2020">(<a href="#/referencias" role="doc-biblioref" onclick="">Richards and Ford 2020</a>)</span></p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="arquitecto-vs.-desarrollador-iii" class="slide level2">
-<h2>Arquitecto vs.&nbsp;Desarrollador (III)</h2>
-<div class="columns">
-<div class="column">
-<h3 id="arquitecto">Arquitecto</h3>
-<p>breadth <i class="fa-solid fa-equals" aria-label="equals"></i> depth</p>
-<p>Architect should know what <strong>should be done</strong> to create a platform/product <strong>in the right way</strong> <span class="citation" data-cites="francis2022">(<a href="#/referencias" role="doc-biblioref" onclick="">Francis 2022</a>)</span></p>
-</div><div class="column">
-<h3 id="desarrollador">Desarrollador</h3>
-<p>depth <i class="fa-solid fa-greater-than" aria-label="greater-than"></i><i class="fa-solid fa-greater-than" aria-label="greater-than"></i> breadth</p>
-<p>Developer knows what <strong>can be done</strong> to create a platform/product <span class="citation" data-cites="francis2022">(<a href="#/referencias" role="doc-biblioref" onclick="">Francis 2022</a>)</span></p>
-</div></div>
+<section id="section-5" class="slide level2" data-background-image="../images/rawpixel/meeting.jpg" data-background-size="cover">
+<h2></h2>
+<p>Escucha a los <em>stakeholders</em></p>
 <div class="fragment">
-<div class="callout callout-important callout-titled callout-style-default">
+<p>Entiende su lenguaje</p>
+</div>
+<div class="fragment">
+<p>Evita el problema <em>lost in translation</em></p>
+</div>
+<div class="fragment">
+<p>Traduce sus peticiones en características</p>
+<aside class="notes">
+<p>People meeting and brainstorming for a project. Image credits: <a href="https://www.rawpixel.com/image/427255">Rawpixel.com</a></p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="si-los-stakeholders-hablan-de" class="slide level2">
+<h2>Si los <em>stakeholders</em> hablan de…</h2>
+<p>…adquisiciones y fusiones</p>
+<div class="fragment highlight-red">
+<p>Interoperability + scalability + adaptability + extensibility</p>
+</div>
+<div class="fragment">
+<p>…reducir tiempos para llegar al mercado</p>
+<div class="fragment highlight-red">
+<p>Agility + testability + deployability</p>
+</div>
+</div>
+<div class="fragment">
+<p>…incrementar la satisfacción del usuario</p>
+<div class="fragment highlight-red">
+<p>Performance + availability + testability + security</p>
+</div>
+</div>
+<div class="fragment">
+<p>…presupuesto limitado</p>
+<div class="fragment highlight-red">
+<p>Simplicity + feasibility</p>
+</div>
+</div>
+</section>
+<section id="warren-buffetts-255-rule" class="slide level2">
+<h2>Warren Buffett’s 25/5 Rule</h2>
+<p><a href="https://jamesclear.com/buffett-focus">Estrategia de productividad en 3 pasos</a></p>
+<div>
+<ul>
+<li class="fragment"><p>Escribe los 25 objetivos para tu carrera/profesión</p></li>
+<li class="fragment"><p>Marca las 5 más importantes</p></li>
+<li class="fragment"><p>Descarta las otras 20. No requieren tu atención hasta que hayas tenido éxito con las top5</p></li>
+</ul>
+</div>
+<div class="fragment">
+<div class="callout callout-tip callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong><strong>Recuerda</strong></strong></p>
+<p><strong><strong>Tip</strong></strong></p>
 </div>
 <div class="callout-content">
-<p>A Software Architect needs a <strong>broad</strong> and <strong>deep</strong> knowledge of almost everything in order to accomplish the business goals <span class="citation" data-cites="tai2022">(<a href="#/referencias" role="doc-biblioref" onclick="">Tai 2022</a>)</span></p>
+<p>Deja que los <em>stakeholders</em> sean los que determinen las 3 ó 5 características esenciales</p>
 </div>
 </div>
 </div>
-<aside class="notes">
-<p>Source: <a href="https://ayltai.medium.com/what-it-takes-to-become-a-software-architect-fa7788962c8c">What it takes to become a software architect</a></p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</div>
-</section>
-<section id="arquitecto-breadth-depth" class="slide level2">
-<h2>Arquitecto <i class="fa-solid fa-circle-arrow-right" aria-label="circle-arrow-right"></i> breadth <i class="fa-solid fa-equals" aria-label="equals"></i> depth</h2>
-
-<img data-src="../images/FundamentalsSoftwareArquitecture08.png" class="quarto-figure quarto-figure-center r-stretch" style="width:55.0%"><aside class="notes">
-<p>Pirámide del conocimiento: El arquitecto se especializa en algunas áreas de interés del proyecto. Sacrifica profundidad técnica en aras de tener una visión más amplia. Image credits: <span class="citation" data-cites="richards2020">(<a href="#/referencias" role="doc-biblioref" onclick="">Richards and Ford 2020</a>)</span></p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="qué-roles-desempeña-una-arquitectoa" class="slide level2 smaller">
-<h2>¿Qué roles desempeña un/a arquitecto/a</h2>
-<div>
-<ul>
-<li class="fragment"><p><strong>GUÍA</strong> decisiones de arquitectura, principios de diseño, estructura…</p></li>
-<li class="fragment"><p><strong>CAMBIO</strong>: Analiza continuamente y recomienda mejoras</p></li>
-<li class="fragment"><p><strong>VISIÓN</strong>: Esta al día con (y expuesto a) las últimas tendencias</p></li>
-<li class="fragment"><p><strong>LIDERAZGO</strong>: Se asegura que la implementación sigue las decisiones/principios</p></li>
-<li class="fragment"><p><strong>SÍNTESIS</strong>: Integra conocimiento de dominio de negocio y técnico</p></li>
-<li class="fragment"><p><strong>MENTORING</strong>: Posee habilidades de comunicación, trabajo en equipo, soft skills</p></li>
-</ul>
-</div>
-</section></section>
-<section>
-<section id="leyes-de-arquitectura-de-software" class="title-slide slide level1 center">
-<h1>Leyes de arquitectura de software</h1>
-
-</section>
-<section id="the-first-law-of-software-architecture" class="slide level2">
-<h2>The First Law of Software Architecture</h2>
-<blockquote>
-<p>Everything in software architecture is a <strong>trade-off</strong>.</p>
-</blockquote>
-<div style="text-align: right">
-<p>Mark Richards &amp; Neal Ford <span class="citation" data-cites="richards2020">(<a href="#/referencias" role="doc-biblioref" onclick="">Richards and Ford 2020</a>)</span></p>
-</div>
-<div class="fragment">
-<p><br></p>
-<p><span class="emoji" data-emoji="arrow_right">➡️</span> There’s no perfect solution — only choices with consequences. The only constant in software is change.</p>
-<p><span class="emoji" data-emoji="arrow_right">➡️</span> Evaluate trade-offs consciously. Every architectural decision affects the system’s behavior, flexibility, and cost.</p>
-<p><span class="emoji" data-emoji="arrow_right">➡️</span> The only constant in software is change.</p>
-</div>
-</section>
-<section id="the-second-law-of-software-architecture" class="slide level2">
-<h2>The Second Law of Software Architecture</h2>
-<blockquote>
-<p><strong>Why</strong> is more important than how.</p>
-</blockquote>
-<div style="text-align: right">
-<p>Mark Richards &amp; Neal Ford <span class="citation" data-cites="richards2020">(<a href="#/referencias" role="doc-biblioref" onclick="">Richards and Ford 2020</a>)</span></p>
-</div>
-<div class="fragment">
-<p><br></p>
-<p><span class="emoji" data-emoji="arrow_right">➡️</span> Essential for well-informed decisions.</p>
-<p><span class="emoji" data-emoji="arrow_right">➡️</span> Understanding the rationale behind our choices allows us to reevaluate them when needed and retain valuable knowledge.</p>
 </div>
 </section></section>
 <section id="referencias" class="title-slide slide level1 scrollable smaller">
@@ -759,12 +654,6 @@ Carlos Granell
 </div>
 </div>
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-fowler2003" class="csl-entry" role="listitem">
-Fowler, Martin. 2003. <span>“Who Needs an Architect?”</span> <em>IEEE Software</em> 20 (5): 2–4. <a href="https://doi.org/10.1109/MS.2003.1231144">https://doi.org/10.1109/MS.2003.1231144</a>.
-</div>
-<div id="ref-francis2022" class="csl-entry" role="listitem">
-Francis, Gibin. 2022. <span>“Software Architect — Journey.”</span> Medium. <a href="https://gibinfrancis.medium.com/software-architect-journey-ca9398546608">https://gibinfrancis.medium.com/software-architect-journey-ca9398546608</a>.
-</div>
 <div id="ref-richards2020" class="csl-entry" role="listitem">
 Richards, Mark, and Neal Ford. 2020. <em>Fundamentals of Software Architecture, 1st Edition</em>. O’Really Media Inc.
 </div>

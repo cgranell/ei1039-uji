@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -165,6 +185,8 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#qué-es-una-arquitectura-de-software" id="toc-qué-es-una-arquitectura-de-software" class="nav-link active" data-scroll-target="#qué-es-una-arquitectura-de-software">¿Qué es una arquitectura de software?</a></li>
+  <li><a href="#características-de-la-arquitectura-de-software" id="toc-características-de-la-arquitectura-de-software" class="nav-link" data-scroll-target="#características-de-la-arquitectura-de-software">Características de la arquitectura de software</a></li>
+  <li><a href="#estructura-de-la-arquitectura-de-software" id="toc-estructura-de-la-arquitectura-de-software" class="nav-link" data-scroll-target="#estructura-de-la-arquitectura-de-software">Estructura de la arquitectura de software</a></li>
   </ul>
 </nav>
     </div>
@@ -199,8 +221,9 @@ ul.task-list li input[type="checkbox"] {
 <li>¿O una aplicación empresarial?</li>
 <li>¿Tal vez una red de sensores desplegados en la ciudad junto a un centro (hub) de datos?</li>
 <li>¿O simplemente el conjunto de diagramas de clases u casos de usos asociados?</li>
-<li>¿Una red de <em>data centers</em> como lod que posee Meta, Google, etc.?</li>
+<li>¿Una red de <em>data centers</em> como los que posee Meta, Google, etc.?</li>
 </ul>
+<p>Es importante definir, o al menos caracterizar, qué implica el diseño y desarrollo de una arquitectura de software. Especialmente si queremos dedicarnos al desarrollo de arquitecturas de software en el futuro. ¿Lo has pensado como profesión?</p>
 <div class="callout callout-style-default callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -216,6 +239,17 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
+</section>
+<section id="características-de-la-arquitectura-de-software" class="level2">
+<h2 class="anchored" data-anchor-id="características-de-la-arquitectura-de-software">Características de la arquitectura de software</h2>
+<p>Según <span class="citation" data-cites="richards2020">(<a href="#ref-richards2020" role="doc-biblioref">Richards and Ford 2020</a>)</span>, las dimensiones de una arquitecrua de software son:</p>
+<ul>
+<li>Estructura o estilo</li>
+<li>Características</li>
+<li>Decisiones o reglas</li>
+<li>Principios de diseño</li>
+</ul>
+<p>Ahora nos cetramos en la dimensión de <strong>características de la arquitectura</strong>, donde se engloban todos aquellos criterios y requisitos no funcionales (nombres terminaddos en <em>idad</em>, como seguridad, fiabilidad, escalabildiad, etc.) para garantizar el correcto y deseable funcionamiento de un sistema.</p>
 <div class="callout callout-style-default callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -227,10 +261,14 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-body-container callout-body">
 <div class="slides">
-<p><a href="https://cgranell.github.io/ei1039/slides/TE2_caracteristicas_arquitectura.html">Caracteristicas</a></p>
+<p><a href="../materials/01-arquitectura-caracteristicas.html">Características</a></p>
 </div>
 </div>
 </div>
+</section>
+<section id="estructura-de-la-arquitectura-de-software" class="level2">
+<h2 class="anchored" data-anchor-id="estructura-de-la-arquitectura-de-software">Estructura de la arquitectura de software</h2>
+<p>La estructura o el estilo es otra dimensión de la arquitectura de software <span class="citation" data-cites="richards2020">(<a href="#ref-richards2020" role="doc-biblioref">Richards and Ford 2020</a>)</span>. Quizás mucho más conocida y popular, y precisamente por eso, existe la errónea tendencia a reducir la arquitectura de software únicamente a la dimensión de la estructura o el estilo. Hablamos de arquitectura <strong>en capas</strong> o basada en <strong>microservicios</strong>, como si la estructura en sí misma abarcara toda la complejidad de una arquitectura de software.</p>
 <div class="callout callout-style-default callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -248,9 +286,14 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 
+
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-richards2020" class="csl-entry" role="listitem">
+Richards, Mark, and Neal Ford. 2020. <em>Fundamentals of Software Architecture, 1st Edition</em>. O’Really Media Inc.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
