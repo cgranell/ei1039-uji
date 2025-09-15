@@ -54,7 +54,7 @@ La estructura o el estilo es otra dimensión de la arquitectura de software [@ri
 ## **Slide Deck** 
 
 ::: slides
-[Estilos de arquitectura](https://cgranell.github.io/ei1039/slides/TE2_estilos_arquitectura.html)
+[Estilos de arquitectura](01-arquitectura-estilos.qmd)
 :::
 
 :::

@@ -30,9 +30,7 @@ website:
         text: "Fundamentos de arquitectura"
       - href: materials/02-patrones.qmd
         text: "Patrones de diseño"
-      - href: materials/03-seminario-mvc.qmd
-        text: "Seminarios"
-      - href: materials/04-referencias.qmd
+      - href: materials/03-referencias.qmd
         text: "Extras"
 
 
@@ -58,17 +56,11 @@ website:
         - href: materials/02-patrones-comportamiento.qmd
 
 
-    - id: "03-seminarios"
-      align: left
-      contents:
-        - href: materials/03-seminario-mvc.qmd
-
-
-    - id: "04-extras"
+    - id: "03-extras"
       style: "docked"
       align: left
       contents:
-        - href: materials/04-referencias.qmd
+        - href: materials/03-referencias.qmd
 
 
 format:

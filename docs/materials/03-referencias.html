@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>MVC y variantes – EI1039 - 2025/2026</title>
+<title>Referencias – EI1039 - 2025/2026</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -105,11 +125,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Patrones de diseño</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../materials/03-seminario-mvc.html" aria-current="page"> 
-<span class="menu-text">Seminarios</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../materials/04-referencias.html"> 
+    <a class="nav-link active" href="../materials/03-referencias.html" aria-current="page"> 
 <span class="menu-text">Extras</span></a>
   </li>  
 </ul>
@@ -136,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../materials/03-seminario-mvc.html">MVC y variantes</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../materials/03-referencias.html">Referencias</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -150,8 +166,8 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../materials/03-seminario-mvc.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">MVC y variantes</span></a>
+  <a href="../materials/03-referencias.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Referencias</span></a>
   </div>
 </li>
     </ul>
@@ -159,21 +175,15 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#caso" id="toc-caso" class="nav-link active" data-scroll-target="#caso">Caso</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">MVC y variantes</h1>
+<h1 class="title">Referencias</h1>
 </div>
 
 
@@ -190,40 +200,102 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Imagínate que estás en una entrevista de trabajo y el entrevistador de recuros humanos os hace la siguiente pregunta</p>
-<blockquote class="blockquote">
-<p>“¿Qué sabes sobre MVC?”</p>
-</blockquote>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../images/seminars/entrevista-culturainquieta-apple.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></p>
-</figure>
-</div>
-<section id="caso" class="level2">
-<h2 class="anchored" data-anchor-id="caso">Caso</h2>
-<p>Las herramientas para lenguajes de programación visual (LPV) normalmente están basadas en el patrón MVC. Algunas herramientas permite crear multiples lengaujes visuales a partir de un mismo código ¿Qué es el Modelo y la Vista en ese tipo de herrramientas?</p>
-<p>Otro tipo de herramientas LPV permiten programar de manera visual utilizando un conjunto de elementos gráficos como sucede en Scratch. En este caso, ¿qué representa el Modelo y qué la Vista?</p>
-<!-- https://cacm.acm.org/research/low-code-programming-models/ -->
-<div class="callout callout-style-default callout-tip no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<strong>Slide Deck</strong>
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<div class="slides">
-<p><a href="https://cgranell.github.io/ei1039/slides/SE1_mvc.html">MVC y variantes</a></p>
-</div>
-</div>
-</div>
 
 
-</section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-altman2021" class="csl-entry" role="listitem">
+Altman, Sara, Bill Behrman, and Hadley Wickham. 2021. <em>Functional Programming</em>. online. <a href="https://dcl-prog.stanford.edu/">https://dcl-prog.stanford.edu/</a>.
+</div>
+<div id="ref-bass2021" class="csl-entry" role="listitem">
+Bass, Len, Paul Clements, and Rick Kazman. 2021. <em>Software Architecture in Practice</em>. Addison-Wesley Professional; 4th Edition.
+</div>
+<div id="ref-brown2023" class="csl-entry" role="listitem">
+Brown, Neil C. C., Felienne F. J. Hermans, and Lauren E. Margulieux. 2023. <span>“10 Things Software Developers Should Learn about Learning.”</span> <em>Communications of the ACM</em> 67 (1): 78–87. <a href="https://doi.org/10.1145/3584859">https://doi.org/10.1145/3584859</a>.
+</div>
+<div id="ref-fowler2003" class="csl-entry" role="listitem">
+Fowler, Martin. 2003. <span>“Who Needs an Architect?”</span> <em>IEEE Software</em> 20 (5): 2–4. <a href="https://doi.org/10.1109/MS.2003.1231144">https://doi.org/10.1109/MS.2003.1231144</a>.
+</div>
+<div id="ref-francis2022" class="csl-entry" role="listitem">
+Francis, Gibin. 2022. <span>“Software Architect — Journey.”</span> Medium. <a href="https://gibinfrancis.medium.com/software-architect-journey-ca9398546608">https://gibinfrancis.medium.com/software-architect-journey-ca9398546608</a>.
+</div>
+<div id="ref-freeman2004" class="csl-entry" role="listitem">
+Freeman, Eric, Elisabeth Robson, Bert Bates, and Kathy Sierra. 2004. <em>Head First Design Patterns, 1st Edition</em>. O’Really Media Inc.
+</div>
+<div id="ref-gamma1994" class="csl-entry" role="listitem">
+Gamma, Erich, Richard Helm, Ralph Johnson, and John Vlissides. 1994. <em>Design Patterns: Elements of Reusable Object-Oriented Software</em>. Addison-Wesley.
+</div>
+<div id="ref-gonzalez2021jenui" class="csl-entry" role="listitem">
+González-Pérez, Alberto, Ramón A. Mollineda Cárdenas, and David Llorens Piñana. 2021. <span>“Aprendizaje Basado En Metodologías Ágiles Centradas En Diseño Evolutivo Dirigido Por Pruebas de Aceptación.”</span> In <em>Actas de Las XXVII Jornadas Sobre La Enseñanza Universitaria de La Informática (JENUI)</em>, 6:99–106. AENUI. <a href="https://aenui.org/actas/pdf/JENUI_2021_012.pdf">https://aenui.org/actas/pdf/JENUI_2021_012.pdf</a>.
+</div>
+<div id="ref-gonzalez2022jenui" class="csl-entry" role="listitem">
+González-Pérez, Alberto, Carlos Granell-Canut, and Ramón A. Mollineda Cárdenas. 2022. <span>“Coordinación de Asignaturas Dirigida Por Un Proyecto de Desarrollo Ágil Con Evaluación Unificada.”</span> In <em>Actas de Las Jornadas Sobre Enseñanza Universitaria de La Informática (JENUI)</em>, 7:127–34. AENUI. <a href="https://aenui.org/actas/pdf/JENUI_2022_017.pdf">https://aenui.org/actas/pdf/JENUI_2022_017.pdf</a>.
+</div>
+<div id="ref-gonzalez2021" class="csl-entry" role="listitem">
+González-Pérez, Alberto, and Miguel Matey-Sanz. 2021. <span>“<span class="nocase">nativescript-task-dispatcher</span>: A Reactive Android-Based Task Scheduler and Dispatcher.”</span> Zenodo. <a href="https://doi.org/10.5281/zenodo.4530103">https://doi.org/10.5281/zenodo.4530103</a>.
+</div>
+<div id="ref-gonzalez2022" class="csl-entry" role="listitem">
+González-Pérez, Alberto, Miguel Matey-Sanz, Carlos Granell, and Sven Casteleyn. 2022. <span>“Using Mobile Devices as Scientific Measurement Instruments: Reliable Android Task Scheduling.”</span> <em>Pervasive and Mobile Computing</em> 81: 101550. https://doi.org/<a href="https://doi.org/10.1016/j.pmcj.2022.101550">https://doi.org/10.1016/j.pmcj.2022.101550</a>.
+</div>
+<div id="ref-lang2016" class="csl-entry" role="listitem">
+Lang, James M. 2016. <em>Small Teaching</em>. Jossey-Bass. <a href="https://www.jamesmlang.com/books">https://www.jamesmlang.com/books</a>.
+</div>
+<div id="ref-martin2002" class="csl-entry" role="listitem">
+Martin, Robert. 2002. <em>Agile Software Development: Principles, Patterns, and Practices</em>. Pearson Education, 1st edition. <a href="http://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html">http://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html</a>.
+</div>
+<div id="ref-martin2014" class="csl-entry" role="listitem">
+———. 2014. <span>“SOLID Principles of Objetc Oriented &amp; AGILE Design (Video).”</span> <a href="https://www.youtube.com/watch?v=TMuno5RZNeE">https://www.youtube.com/watch?v=TMuno5RZNeE</a>.
+</div>
+<div id="ref-martin2017" class="csl-entry" role="listitem">
+———. 2018. <em>Clean Architecture: A Craftsman’s Guide to Software Structure and Design</em>. Pearson Education, 1st edition. <a href="https://www.pearson.com/us/higher-education/program/Martin-Clean-Architecture-A-Craftsman-s-Guide-to-Software-Structure-and-Design/PGM333762.html">https://www.pearson.com/us/higher-education/program/Martin-Clean-Architecture-A-Craftsman-s-Guide-to-Software-Structure-and-Design/PGM333762.html</a>.
+</div>
+<div id="ref-matey2024jenui" class="csl-entry" role="listitem">
+Matey-Sanz, Miguel, Carlos Granell-Canut, and Ramón A. Mollineda Cárdenas. 2024. <span>“Estrategias de Control y Seguimiento Activo de Proyectos de Desarrollo de Software.”</span> In <em>Actas de Las Jornadas Sobre Enseñanza Universitaria de La Informática (JENUI)</em>, 9:165–72. AENUI. <a href="https://aenui.org/actas/pdf/JENUI_2024_021.pdf">https://aenui.org/actas/pdf/JENUI_2024_021.pdf</a>.
+</div>
+<div id="ref-matey2025jenui" class="csl-entry" role="listitem">
+———. 2025. <span>“La IA Generativa Como Acompañante En El Ciclo de Vida Del Software.”</span> In <em>Actas de Las Jornadas Sobre Enseñanza Universitaria de La Informática (JENUI)</em>, 10:45–53. AENUI. <a href="https://aenui.org/actas/fichas/JENUI_2025_005.html">https://aenui.org/actas/fichas/JENUI_2025_005.html</a>.
+</div>
+<div id="ref-milington2022" class="csl-entry" role="listitem">
+Milignton, Sam. 2022. <span>“A Solid Guide to SOLID: Principles.”</span> <a href="https://www.baeldung.com/solid-principles">https://www.baeldung.com/solid-principles</a>.
+</div>
+<div id="ref-nogueira2022" class="csl-entry" role="listitem">
+Nogueira, Ricardo. 2022. <span>“4+2 Layered Architecture: Separation of Concerns Applied to Software Architecture.”</span> Medium. <a href="https://medium.com/@nogueira.cc/4-2-layered-architecture-313329082989">https://medium.com/@nogueira.cc/4-2-layered-architecture-313329082989</a>.
+</div>
+<div id="ref-normand2021" class="csl-entry" role="listitem">
+Normand, Eric. 2021. <em>Grokking Simplicity: Taming Complex Software with Functional Thinking</em>. Manning.
+</div>
+<div id="ref-oloruntoba2020" class="csl-entry" role="listitem">
+Oloruntoba, Samuel. 2021. <span>“SOLID: The First 5 Principles of Object Oriented Design.”</span> <a href="https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design">https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design</a>.
+</div>
+<div id="ref-richards2020" class="csl-entry" role="listitem">
+Richards, Mark, and Neal Ford. 2020. <em>Fundamentals of Software Architecture, 1st Edition</em>. O’Really Media Inc.
+</div>
+<div id="ref-rodriguez2021" class="csl-entry" role="listitem">
+Rodríguez Pupo, Luis Enrique. 2021. <span>“An Analytics Platform for Integrating and Computing Spatio-Temporal Metrics in Location-Aware Games.”</span> PhD thesis, Universitat Jaume I. Escola de Doctorat. <a href="https://doi.org/10.6035/14101.2021.357562">https://doi.org/10.6035/14101.2021.357562</a>.
+</div>
+<div id="ref-shvets2020" class="csl-entry" role="listitem">
+Shvets, Alexander. 2019. <em>Sumérgete En Los Patrones de Diseño</em>. Refactoring.Guru. <a href="https://refactoring.guru/design-patterns/book">https://refactoring.guru/design-patterns/book</a>.
+</div>
+<div id="ref-soysal2022" class="csl-entry" role="listitem">
+Soysal, Berke. 2022. <span>“SOLID Principles with (Almost) Real-Life Examples in Java.”</span> <a href="https://betterprogramming.pub/solid-principles-with-almost-real-life-examples-in-java-b292a4e2c18b">https://betterprogramming.pub/solid-principles-with-almost-real-life-examples-in-java-b292a4e2c18b</a>.
+</div>
+<div id="ref-tai2022" class="csl-entry" role="listitem">
+Tai, Alan. 2022. <span>“What It Takes to Become a Software Architect.”</span> Medium. <a href="https://ayltai.medium.com/what-it-takes-to-become-a-software-architect-fa7788962c8c">https://ayltai.medium.com/what-it-takes-to-become-a-software-architect-fa7788962c8c</a>.
+</div>
+<div id="ref-wickham2019" class="csl-entry" role="listitem">
+Wickham, Hadley. 2019. <em>Advanced r</em>. CRC Press; 2nd Edition. <a href="https://adv-r.hadley.nz/index.html">https://adv-r.hadley.nz/index.html</a>.
+</div>
+<div id="ref-wilson2019" class="csl-entry" role="listitem">
+Wilson, Greg. 2019. <em>Teaching Tech Together: How to Make Lessons That Work and Build a Teaching Community Around It</em>. Taylor &amp; Francis. <a href="https://teachtogether.tech/">https://teachtogether.tech/</a>.
+</div>
+<div id="ref-xie2019" class="csl-entry" role="listitem">
+Xie, Y. 2019. <em>Bookdown: Authoring Books and Technical Documents with <span>R</span> Markdown</em>. CRC Press. <a href="https://bookdown.org/yihui/bookdown/">https://bookdown.org/yihui/bookdown/</a>.
+</div>
+<div id="ref-xie2018" class="csl-entry" role="listitem">
+Xie, Y, JJ Allaire, and G Grolemund. 2018. <em>R Markdown: The Definitive Guide</em>. CRC Press. <a href="https://bookdown.org/yihui/rmarkdown/">https://bookdown.org/yihui/rmarkdown/</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

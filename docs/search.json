@@ -1,7 +1,7 @@
 [
   {
-    "objectID": "materials/04-referencias.html",
-    "href": "materials/04-referencias.html",
+    "objectID": "materials/03-referencias.html",
+    "href": "materials/03-referencias.html",
     "title": "Referencias",
     "section": "",
     "text": "References\n\nAltman, Sara, Bill Behrman, and Hadley Wickham. 2021. Functional Programming. online. https://dcl-prog.stanford.edu/.\n\n\nBass, Len, Paul Clements, and Rick Kazman. 2021. Software Architecture in Practice. Addison-Wesley Professional; 4th Edition.\n\n\nBrown, Neil C. C., Felienne F. J. Hermans, and Lauren E. Margulieux. 2023. “10 Things Software Developers Should Learn about Learning.” Communications of the ACM 67 (1): 78–87. https://doi.org/10.1145/3584859.\n\n\nFowler, Martin. 2003. “Who Needs an Architect?” IEEE Software 20 (5): 2–4. https://doi.org/10.1109/MS.2003.1231144.\n\n\nFrancis, Gibin. 2022. “Software Architect — Journey.” Medium. https://gibinfrancis.medium.com/software-architect-journey-ca9398546608.\n\n\nFreeman, Eric, Elisabeth Robson, Bert Bates, and Kathy Sierra. 2004. Head First Design Patterns, 1st Edition. O’Really Media Inc.\n\n\nGamma, Erich, Richard Helm, Ralph Johnson, and John Vlissides. 1994. Design Patterns: Elements of Reusable Object-Oriented Software. Addison-Wesley.\n\n\nGonzález-Pérez, Alberto, Ramón A. Mollineda Cárdenas, and David Llorens Piñana. 2021. “Aprendizaje Basado En Metodologías Ágiles Centradas En Diseño Evolutivo Dirigido Por Pruebas de Aceptación.” In Actas de Las XXVII Jornadas Sobre La Enseñanza Universitaria de La Informática (JENUI), 6:99–106. AENUI. https://aenui.org/actas/pdf/JENUI_2021_012.pdf.\n\n\nGonzález-Pérez, Alberto, Carlos Granell-Canut, and Ramón A. Mollineda Cárdenas. 2022. “Coordinación de Asignaturas Dirigida Por Un Proyecto de Desarrollo Ágil Con Evaluación Unificada.” In Actas de Las Jornadas Sobre Enseñanza Universitaria de La Informática (JENUI), 7:127–34. AENUI. https://aenui.org/actas/pdf/JENUI_2022_017.pdf.\n\n\nGonzález-Pérez, Alberto, and Miguel Matey-Sanz. 2021. “nativescript-task-dispatcher: A Reactive Android-Based Task Scheduler and Dispatcher.” Zenodo. https://doi.org/10.5281/zenodo.4530103.\n\n\nGonzález-Pérez, Alberto, Miguel Matey-Sanz, Carlos Granell, and Sven Casteleyn. 2022. “Using Mobile Devices as Scientific Measurement Instruments: Reliable Android Task Scheduling.” Pervasive and Mobile Computing 81: 101550. https://doi.org/https://doi.org/10.1016/j.pmcj.2022.101550.\n\n\nLang, James M. 2016. Small Teaching. Jossey-Bass. https://www.jamesmlang.com/books.\n\n\nMartin, Robert. 2002. Agile Software Development: Principles, Patterns, and Practices. Pearson Education, 1st edition. http://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html.\n\n\n———. 2014. “SOLID Principles of Objetc Oriented & AGILE Design (Video).” https://www.youtube.com/watch?v=TMuno5RZNeE.\n\n\n———. 2018. Clean Architecture: A Craftsman’s Guide to Software Structure and Design. Pearson Education, 1st edition. https://www.pearson.com/us/higher-education/program/Martin-Clean-Architecture-A-Craftsman-s-Guide-to-Software-Structure-and-Design/PGM333762.html.\n\n\nMatey-Sanz, Miguel, Carlos Granell-Canut, and Ramón A. Mollineda Cárdenas. 2024. “Estrategias de Control y Seguimiento Activo de Proyectos de Desarrollo de Software.” In Actas de Las Jornadas Sobre Enseñanza Universitaria de La Informática (JENUI), 9:165–72. AENUI. https://aenui.org/actas/pdf/JENUI_2024_021.pdf.\n\n\n———. 2025. “La IA Generativa Como Acompañante En El Ciclo de Vida Del Software.” In Actas de Las Jornadas Sobre Enseñanza Universitaria de La Informática (JENUI), 10:45–53. AENUI. https://aenui.org/actas/fichas/JENUI_2025_005.html.\n\n\nMilignton, Sam. 2022. “A Solid Guide to SOLID: Principles.” https://www.baeldung.com/solid-principles.\n\n\nNogueira, Ricardo. 2022. “4+2 Layered Architecture: Separation of Concerns Applied to Software Architecture.” Medium. https://medium.com/@nogueira.cc/4-2-layered-architecture-313329082989.\n\n\nNormand, Eric. 2021. Grokking Simplicity: Taming Complex Software with Functional Thinking. Manning.\n\n\nOloruntoba, Samuel. 2021. “SOLID: The First 5 Principles of Object Oriented Design.” https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design.\n\n\nRichards, Mark, and Neal Ford. 2020. Fundamentals of Software Architecture, 1st Edition. O’Really Media Inc.\n\n\nRodríguez Pupo, Luis Enrique. 2021. “An Analytics Platform for Integrating and Computing Spatio-Temporal Metrics in Location-Aware Games.” PhD thesis, Universitat Jaume I. Escola de Doctorat. https://doi.org/10.6035/14101.2021.357562.\n\n\nShvets, Alexander. 2019. Sumérgete En Los Patrones de Diseño. Refactoring.Guru. https://refactoring.guru/design-patterns/book.\n\n\nSoysal, Berke. 2022. “SOLID Principles with (Almost) Real-Life Examples in Java.” https://betterprogramming.pub/solid-principles-with-almost-real-life-examples-in-java-b292a4e2c18b.\n\n\nTai, Alan. 2022. “What It Takes to Become a Software Architect.” Medium. https://ayltai.medium.com/what-it-takes-to-become-a-software-architect-fa7788962c8c.\n\n\nWickham, Hadley. 2019. Advanced r. CRC Press; 2nd Edition. https://adv-r.hadley.nz/index.html.\n\n\nWilson, Greg. 2019. Teaching Tech Together: How to Make Lessons That Work and Build a Teaching Community Around It. Taylor & Francis. https://teachtogether.tech/.\n\n\nXie, Y. 2019. Bookdown: Authoring Books and Technical Documents with R Markdown. CRC Press. https://bookdown.org/yihui/bookdown/.\n\n\nXie, Y, JJ Allaire, and G Grolemund. 2018. R Markdown: The Definitive Guide. CRC Press. https://bookdown.org/yihui/rmarkdown/.",
@@ -11,237 +11,178 @@
     ]
   },
   {
-    "objectID": "materials/02-solid-slides.html#section",
-    "href": "materials/02-solid-slides.html#section",
-    "title": "Principios SOLID",
+    "objectID": "materials/02-patrones.html",
+    "href": "materials/02-patrones.html",
+    "title": "Introducción a los patrones de diseño de software",
     "section": "",
-    "text": "¿Cómo reconocemos que el aire es de baja calidad? ¿Que síntomas observamos?\nPollution collage element, torn paper design Image credits: Rawpixel.com"
-  },
-  {
-    "objectID": "materials/02-solid-slides.html#section-1",
-    "href": "materials/02-solid-slides.html#section-1",
-    "title": "Principios SOLID",
-    "section": "",
-    "text": "¿Cómo reconocemos código “malo”? ¿Nos sirven los principios básicos d ediseño de software? ¿Qué pasa cuando se modifica código malo? Síntomas del código malo: dependencia, fragilidad, rigidez, falta de reutilización o inmobilidad, viscosidad, etc.\nSoftware developer programming code on black background Image credits: Rawpixel.com"
-  },
-  {
-    "objectID": "materials/02-solid-slides.html#concepto",
-    "href": "materials/02-solid-slides.html#concepto",
-    "title": "Principios SOLID",
-    "section": "Concepto",
-    "text": "Concepto\n5 principios SOLID del diseño OO para que el software sea más comprensible, flexible y fácil de mantener (Martin 2002)\n\n\nreducen la complejidad de sistemas/aplicaciones a medida que crecen y\nprevienen los síntomas del código malo\n\n\n\nReceta contra los síntomas del código malo.\nPrincipios SOLID introducidos por Robert Martin (Uncle Bob) en 2000: Design Principles and Design Patterns\nSOLID: The First 5 Principles of Object Oriented Design | DigitalOcean"
-  },
-  {
-    "objectID": "materials/02-solid-slides.html#srp",
-    "href": "materials/02-solid-slides.html#srp",
-    "title": "Principios SOLID",
-    "section": "Single Responsability Principle - Principo de responsabilidad única",
-    "text": "Single Responsability Principle - Principo de responsabilidad única\nUna clase debería tener un único propósito\nUna clase debería tener una (buena) razón para cambiar.\nSi hace demasiadas tareas, hay que modificarla cada vez que una de esas tareas cambia.\n\n✔️ Principo de diseño encapsulación\n\nJunta las tareas que cambian por las mismas razones en una clase\nSepara las tareas que cambian por diferentes razones en clases distintas\n\n✔️ Reduce complejidad, fácil entender qué hace una clase\n\nReduce complejidad: Si una clase hace demasiadas cosas, hay que cambiarla cada vez que una de esas cosas cambia\nEasier to understand: Classes, software components and microservices that have only one responsibility are much easier to explain, understand and implement than the ones that provide a solution for everything. This reduces the number of bugs, improves your development speed, and makes your life as a software developer a lot easier\nhttps://stackify.com/solid-design-principles/"
-  },
-  {
-    "objectID": "materials/02-solid-slides.html#ocp",
-    "href": "materials/02-solid-slides.html#ocp",
-    "title": "Principios SOLID",
-    "section": "Open/Closed Principle - Principio de abierto/cerrado",
-    "text": "Open/Closed Principle - Principio de abierto/cerrado\n✔️ Cerrada a la modificación: Si una clase está desarrollada, probada y revisada, no la reescribas para añadir nuevas funcionalidades\n✔️ Abierta a la extensión: Si necesitas nuevo comportamiento, crea subclases\n✔️ Principo de diseño interfaz\n\nExtender una clase permite añadir nuevo comportamiento sin descomponer clientes existentes de la clase original\n\n\nAbierta y cerrada no son mutuamente excluyentes. Una clase puede estar al mismo tiempo abierta (para la extensión) y cerrada (para la modificación). El código simple es tanto abierto y cerrado.\nOf course, the one exception to the rule is when fixing bugs in existing code.\nhttps://stackify.com/solid-design-open-closed-principle/"
-  },
-  {
-    "objectID": "materials/02-solid-slides.html#lsp",
-    "href": "materials/02-solid-slides.html#lsp",
-    "title": "Principios SOLID",
-    "section": "Liskov Substitution Principle - Principio de sustitución de Liskov",
-    "text": "Liskov Substitution Principle - Principio de sustitución de Liskov\nSi la clase A es un subtipo de la clase B, deberíamos poder reemplazar B por A sin descomponer el comportamiento de nuestro programa\n\n✔️ Principio de diseño del sentido común (OO)\n\nEscribe abstracciones claras y bien definidas\nSubclases deben ser compatibles con (el comportamiento) de la clase padre\nAl sobrescribir un método, extiende el comportamiento base en lugar de sustituirlo por algo totalmente distinto\n\n\nEscribe abstracciones nítidas, claras y bien definidas.\nhttps://stackify.com/solid-design-liskov-substitution-principle/"
-  },
-  {
-    "objectID": "materials/02-solid-slides.html#isp",
-    "href": "materials/02-solid-slides.html#isp",
-    "title": "Principios SOLID",
-    "section": "Interface Segregation Principle - Principio de segregación de la interfaz",
-    "text": "Interface Segregation Principle - Principio de segregación de la interfaz\nInterfaces que fuerzan a las clases (implementaciones) a que implementen métodos que no necesitan\n\n✔️ No forzar a clientes (implementaciones) que dependan de métodos que no utilizan\n✔️ Si una interfaz es demasiado grande, sepárala en varias interfaces más pequeñas, para que sean funcionalmente más concisas\n\nhttps://stackify.com/interface-segregation-principle/"
-  },
-  {
-    "objectID": "materials/02-solid-slides.html#dip",
-    "href": "materials/02-solid-slides.html#dip",
-    "title": "Principios SOLID",
-    "section": "Dependency Inversion Principle - Principio de inversión de dependencia",
-    "text": "Dependency Inversion Principle - Principio de inversión de dependencia\nClases de alto nivel (componentes, servicios) no deben depender de clases de bajo nivel.\n\n✔️ Desacoplamiento de módulos/componentes/clases\n✔️ Principo de diseño composición\n\nComponentes/entidades deben depender de abstracciones, no de implementaciones\n\n\nClases de bajo nivel implementan operaciones básicas como transferir datos por la red.\nClases de alto nivel contienen la lógica de negocio que indican a las clases de bajo nivel que hagan algo.\nEl uso del operador new crea dependencias fuertes entre clases.\nhttps://stackify.com/dependency-inversion-principle/"
-  },
-  {
-    "objectID": "materials/02-solid-slides.html#solid-con-ejemplos",
-    "href": "materials/02-solid-slides.html#solid-con-ejemplos",
-    "title": "Principios SOLID",
-    "section": "SOLID con ejemplos",
-    "text": "SOLID con ejemplos\n\n(Milignton 2022): Ejemplos claros y sencillos en Java para entender los principios SOLID.\n(Oloruntoba 2021) y (Soysal 2022) proporcionan más ejemplos.\n(Martin 2014): Charla de Robert Martín (creador principios) in Yale"
-  },
-  {
-    "objectID": "materials/02-patrones-slides.html#section",
-    "href": "materials/02-patrones-slides.html#section",
-    "title": "Patrones de Diseño",
-    "section": "",
-    "text": "Los patrones de diseño son…"
-  },
-  {
-    "objectID": "materials/02-patrones-slides.html#section-1",
-    "href": "materials/02-patrones-slides.html#section-1",
-    "title": "Patrones de Diseño",
-    "section": "",
-    "text": "…soluciones habituales y bien testeadas a problemas recurrentes en diseño de software"
-  },
-  {
-    "objectID": "materials/02-patrones-slides.html#gang-of-four",
-    "href": "materials/02-patrones-slides.html#gang-of-four",
-    "title": "Patrones de Diseño",
-    "section": "Gang of Four",
-    "text": "Gang of Four\nLos cuatro autores del libro Design Patterns: Elements of Reusable Object-Oriented Software (Gamma et al. 1994)\n\n\nTodos eran desarrolladores de aplicaciones e interfaces gráficas.\nDescubrieron patrones que surgían en sus soluciones de diseño.\nFormalizaron esos patrones en este libro clásico."
-  },
-  {
-    "objectID": "materials/02-patrones-slides.html#patrones-creacionales",
-    "href": "materials/02-patrones-slides.html#patrones-creacionales",
-    "title": "Patrones de Diseño",
-    "section": "Patrones creacionales",
-    "text": "Patrones creacionales\nProporcionan mecanismos de creación de objetos\n\n\nFactory Method\nAbstract Factory\nBuilder\nPrototype\nSingleton"
-  },
-  {
-    "objectID": "materials/02-patrones-slides.html#patrones-estructurales",
-    "href": "materials/02-patrones-slides.html#patrones-estructurales",
-    "title": "Patrones de Diseño",
-    "section": "Patrones estructurales",
-    "text": "Patrones estructurales\nExplican cómo ensamblar (o como están conectados) objetos y clases en estructuras más grandes (como maridaje culinario).\n\n\n\n\nAdapter\nBridge\nComposite\nDecorator\n\n\n\n\n\nFacade\nFlyweight\nProxy\n\n\n\n\nAnalogía para los estructural es el maridaje culinario: juntamos ingrediantes de distintas formas para formar nuevas relacionas, ya sea combinando ingredientes físicalmente (ensalada) o sin combinación (queso y vino)"
-  },
-  {
-    "objectID": "materials/02-patrones-slides.html#patrones-de-comportamiento",
-    "href": "materials/02-patrones-slides.html#patrones-de-comportamiento",
-    "title": "Patrones de Diseño",
-    "section": "Patrones de comportamiento",
-    "text": "Patrones de comportamiento\nSe encargan de una comunicación efectiva y la asignación de responsabilidades entre objetos (como equipo F1).\n\n\n\n\nChain of responsability\nCommand\nIterator\nMediator\nMemento\n\n\n\n\n\nObserver\nState\nStrategy\nTemplate Method\nVisitor\n\n\n\n\nUna analogía para los patrones de comportamiento es el pit/box en una carrera de F1: cada miembro del equipo tiene un rol asignado, pero juntos consiguen un objetivo común"
-  },
-  {
-    "objectID": "materials/02-patrones-slides.html#encapsula",
-    "href": "materials/02-patrones-slides.html#encapsula",
-    "title": "Patrones de Diseño",
-    "section": "",
-    "text": "⭐Encapsula lo que varía y sepáralo de lo que no cambia\n\n\n➡️Minimiza/aisla el efecto provocado por los cambios\n\n\nStones Wooden Table Group of Objects Concept Image credits: Rawpixel.com"
-  },
-  {
-    "objectID": "materials/02-patrones-slides.html#interfaz",
-    "href": "materials/02-patrones-slides.html#interfaz",
-    "title": "Patrones de Diseño",
-    "section": "",
-    "text": "⭐Programa a una interfaz, no a una implementación\n\n\n➡️Diseño flexible depende de abstracciones, no de clases concretas"
-  },
-  {
-    "objectID": "materials/02-patrones-slides.html#composicion",
-    "href": "materials/02-patrones-slides.html#composicion",
-    "title": "Patrones de Diseño",
-    "section": "",
-    "text": "⭐Favorece la composición sobre la herencia\n\n\n➡️HAS-A puede ser mejor que IS-A\n\n\nLa herencia es probablemente la forma más obvia de reutilizar código entre clases. Tienes dos clases con el mismo código. Creas una clase base común para estas dos clases y colocas dentro el código similar. Fet!\nSin embargo, la herencia establece despendencias fuertes entre clases. Puedes hacer más débil una dependencia haciendo que tu código dependa de interfaces o clases abstractas en lugar de clases concretas.\nEn vez de heredar un comportamiento, un objeto obtiene un comportamiento cuando se compone con un objeto de ese comportamiento."
-  },
-  {
-    "objectID": "materials/02-patrones-slides.html#puedo-trabajar-como-programador-sin-conocer-un-solo-patrón-de-diseño",
-    "href": "materials/02-patrones-slides.html#puedo-trabajar-como-programador-sin-conocer-un-solo-patrón-de-diseño",
-    "title": "Patrones de Diseño",
-    "section": "¿Puedo trabajar como programador sin conocer un solo patrón de diseño?",
-    "text": "¿Puedo trabajar como programador sin conocer un solo patrón de diseño?\n\nSí, puedes. A lo mejor los has utilizado sin saberlo."
-  },
-  {
-    "objectID": "materials/02-patrones-slides.html#por-qué-tengo-que-dedicar-tiempo-a-aprenderlos",
-    "href": "materials/02-patrones-slides.html#por-qué-tengo-que-dedicar-tiempo-a-aprenderlos",
-    "title": "Patrones de Diseño",
-    "section": "¿Por qué tengo que dedicar tiempo a aprenderlos?",
-    "text": "¿Por qué tengo que dedicar tiempo a aprenderlos?\n\nComo ingenieros/as, proporcionamos soluciones a problemas. Cuanto mayor sea tu juego de herramientas para resolver problemas, mejor ingeniero/a serás."
-  },
-  {
-    "objectID": "materials/02-patrones-slides.html#si-aplico-un-patrón-copio-su-código-y-listo",
-    "href": "materials/02-patrones-slides.html#si-aplico-un-patrón-copio-su-código-y-listo",
-    "title": "Patrones de Diseño",
-    "section": "Si aplico un patrón, ¿copio su código y listo?",
-    "text": "Si aplico un patrón, ¿copio su código y listo?\n\nLos patrones no son código ya preparado como funciones o algoritmos. Son soluciones conceptuales para resolver un problema frecuente de diseño en tu código.\n\n\n\n\n\n\nRecuerda\n\n\npatrón ≌ plano\n\n\n\n\nUn algoritmo == una receta de cocina: ambos cuentan con pasos claros para alcanzar una meta.\nUn patrón == un plano, ya que puedes observar el resultado y sus funciones, pero el orden exacto de la implementación depende de ti."
-  },
-  {
-    "objectID": "materials/02-patrones-slides.html#y-entonces-cómo-implemento-un-patrón-en-mi-código",
-    "href": "materials/02-patrones-slides.html#y-entonces-cómo-implemento-un-patrón-en-mi-código",
-    "title": "Patrones de Diseño",
-    "section": "Y entonces, ¿cómo implemento un patrón en mi código?",
-    "text": "Y entonces, ¿cómo implemento un patrón en mi código?\n\nSigue los detalles de la solución conceptual del patrón pero la implementación depende de ti, para que encaje con las restricciones y objetivo de tu código."
-  },
-  {
-    "objectID": "materials/02-patrones-slides.html#lo-más-difícil-entonces-es-implementar-una-versión-personalizada-del-patrón",
-    "href": "materials/02-patrones-slides.html#lo-más-difícil-entonces-es-implementar-una-versión-personalizada-del-patrón",
-    "title": "Patrones de Diseño",
-    "section": "¿Lo más difícil entonces es implementar una versión personalizada del patrón?",
-    "text": "¿Lo más difícil entonces es implementar una versión personalizada del patrón?\n\nNo, esa es la parte “mecánica” (sin despreciar la dificultad que atañe escribir código)."
-  },
-  {
-    "objectID": "materials/02-patrones-slides.html#qué-es-lo-más-difícil",
-    "href": "materials/02-patrones-slides.html#qué-es-lo-más-difícil",
-    "title": "Patrones de Diseño",
-    "section": "¿Qué es lo más difícil? 😨",
-    "text": "¿Qué es lo más difícil? 😨\n\nReconocer si un patrón en particular es o no es la solución a tu problema particular"
-  },
-  {
-    "objectID": "materials/02-patrones-slides.html#y-además-los-patrones-definen-un-vocabulario-común-para-comunicarte-con-tu-equipo",
-    "href": "materials/02-patrones-slides.html#y-además-los-patrones-definen-un-vocabulario-común-para-comunicarte-con-tu-equipo",
-    "title": "Patrones de Diseño",
-    "section": "Y además los patrones definen un vocabulario común para comunicarte con tu equipo",
-    "text": "Y además los patrones definen un vocabulario común para comunicarte con tu equipo\n\n“Sí, claro, utiliza un singleton para eso que quieres hacer”."
-  },
-  {
-    "objectID": "materials/02-patrones-slides.html#resumen",
-    "href": "materials/02-patrones-slides.html#resumen",
-    "title": "Patrones de Diseño",
-    "section": "Resumen",
-    "text": "Resumen\n\n\nSoluciones conceptuales muy probadas y testeadas\nProporcionan un vocabulario común\nNo es siempre obvio qué patrón utilizar\nNo abuses de los patrones si existe una solución más sencilla"
-  },
-  {
-    "objectID": "materials/02-patrones-creacionales.html",
-    "href": "materials/02-patrones-creacionales.html",
-    "title": "Patrones creacionales",
-    "section": "",
-    "text": "Definición\n\n\n\nLos patrones creacionales proporcionan mecanismos de creación de objetos que incrementan la flexibilidad y la reutilización del código.\n\n\nLas secciones relativas a los patrones creacionales se dividen en los mismos apartados, tal como reflejan los mapas conceptuales:\n\nPropósito (aim)\nProblema (what problem does it solve?)\nSolución (conceptual solution)\nVentajas e inconvenientes (pros and cons)\n\nDejamos para la argumentación y discusión en clase la tarea de conectar y relacionar los distintos patrones creacionales entre ellos, y sugerir situaciones o aplicaciones donde se puedan aplicar.\n\nSingleton\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\nasegura que una clase tenga una única instancia y proporciona un punto de acceso global a dicha instancia\n… porque quiero centralizar o controlar el acceso a un recurso.\n\n\n\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Singleton en Java (refactoring.guru)\n\n\n\n\nFactory method\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\ncrea objetos sin especificar las clases concretas\n… porque quiero crear objetos especializados en tiempo de ejecución\n\n\n\n\n\n\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nFactory objects & Factory Method pattern\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Factory Method en Java (refactoring.guru)\n\n\n\n\nAbstract Factory\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\nagrupa factorias relacionadas temáticamente sin especificar las clases concretas\n… porque quiero crear familias de objetos especializados en tiempo de ejecución\n\n\n\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Abstract Factory en Java (refactoring.guru)\n\n\n\n\nBuilder\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\ncrea objetos complejos separando el proceso de construcción de su representación\n… porque tengo clases constructuras con muchos argumentos\n\n\n\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Builder en Java (refactoring.guru)\n\n\n\n\nPrototype\n\n\nRelaciones entre patrones\n\n\nAplicabilidad",
+    "text": "El término patrón tiene multiples significados según el contexto: patrones numéricos, patrones geométricos, etc.\nEn informática, el área de aprendizaje automático utiliza técnicas computacionales avanzadas para buscar y encontrar patrones en los datos.\nEn ingeniería de software, descubrirás a lo largo de tu carrera profesional que los mismos problemas de diseño se repiten una y otra vez. Hay muchas formas de abordar estos problemas, pero en la industria se prefieren las soluciones más flexibles y/o reutilizables. Ahí es donde los patrones de diseño entran en juego.\n\n\n\n\n\n\nDefinición\n\n\n\nUn patrón de diseño es una solución práctica y bien testeada a problemas recurrentes.\n\n\nLos patrones de diseño nos permiten (re)utilizar soluciones previamente testeadas que los desarrolladores han utilizado a menudo para resolver un problema de diseño de software, de modo que no es necesario crear una nueva solución a partir de los principios básicos de la programación orientada a objetos. Los patrones de diseño no son solo soluciones teóricas o académicas, son soluciones reales que se utilizan en la industria del software.\nUna buena analogía para entender el concepto de patrones de diseño es equipararlos a planos predefinidos que se pueden personalizar para resolver un problema de diseño recurrente en tu código.\n\n\n\n\n\n\n\nSource: Rawpixel.com\nEs importante dejar claro que los patrones de diseño no son únicamente código (clases, interfaces, etc) que se añaden a tu proyecto de software. En cambio, los patrones de diseño son como soluciones conceptuales: soluciones que se pueden aplicar (y personalizar) en el diseño de software en contextos concretos para mejorar la estructura, modularidad, abstracción, flexibilidad y reutilización de tu código. Por ese motivo, en este curso describimos los patrones de diseño de forma conceptual (clases, interfaces, relaciones, etc.); obviamente, podrás implementar patrones de diseño en el contexto del proyecto común.\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nPatrones de Diseño: Concepto, catálogo y principios",
     "crumbs": [
       "Patrones de diseño",
-      "Patrones creacionales"
+      "Introducción a los patrones de diseño de software"
     ]
   },
   {
-    "objectID": "materials/01-arquitectura.html",
-    "href": "materials/01-arquitectura.html",
-    "title": "Fundamentos de arquitectura",
+    "objectID": "materials/02-patrones.html#qué-es-un-patrón",
+    "href": "materials/02-patrones.html#qué-es-un-patrón",
+    "title": "Introducción a los patrones de diseño de software",
     "section": "",
-    "text": "El término arquitectura tiene multiples significados según el contexto. En ingeniería de software/sistemas, ¿de qué hablamos cuando decimos arquitectura software?\n\n¿Nos referimos a una aplicación móvil?\n¿A una librería software?\n¿O una aplicación empresarial?\n¿Tal vez una red de sensores desplegados en la ciudad junto a un centro (hub) de datos?\n¿O simplemente el conjunto de diagramas de clases u casos de usos asociados?\n¿Una red de data centers como los que posee Meta, Google, etc.?\n\nEs importante definir, o al menos caracterizar, qué implica el diseño y desarrollo de una arquitectura de software. Especialmente si queremos dedicarnos al desarrollo de arquitecturas de software en el futuro. ¿Lo has pensado como profesión?\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nConceptos, roles y compromisos",
+    "text": "El término patrón tiene multiples significados según el contexto: patrones numéricos, patrones geométricos, etc.\nEn informática, el área de aprendizaje automático utiliza técnicas computacionales avanzadas para buscar y encontrar patrones en los datos.\nEn ingeniería de software, descubrirás a lo largo de tu carrera profesional que los mismos problemas de diseño se repiten una y otra vez. Hay muchas formas de abordar estos problemas, pero en la industria se prefieren las soluciones más flexibles y/o reutilizables. Ahí es donde los patrones de diseño entran en juego.\n\n\n\n\n\n\nDefinición\n\n\n\nUn patrón de diseño es una solución práctica y bien testeada a problemas recurrentes.\n\n\nLos patrones de diseño nos permiten (re)utilizar soluciones previamente testeadas que los desarrolladores han utilizado a menudo para resolver un problema de diseño de software, de modo que no es necesario crear una nueva solución a partir de los principios básicos de la programación orientada a objetos. Los patrones de diseño no son solo soluciones teóricas o académicas, son soluciones reales que se utilizan en la industria del software.\nUna buena analogía para entender el concepto de patrones de diseño es equipararlos a planos predefinidos que se pueden personalizar para resolver un problema de diseño recurrente en tu código.\n\n\n\n\n\n\n\nSource: Rawpixel.com\nEs importante dejar claro que los patrones de diseño no son únicamente código (clases, interfaces, etc) que se añaden a tu proyecto de software. En cambio, los patrones de diseño son como soluciones conceptuales: soluciones que se pueden aplicar (y personalizar) en el diseño de software en contextos concretos para mejorar la estructura, modularidad, abstracción, flexibilidad y reutilización de tu código. Por ese motivo, en este curso describimos los patrones de diseño de forma conceptual (clases, interfaces, relaciones, etc.); obviamente, podrás implementar patrones de diseño en el contexto del proyecto común.\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nPatrones de Diseño: Concepto, catálogo y principios",
     "crumbs": [
-      "Fundamentos de arquitectura"
+      "Patrones de diseño",
+      "Introducción a los patrones de diseño de software"
     ]
   },
   {
-    "objectID": "materials/01-arquitectura.html#qué-es-una-arquitectura-de-software",
-    "href": "materials/01-arquitectura.html#qué-es-una-arquitectura-de-software",
-    "title": "Fundamentos de arquitectura",
+    "objectID": "materials/02-patrones.html#principios-solid",
+    "href": "materials/02-patrones.html#principios-solid",
+    "title": "Introducción a los patrones de diseño de software",
+    "section": "Principios SOLID",
+    "text": "Principios SOLID\nVarios autores (Michael Feathers, Robert C. Martin, etc. ) han contribuido a definir una serie de principios (recomendaciones, etc.) para que desarrolladores/programadores generen software de calidad. ¿Y qué entendemos por software de calidad? Software que sea\n\nrobusto y estable,\nreutilizable y mantenible,\nescalable, es decir, que se pueda modificar/extender fácilmente.\n\nSin embargo, que el código resultante sea robusto y estable por un lado, pero que también sea fácilmente extendible y reutilizable por otro, parece que sean objetivos contradictorios. En ingeniería y desarrollo de software, tenemos dos conceptos que tenemos que balancear adecuadamente al mismo tiempo para producir software de calidad.\n\n\n\n\n\n\nDefinición\n\n\n\nAcoplamiento indica el grado de interdependencia entre entidades/componentes de software (ya sean clases, métodos, módulos, funciones, etc. ). Si dos componentes son completamente independientes entre sí, entonces están desacoplados.\n\n\nComo ingenieros/as de software, queremos que el software generado tenga un bajo acomplamiento.\n\n\n\n\n\n\nDefinición\n\n\n\nCohesión indica el grado en que entidades/componentes de software independientes se combinan para alcanzar un resultado (comporatemeionte, etc) mejor que si trabajaran por separado. Se refiere a la forma en que podemos agrupar componentes de software.\n\n\nComo ingenieros/as de software, queremos que el software generado tenga una alta cohesión.\nLos principios SOLID están estrechamente relacionados con el uso de patrones de diseño, ya que las solucciones conceptuales de muchos patrones apuntan directamente a uno o varios de los principios SOLID. Luego, cuando utilizas patrones de diseño de forma eficaz, estarás poniendo en práctica alguno de los principios SOLID para que el código resultante sea de la mejor calidad posible.\nLos 5 principios SOLID de diseño de aplicaciones de software son:\n\nS – Single Responsibility Principle (SRP)\nO – Open/Closed Principle (OCP)\nL – Liskov Substitution Principle (LSP)\nI – Interface Segregation Principle (ISP)\nD – Dependency Inversion Principle (DIP)\n\n\n\n\n\n\n\nSlide Deck\n\n\n\n\n\nPrincipios SOLID",
+    "crumbs": [
+      "Patrones de diseño",
+      "Introducción a los patrones de diseño de software"
+    ]
+  },
+  {
+    "objectID": "materials/02-patrones-estructurales.html",
+    "href": "materials/02-patrones-estructurales.html",
+    "title": "Patrones estructurales",
     "section": "",
-    "text": "El término arquitectura tiene multiples significados según el contexto. En ingeniería de software/sistemas, ¿de qué hablamos cuando decimos arquitectura software?\n\n¿Nos referimos a una aplicación móvil?\n¿A una librería software?\n¿O una aplicación empresarial?\n¿Tal vez una red de sensores desplegados en la ciudad junto a un centro (hub) de datos?\n¿O simplemente el conjunto de diagramas de clases u casos de usos asociados?\n¿Una red de data centers como los que posee Meta, Google, etc.?\n\nEs importante definir, o al menos caracterizar, qué implica el diseño y desarrollo de una arquitectura de software. Especialmente si queremos dedicarnos al desarrollo de arquitecturas de software en el futuro. ¿Lo has pensado como profesión?\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nConceptos, roles y compromisos",
+    "text": "Definición\n\n\n\nLos patrones estrcuturales se refieren a la organización del código, es decir, a la composición de clases y objetos. Definen formas de componer y organizar clases para obtener fines estructurales (nuevas funciones, etc.).\n\n\nLas secciones relativas a los patrones estructurales se dividen en los mismos apartados, tal como reflejan los mapas conceptuales:\n\nPropósito (aim)\nProblema (what problem does it solve?)\nSolución (conceptual solution)\nVentajas e inconvenientes (pros and cons)\n\nDejamos para la argumentación y discusión en clase la tarea de conectar y relacionar los distintos patrones estructurales entre ellos, y sugerir situaciones o aplicaciones donde se puedan aplicar.\n\nAdapter\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\npermite que clases con interfaces incompatibles colaboren…\n… porque quiero utilizar cierta clase o librería externa\n\n\n\n\n\n\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nAdapter pattern\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Adapter en Java (refactoring.guru)\n\n\n\n\nBridge\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\nsepara subsistemas…\n… porque puede que un subsistema cambie completamente sin que eso afecte al otro subsistema\n\n\n\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Bridge en Java (refactoring.guru)\n\n\n\n\nFacade\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\nsimplifica la interfaz a un subsistema…\n… porque quiero ocultar la complejidad de un subsistema a los clientes\n\n\n\n\n\n\n\n\n\n\n\n\nSlide Deck\n\n\n\nFacade pattern\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Facade en Java (refactoring.guru)\n\n\n\n\nProxy\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\nsuplanta recursos reales de forma transparente al cliente…\n… porque quiero implantar restricciones de acceso o reducir coste\n\n\n\n\n\n\n\n\n\n\n\n\nSlide Deck\n\n\n\nProxy pattern\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Proxy en Java (refactoring.guru)\n\n\n\n\nComposite\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\nmanipula jerarquías de objetos somo si fueran de solo un tipo …\n… porque quiero tratar objetos individuales y compuestos de la misma forma\n\n\n\n\n\n\n\n\n\n\n\n\nSlide Deck\n\n\n\nComposite pattern\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Composite en Java (refactoring.guru)\n\n\n\n\nDecorator\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\nañade nuevas reponsabilidades/comportamientos a objetos\n… porque quiero añadirlos, quitarlos, o agregarlos dinámicamente\n\n\n\n\n\n\n\n\n\n\n\n\nSlide Deck\n\n\n\nDecorator pattern\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Decorator en Java (refactoring.guru)\n\n\n\n\nFlyweight\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\nconstruye objetos ligeros que comparten estado…\n… porque tengo problemas de memoria al tener muchos objetos similares\n\n\n\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Flyweight en Java (refactoring.guru)\n\n\n\n\nRelaciones entre patrones\n\n\nAplicabilidad",
     "crumbs": [
-      "Fundamentos de arquitectura"
+      "Patrones de diseño",
+      "Patrones estructurales"
     ]
   },
   {
-    "objectID": "materials/01-arquitectura.html#características-de-la-arquitectura-de-software",
-    "href": "materials/01-arquitectura.html#características-de-la-arquitectura-de-software",
-    "title": "Fundamentos de arquitectura",
-    "section": "Características de la arquitectura de software",
-    "text": "Características de la arquitectura de software\nSegún (Richards and Ford 2020), las dimensiones de una arquitecrua de software son:\n\nEstructura o estilo\nCaracterísticas\nDecisiones o reglas\nPrincipios de diseño\n\nAhora nos cetramos en la dimensión de características de la arquitectura, donde se engloban todos aquellos criterios y requisitos no funcionales (nombres terminaddos en idad, como seguridad, fiabilidad, escalabildiad, etc.) para garantizar el correcto y deseable funcionamiento de un sistema.\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nCaracterísticas",
+    "objectID": "materials/02-patrones-comportamiento.html",
+    "href": "materials/02-patrones-comportamiento.html",
+    "title": "Patrones de comportamiento",
+    "section": "",
+    "text": "Definición\n\n\n\nLos patrones de comportamiento se refieren a la comunicación entre objetos en tiempo de ejecución, es decir, los roles que asumen dichos objetos y cómo interactúan entre sí.\n\n\nLas secciones relativas a los patrones de comportamiento se dividen en los mismos apartados, tal como reflejan los mapas conceptuales:\n\nPropósito (aim)\nProblema (what problem does it solve?)\nSolución (conceptual solution)\nVentajas e inconvenientes (pros and cons)\n\nDejamos para la argumentación y discusión en clase la tarea de conectar y relacionar los distintos patrones de comportamiento entre ellos, y sugerir situaciones o aplicaciones donde se puedan aplicar.\n\nCommand\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\npermite encapsular una petición como un objeto …\n… porque quiero tener mayor control sobre el ciclo de vida de dicha petición\n\n\n\n\n\n\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nCommand pattern\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Command en Java (refactoring.guru)\n\n\n\n\nMemento\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\npermite capturar el estado de un objeto …\n… porque quiero restaurar ese estado en cualquier momento\n\n\n\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Memento en Java (refactoring.guru)\n\n\n\n\nChain of responsibility\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\npermite distribuir responsabilidad de una petición …\n… porque tengo un número variable de objetos que pueden gestionarla\n\n\n\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Chain of Reponsibility en Java (refactoring.guru)\n\n\n\n\nTemplate method\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\ndefine un algoritmo a nivel de superclase…\n… pero permite que subclases sobrescriban partes del algoritmo\n\n\n\n\n\n\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nTemplate Method pattern\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Template Method en Java (refactoring.guru)\n\n\n\n\n\nObserver\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\ndefine un mecanismo de suscripción sobre un objeto (sujeto) …\n… porque hay un número variable de objetos observadores que dependen de sus cambios\n\n\n\n\n\n\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nObserver pattern\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Observer en Java (refactoring.guru)\n\n\n\n\nStrategy\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\nPermite seleccionar un método/algoritmo en tiempo real …\n… porque hay diferentes algoritmos intercambiables para resolver un mismo problema\n\n\n\n\n\n\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nStrategy pattern\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Strategy en Java (refactoring.guru)\n\n\n\n\nMediator\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\nEncapsula comunicaciones/interacciones entre objetos …\n… para evitar dependencias directas y código spaguetti\n\n\n\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Mediator en Java (refactoring.guru)\n\n\n\n\nIterator\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\nProporciona un mecanismo de acceso a los elementos de una colección sin exponer su estructura/representación interna…\n… porque tengo diferentes tipos de colecciones y quiero acceder de forma homegénea a todas\n\n\n\n\n\n\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nIterator pattern\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Iterator en Java (refactoring.guru)\n\n\n\n\nState\n\n\nInterpreter\n\n\nRelaciones entre patrones\n\n\nAplicabilidad",
     "crumbs": [
-      "Fundamentos de arquitectura"
+      "Patrones de diseño",
+      "Patrones de comportamiento"
     ]
   },
   {
-    "objectID": "materials/01-arquitectura.html#estructura-de-la-arquitectura-de-software",
-    "href": "materials/01-arquitectura.html#estructura-de-la-arquitectura-de-software",
+    "objectID": "materials/01-arquitectura-estilos.html#recuerda-dimensiones-arquitectura",
+    "href": "materials/01-arquitectura-estilos.html#recuerda-dimensiones-arquitectura",
     "title": "Fundamentos de arquitectura",
-    "section": "Estructura de la arquitectura de software",
-    "text": "Estructura de la arquitectura de software\nLa estructura o el estilo es otra dimensión de la arquitectura de software (Richards and Ford 2020). Quizás mucho más conocida y popular, y precisamente por eso, existe la errónea tendencia a reducir la arquitectura de software únicamente a la dimensión de la estructura o el estilo. Hablamos de arquitectura en capas o basada en microservicios, como si la estructura en sí misma abarcara toda la complejidad de una arquitectura de software.\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nEstilos de arquitectura",
-    "crumbs": [
-      "Fundamentos de arquitectura"
-    ]
+    "section": "Recuerda: Dimensiones arquitectura",
+    "text": "Recuerda: Dimensiones arquitectura\n\n\nImage credits: (Richards and Ford 2020)"
+  },
+  {
+    "objectID": "materials/01-arquitectura-estilos.html#definición",
+    "href": "materials/01-arquitectura-estilos.html#definición",
+    "title": "Fundamentos de arquitectura",
+    "section": "Definición",
+    "text": "Definición\n➡️ como se estructura o organiza todo el backend e interfaces de usuario de un sistema"
+  },
+  {
+    "objectID": "materials/01-arquitectura-estilos.html#libro-de-referencia",
+    "href": "materials/01-arquitectura-estilos.html#libro-de-referencia",
+    "title": "Fundamentos de arquitectura",
+    "section": "Libro de referencia",
+    "text": "Libro de referencia\n\n\n\n\nBy Mark Richards and Neal Ford\nJanuary 2020\nCapítulos 9 -18 (Richards and Ford 2020)"
+  },
+  {
+    "objectID": "materials/01-arquitectura-estilos.html#monolíticos-vs-distribuidos",
+    "href": "materials/01-arquitectura-estilos.html#monolíticos-vs-distribuidos",
+    "title": "Fundamentos de arquitectura",
+    "section": "Monolíticos vs Distribuidos",
+    "text": "Monolíticos vs Distribuidos\n\n\nMonolíticos\n\nPor capas\nPipeline\nMicrokernel\n\n\n\n\nDistribuidos\n\nEvent-driven\nService-oriented\nMicroservicios\n\n\n\n\nMonolítico: una única unidad de código Distribuídos: varias unidades/nodos conectadas con protocolos de acceso remoto"
+  },
+  {
+    "objectID": "materials/01-arquitectura-estilos.html#monolíticos---capas",
+    "href": "materials/01-arquitectura-estilos.html#monolíticos---capas",
+    "title": "Fundamentos de arquitectura",
+    "section": "Monolíticos - Capas",
+    "text": "Monolíticos - Capas\n\n\nSeparation of concerns: Componentes en una capa solo saben de la lógica de esa capa.\nLayers of isolation: Modificaciones en una capa no afectan a otras.\nPartición por criterios tecnológicos: Capa agrupa componentes por función técnica (presentacion, etc) en vez de por dominio (e.g., clientes).\n\n\nSeparation of concerns: Componentes en una capa solo saben de la lógica de esa capa. At the class level, not to mix abstraction levels in the same method; not to mix responsibilities in the same method and class.\nLayers of isolation: Modificaciones en una capa no afectan a otras; capas independientes/desacopladas\nPartición por criterios tecnólogicos: Componentes, en lugar de agruparse por dominio (como clientes), se agrupan por su función técnica en la arquitectura (presentación, negocio)\nImage credits: (Richards and Ford 2020)"
+  },
+  {
+    "objectID": "materials/01-arquitectura-estilos.html#monolíticos---capas-ii",
+    "href": "materials/01-arquitectura-estilos.html#monolíticos---capas-ii",
+    "title": "Fundamentos de arquitectura",
+    "section": "Monolíticos - Capas (II)",
+    "text": "Monolíticos - Capas (II)\nLayered architectures are consequence of applying separation of concerns to application structure (Nogueira 2022)\n\nModel View Controller (MVC)\nModel View Presenter (MVP)\nHexagonal Architecture\nOnion Architecture\nClean Architecture"
+  },
+  {
+    "objectID": "materials/01-arquitectura-estilos.html#monolíticos---pipeline",
+    "href": "materials/01-arquitectura-estilos.html#monolíticos---pipeline",
+    "title": "Fundamentos de arquitectura",
+    "section": "Monolíticos - Pipeline",
+    "text": "Monolíticos - Pipeline\n\nPipes & filters transforman documentos/datos/mensajes de forma concatenada.\n\nImage credits: (Richards and Ford 2020)"
+  },
+  {
+    "objectID": "materials/01-arquitectura-estilos.html#monolíticos---pipeline-ii",
+    "href": "materials/01-arquitectura-estilos.html#monolíticos---pipeline-ii",
+    "title": "Fundamentos de arquitectura",
+    "section": "Monolíticos - Pipeline (II)",
+    "text": "Monolíticos - Pipeline (II)\n\n\nCon respecto a la gestión de datos de entrada en streaming, el primer componente en el paso 5 es un sistema de mensajería basado en Apache Kafka, que asegura la recepción, buffer y ruteo del flujo de datos en streaming. (Rodríguez Pupo 2021)\n\n\nherramientas ETL (extract, transform, and load)\ncadenas de productor-consumidor de datos\ndatos en streaming (telemetría, sensores, etc)\n\n\n“The first component is the (Kafka) messaging system, which ensures reliable handling (receive, buffer, route) of the incoming flow of data. The message system emits and exchanges messages, which contain the metrics data payload, through a Kafka topic to which connector applications can subscribe in order to handle/process the data stream. One such connector application is the self-developed persistence component, which connects to the (Kafka) messaging system and persists the messages in the (Cassandra) database” (pg 89)\nImage credits: (Rodríguez Pupo 2021)"
+  },
+  {
+    "objectID": "materials/01-arquitectura-estilos.html#monolíticos---microkernel",
+    "href": "materials/01-arquitectura-estilos.html#monolíticos---microkernel",
+    "title": "Fundamentos de arquitectura",
+    "section": "Monolíticos - Microkernel",
+    "text": "Monolíticos - Microkernel\n\n\nCore system es extensible\nPlug-ins independientes, encapsulados y autónomos (standalone), que se comunican con el sistema via interfaces (REST, pipe, …)\nEjemplos: VSCode extensions, Jira plugins, Chrome extensions, Firefox add-ons, Alexa skills, etc.\n\n\nCore system es la funcional mínima/básica del sistema. Funcionalidad mínima requirida para el sistema básico.\nPlug-ins son componentes independientes, standalone que proporcionan funcionalidad adicional.\nImage credits: (Richards and Ford 2020)"
+  },
+  {
+    "objectID": "materials/01-arquitectura-estilos.html#monolíticos---microkernel-ii",
+    "href": "materials/01-arquitectura-estilos.html#monolíticos---microkernel-ii",
+    "title": "Fundamentos de arquitectura",
+    "section": "Monolíticos - Microkernel (II)",
+    "text": "Monolíticos - Microkernel (II)\n\nCombinación de estilos: Core System se organiza como layered architectura\n\nImage credits: (Richards and Ford 2020)"
+  },
+  {
+    "objectID": "materials/01-arquitectura-estilos.html#distribuidos---event-driven",
+    "href": "materials/01-arquitectura-estilos.html#distribuidos---event-driven",
+    "title": "Fundamentos de arquitectura",
+    "section": "Distribuidos - Event-driven",
+    "text": "Distribuidos - Event-driven\n\n\nEvento: tipo de mensaje que describe lo que está occuriendo en el sistema\nProductor emite un evento. Consumidor se suscribe a eventos\nEDA promueve comunicacion asíncronoa de mensajes (cola eventos) en vez de request/response\nEDA como microservicios basados en eventos asíncronos\n\n\nThe core purpose of event-driven architecture (EDA) is that a software design pattern which has a system of loosely coupled microservices which is used event based, both the many events are being published by system and these events are being consumed their subscribes. It is an architecture for distributed systems, that promotes asynchronous message communication rather than a request/response pattern.\n\nProductor emite un evento/tópico.\nConsumidor se suscribe a eventos/tópicos.\nCola de eventos facilita mensajes asíncronos.\n\nImage credits: (Richards and Ford 2020)"
+  },
+  {
+    "objectID": "materials/01-arquitectura-estilos.html#distribuidos---event-driven-ii",
+    "href": "materials/01-arquitectura-estilos.html#distribuidos---event-driven-ii",
+    "title": "Fundamentos de arquitectura",
+    "section": "Distribuidos - Event-driven (II)",
+    "text": "Distribuidos - Event-driven (II)\nBroker topology\n\n\nNo hay coordinación centralizada de eventos;\nBroadcasting eventos a multiples suscriptores\nImage credits: (Richards and Ford 2020)"
+  },
+  {
+    "objectID": "materials/01-arquitectura-estilos.html#distribuidos---event-driven-iii",
+    "href": "materials/01-arquitectura-estilos.html#distribuidos---event-driven-iii",
+    "title": "Fundamentos de arquitectura",
+    "section": "Distribuidos - Event-driven (III)",
+    "text": "Distribuidos - Event-driven (III)\nMediator topology\n\n\nImage credits: (Richards and Ford 2020)"
+  },
+  {
+    "objectID": "materials/01-arquitectura-estilos.html#distribuidos---event-driven-ejemplos",
+    "href": "materials/01-arquitectura-estilos.html#distribuidos---event-driven-ejemplos",
+    "title": "Fundamentos de arquitectura",
+    "section": "Distribuidos - Event-driven (ejemplos)",
+    "text": "Distribuidos - Event-driven (ejemplos)\n\nNativeScript Task Dispatcher], desarrollado por Alberto González y Miguel Matey (González-Pérez and Matey-Sanz 2021), (González-Pérez et al. 2022)\nGrafo de tareas cuyas dependencias se gestionan mediante eventos (smartphone) - Ejemplo"
+  },
+  {
+    "objectID": "materials/01-arquitectura-estilos.html#distribuidos---service-oriented",
+    "href": "materials/01-arquitectura-estilos.html#distribuidos---service-oriented",
+    "title": "Fundamentos de arquitectura",
+    "section": "Distribuidos - Service-oriented",
+    "text": "Distribuidos - Service-oriented\n\n\nImage credits: (Richards and Ford 2020)"
+  },
+  {
+    "objectID": "materials/01-arquitectura-estilos.html#distribuidos---microservicios",
+    "href": "materials/01-arquitectura-estilos.html#distribuidos---microservicios",
+    "title": "Fundamentos de arquitectura",
+    "section": "Distribuidos - Microservicios",
+    "text": "Distribuidos - Microservicios\n\n\nDomain-driven design (vs partición técnica)\nBounded context: cada microservicio modela un dominio o workflow\nData isolation: cada microservicio tiene su base de datos y esquema de datos\nDespligue con virtualización/contenerización\n\n\nImage credits: (Richards and Ford 2020)"
+  },
+  {
+    "objectID": "materials/01-arquitectura-estilos.html#distribuidos---microservicios-ejemplo",
+    "href": "materials/01-arquitectura-estilos.html#distribuidos---microservicios-ejemplo",
+    "title": "Fundamentos de arquitectura",
+    "section": "Distribuidos - Microservicios (ejemplo)",
+    "text": "Distribuidos - Microservicios (ejemplo)\nMicroservicios en Akka para computación de métricas basadas en mensajes (Rodríguez Pupo 2021)"
   },
   {
     "objectID": "materials/01-arquitectura-caracteristicas.html#requisitos",
@@ -545,80 +486,236 @@
     "text": "The Second Law of Software Architecture\n\nWhy is more important than how.\n\n\nMark Richards & Neal Ford (Richards and Ford 2020)\n\n\n\n➡️ Essential for well-informed decisions.\n➡️ Understanding the rationale behind our choices allows us to reevaluate them when needed and retain valuable knowledge."
   },
   {
-    "objectID": "materials/02-patrones-comportamiento.html",
-    "href": "materials/02-patrones-comportamiento.html",
-    "title": "Patrones de comportamiento",
+    "objectID": "materials/01-arquitectura.html",
+    "href": "materials/01-arquitectura.html",
+    "title": "Fundamentos de arquitectura",
     "section": "",
-    "text": "Definición\n\n\n\nLos patrones de comportamiento se refieren a la comunicación entre objetos en tiempo de ejecución, es decir, los roles que asumen dichos objetos y cómo interactúan entre sí.\n\n\nLas secciones relativas a los patrones de comportamiento se dividen en los mismos apartados, tal como reflejan los mapas conceptuales:\n\nPropósito (aim)\nProblema (what problem does it solve?)\nSolución (conceptual solution)\nVentajas e inconvenientes (pros and cons)\n\nDejamos para la argumentación y discusión en clase la tarea de conectar y relacionar los distintos patrones de comportamiento entre ellos, y sugerir situaciones o aplicaciones donde se puedan aplicar.\n\nCommand\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\npermite encapsular una petición como un objeto …\n… porque quiero tener mayor control sobre el ciclo de vida de dicha petición\n\n\n\n\n\n\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nCommand pattern\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Command en Java (refactoring.guru)\n\n\n\n\nMemento\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\npermite capturar el estado de un objeto …\n… porque quiero restaurar ese estado en cualquier momento\n\n\n\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Memento en Java (refactoring.guru)\n\n\n\n\nChain of responsibility\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\npermite distribuir responsabilidad de una petición …\n… porque tengo un número variable de objetos que pueden gestionarla\n\n\n\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Chain of Reponsibility en Java (refactoring.guru)\n\n\n\n\nTemplate method\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\ndefine un algoritmo a nivel de superclase…\n… pero permite que subclases sobrescriban partes del algoritmo\n\n\n\n\n\n\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nTemplate Method pattern\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Template Method en Java (refactoring.guru)\n\n\n\n\n\nObserver\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\ndefine un mecanismo de suscripción sobre un objeto (sujeto) …\n… porque hay un número variable de objetos observadores que dependen de sus cambios\n\n\n\n\n\n\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nObserver pattern\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Observer en Java (refactoring.guru)\n\n\n\n\nStrategy\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\nPermite seleccionar un método/algoritmo en tiempo real …\n… porque hay diferentes algoritmos intercambiables para resolver un mismo problema\n\n\n\n\n\n\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nStrategy pattern\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Strategy en Java (refactoring.guru)\n\n\n\n\nMediator\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\nEncapsula comunicaciones/interacciones entre objetos …\n… para evitar dependencias directas y código spaguetti\n\n\n\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Mediator en Java (refactoring.guru)\n\n\n\n\nIterator\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\nProporciona un mecanismo de acceso a los elementos de una colección sin exponer su estructura/representación interna…\n… porque tengo diferentes tipos de colecciones y quiero acceder de forma homegénea a todas\n\n\n\n\n\n\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nIterator pattern\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Iterator en Java (refactoring.guru)\n\n\n\n\nState\n\n\nInterpreter\n\n\nRelaciones entre patrones\n\n\nAplicabilidad",
+    "text": "El término arquitectura tiene multiples significados según el contexto. En ingeniería de software/sistemas, ¿de qué hablamos cuando decimos arquitectura software?\n\n¿Nos referimos a una aplicación móvil?\n¿A una librería software?\n¿O una aplicación empresarial?\n¿Tal vez una red de sensores desplegados en la ciudad junto a un centro (hub) de datos?\n¿O simplemente el conjunto de diagramas de clases u casos de usos asociados?\n¿Una red de data centers como los que posee Meta, Google, etc.?\n\nEs importante definir, o al menos caracterizar, qué implica el diseño y desarrollo de una arquitectura de software. Especialmente si queremos dedicarnos al desarrollo de arquitecturas de software en el futuro. ¿Lo has pensado como profesión?\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nConceptos, roles y compromisos",
+    "crumbs": [
+      "Fundamentos de arquitectura"
+    ]
+  },
+  {
+    "objectID": "materials/01-arquitectura.html#qué-es-una-arquitectura-de-software",
+    "href": "materials/01-arquitectura.html#qué-es-una-arquitectura-de-software",
+    "title": "Fundamentos de arquitectura",
+    "section": "",
+    "text": "El término arquitectura tiene multiples significados según el contexto. En ingeniería de software/sistemas, ¿de qué hablamos cuando decimos arquitectura software?\n\n¿Nos referimos a una aplicación móvil?\n¿A una librería software?\n¿O una aplicación empresarial?\n¿Tal vez una red de sensores desplegados en la ciudad junto a un centro (hub) de datos?\n¿O simplemente el conjunto de diagramas de clases u casos de usos asociados?\n¿Una red de data centers como los que posee Meta, Google, etc.?\n\nEs importante definir, o al menos caracterizar, qué implica el diseño y desarrollo de una arquitectura de software. Especialmente si queremos dedicarnos al desarrollo de arquitecturas de software en el futuro. ¿Lo has pensado como profesión?\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nConceptos, roles y compromisos",
+    "crumbs": [
+      "Fundamentos de arquitectura"
+    ]
+  },
+  {
+    "objectID": "materials/01-arquitectura.html#características-de-la-arquitectura-de-software",
+    "href": "materials/01-arquitectura.html#características-de-la-arquitectura-de-software",
+    "title": "Fundamentos de arquitectura",
+    "section": "Características de la arquitectura de software",
+    "text": "Características de la arquitectura de software\nSegún (Richards and Ford 2020), las dimensiones de una arquitecrua de software son:\n\nEstructura o estilo\nCaracterísticas\nDecisiones o reglas\nPrincipios de diseño\n\nAhora nos cetramos en la dimensión de características de la arquitectura, donde se engloban todos aquellos criterios y requisitos no funcionales (nombres terminaddos en idad, como seguridad, fiabilidad, escalabildiad, etc.) para garantizar el correcto y deseable funcionamiento de un sistema.\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nCaracterísticas",
+    "crumbs": [
+      "Fundamentos de arquitectura"
+    ]
+  },
+  {
+    "objectID": "materials/01-arquitectura.html#estructura-de-la-arquitectura-de-software",
+    "href": "materials/01-arquitectura.html#estructura-de-la-arquitectura-de-software",
+    "title": "Fundamentos de arquitectura",
+    "section": "Estructura de la arquitectura de software",
+    "text": "Estructura de la arquitectura de software\nLa estructura o el estilo es otra dimensión de la arquitectura de software (Richards and Ford 2020). Quizás mucho más conocida y popular, y precisamente por eso, existe la errónea tendencia a reducir la arquitectura de software únicamente a la dimensión de la estructura o el estilo. Hablamos de arquitectura en capas o basada en microservicios, como si la estructura en sí misma abarcara toda la complejidad de una arquitectura de software.\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nEstilos de arquitectura",
+    "crumbs": [
+      "Fundamentos de arquitectura"
+    ]
+  },
+  {
+    "objectID": "materials/02-patrones-creacionales.html",
+    "href": "materials/02-patrones-creacionales.html",
+    "title": "Patrones creacionales",
+    "section": "",
+    "text": "Definición\n\n\n\nLos patrones creacionales proporcionan mecanismos de creación de objetos que incrementan la flexibilidad y la reutilización del código.\n\n\nLas secciones relativas a los patrones creacionales se dividen en los mismos apartados, tal como reflejan los mapas conceptuales:\n\nPropósito (aim)\nProblema (what problem does it solve?)\nSolución (conceptual solution)\nVentajas e inconvenientes (pros and cons)\n\nDejamos para la argumentación y discusión en clase la tarea de conectar y relacionar los distintos patrones creacionales entre ellos, y sugerir situaciones o aplicaciones donde se puedan aplicar.\n\nSingleton\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\nasegura que una clase tenga una única instancia y proporciona un punto de acceso global a dicha instancia\n… porque quiero centralizar o controlar el acceso a un recurso.\n\n\n\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Singleton en Java (refactoring.guru)\n\n\n\n\nFactory method\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\ncrea objetos sin especificar las clases concretas\n… porque quiero crear objetos especializados en tiempo de ejecución\n\n\n\n\n\n\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nFactory objects & Factory Method pattern\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Factory Method en Java (refactoring.guru)\n\n\n\n\nAbstract Factory\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\nagrupa factorias relacionadas temáticamente sin especificar las clases concretas\n… porque quiero crear familias de objetos especializados en tiempo de ejecución\n\n\n\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Abstract Factory en Java (refactoring.guru)\n\n\n\n\nBuilder\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\ncrea objetos complejos separando el proceso de construcción de su representación\n… porque tengo clases constructuras con muchos argumentos\n\n\n\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Builder en Java (refactoring.guru)\n\n\n\n\nPrototype\n\n\nRelaciones entre patrones\n\n\nAplicabilidad",
     "crumbs": [
       "Patrones de diseño",
-      "Patrones de comportamiento"
+      "Patrones creacionales"
     ]
   },
   {
-    "objectID": "materials/02-patrones-estructurales.html",
-    "href": "materials/02-patrones-estructurales.html",
-    "title": "Patrones estructurales",
+    "objectID": "materials/02-patrones-slides.html#section",
+    "href": "materials/02-patrones-slides.html#section",
+    "title": "Patrones de Diseño",
     "section": "",
-    "text": "Definición\n\n\n\nLos patrones estrcuturales se refieren a la organización del código, es decir, a la composición de clases y objetos. Definen formas de componer y organizar clases para obtener fines estructurales (nuevas funciones, etc.).\n\n\nLas secciones relativas a los patrones estructurales se dividen en los mismos apartados, tal como reflejan los mapas conceptuales:\n\nPropósito (aim)\nProblema (what problem does it solve?)\nSolución (conceptual solution)\nVentajas e inconvenientes (pros and cons)\n\nDejamos para la argumentación y discusión en clase la tarea de conectar y relacionar los distintos patrones estructurales entre ellos, y sugerir situaciones o aplicaciones donde se puedan aplicar.\n\nAdapter\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\npermite que clases con interfaces incompatibles colaboren…\n… porque quiero utilizar cierta clase o librería externa\n\n\n\n\n\n\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nAdapter pattern\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Adapter en Java (refactoring.guru)\n\n\n\n\nBridge\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\nsepara subsistemas…\n… porque puede que un subsistema cambie completamente sin que eso afecte al otro subsistema\n\n\n\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Bridge en Java (refactoring.guru)\n\n\n\n\nFacade\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\nsimplifica la interfaz a un subsistema…\n… porque quiero ocultar la complejidad de un subsistema a los clientes\n\n\n\n\n\n\n\n\n\n\n\n\nSlide Deck\n\n\n\nFacade pattern\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Facade en Java (refactoring.guru)\n\n\n\n\nProxy\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\nsuplanta recursos reales de forma transparente al cliente…\n… porque quiero implantar restricciones de acceso o reducir coste\n\n\n\n\n\n\n\n\n\n\n\n\nSlide Deck\n\n\n\nProxy pattern\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Proxy en Java (refactoring.guru)\n\n\n\n\nComposite\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\nmanipula jerarquías de objetos somo si fueran de solo un tipo …\n… porque quiero tratar objetos individuales y compuestos de la misma forma\n\n\n\n\n\n\n\n\n\n\n\n\nSlide Deck\n\n\n\nComposite pattern\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Composite en Java (refactoring.guru)\n\n\n\n\nDecorator\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\nañade nuevas reponsabilidades/comportamientos a objetos\n… porque quiero añadirlos, quitarlos, o agregarlos dinámicamente\n\n\n\n\n\n\n\n\n\n\n\n\nSlide Deck\n\n\n\nDecorator pattern\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Decorator en Java (refactoring.guru)\n\n\n\n\nFlyweight\n\n\n\n\n\n\n\nPropósito\nProblema\n\n\n\n\nconstruye objetos ligeros que comparten estado…\n… porque tengo problemas de memoria al tener muchos objetos similares\n\n\n\n\n\n\n\n\n\n\n\n\nImplementación\n\n\n\n Flyweight en Java (refactoring.guru)\n\n\n\n\nRelaciones entre patrones\n\n\nAplicabilidad",
-    "crumbs": [
-      "Patrones de diseño",
-      "Patrones estructurales"
-    ]
+    "text": "Los patrones de diseño son…"
   },
   {
-    "objectID": "materials/02-patrones.html",
-    "href": "materials/02-patrones.html",
-    "title": "Introducción a los patrones de diseño de software",
+    "objectID": "materials/02-patrones-slides.html#section-1",
+    "href": "materials/02-patrones-slides.html#section-1",
+    "title": "Patrones de Diseño",
     "section": "",
-    "text": "El término patrón tiene multiples significados según el contexto: patrones numéricos, patrones geométricos, etc.\nEn informática, el área de aprendizaje automático utiliza técnicas computacionales avanzadas para buscar y encontrar patrones en los datos.\nEn ingeniería de software, descubrirás a lo largo de tu carrera profesional que los mismos problemas de diseño se repiten una y otra vez. Hay muchas formas de abordar estos problemas, pero en la industria se prefieren las soluciones más flexibles y/o reutilizables. Ahí es donde los patrones de diseño entran en juego.\n\n\n\n\n\n\nDefinición\n\n\n\nUn patrón de diseño es una solución práctica y bien testeada a problemas recurrentes.\n\n\nLos patrones de diseño nos permiten (re)utilizar soluciones previamente testeadas que los desarrolladores han utilizado a menudo para resolver un problema de diseño de software, de modo que no es necesario crear una nueva solución a partir de los principios básicos de la programación orientada a objetos. Los patrones de diseño no son solo soluciones teóricas o académicas, son soluciones reales que se utilizan en la industria del software.\nUna buena analogía para entender el concepto de patrones de diseño es equipararlos a planos predefinidos que se pueden personalizar para resolver un problema de diseño recurrente en tu código.\n\n\n\n\n\n\n\nSource: Rawpixel.com\nEs importante dejar claro que los patrones de diseño no son únicamente código (clases, interfaces, etc) que se añaden a tu proyecto de software. En cambio, los patrones de diseño son como soluciones conceptuales: soluciones que se pueden aplicar (y personalizar) en el diseño de software en contextos concretos para mejorar la estructura, modularidad, abstracción, flexibilidad y reutilización de tu código. Por ese motivo, en este curso describimos los patrones de diseño de forma conceptual (clases, interfaces, relaciones, etc.); obviamente, podrás implementar patrones de diseño en el contexto del proyecto común.\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nPatrones de Diseño: Concepto, catálogo y principios",
-    "crumbs": [
-      "Patrones de diseño",
-      "Introducción a los patrones de diseño de software"
-    ]
+    "text": "…soluciones habituales y bien testeadas a problemas recurrentes en diseño de software"
   },
   {
-    "objectID": "materials/02-patrones.html#qué-es-un-patrón",
-    "href": "materials/02-patrones.html#qué-es-un-patrón",
-    "title": "Introducción a los patrones de diseño de software",
+    "objectID": "materials/02-patrones-slides.html#gang-of-four",
+    "href": "materials/02-patrones-slides.html#gang-of-four",
+    "title": "Patrones de Diseño",
+    "section": "Gang of Four",
+    "text": "Gang of Four\nLos cuatro autores del libro Design Patterns: Elements of Reusable Object-Oriented Software (Gamma et al. 1994)\n\n\nTodos eran desarrolladores de aplicaciones e interfaces gráficas.\nDescubrieron patrones que surgían en sus soluciones de diseño.\nFormalizaron esos patrones en este libro clásico."
+  },
+  {
+    "objectID": "materials/02-patrones-slides.html#patrones-creacionales",
+    "href": "materials/02-patrones-slides.html#patrones-creacionales",
+    "title": "Patrones de Diseño",
+    "section": "Patrones creacionales",
+    "text": "Patrones creacionales\nProporcionan mecanismos de creación de objetos\n\n\nFactory Method\nAbstract Factory\nBuilder\nPrototype\nSingleton"
+  },
+  {
+    "objectID": "materials/02-patrones-slides.html#patrones-estructurales",
+    "href": "materials/02-patrones-slides.html#patrones-estructurales",
+    "title": "Patrones de Diseño",
+    "section": "Patrones estructurales",
+    "text": "Patrones estructurales\nExplican cómo ensamblar (o como están conectados) objetos y clases en estructuras más grandes (como maridaje culinario).\n\n\n\n\nAdapter\nBridge\nComposite\nDecorator\n\n\n\n\n\nFacade\nFlyweight\nProxy\n\n\n\n\nAnalogía para los estructural es el maridaje culinario: juntamos ingrediantes de distintas formas para formar nuevas relacionas, ya sea combinando ingredientes físicalmente (ensalada) o sin combinación (queso y vino)"
+  },
+  {
+    "objectID": "materials/02-patrones-slides.html#patrones-de-comportamiento",
+    "href": "materials/02-patrones-slides.html#patrones-de-comportamiento",
+    "title": "Patrones de Diseño",
+    "section": "Patrones de comportamiento",
+    "text": "Patrones de comportamiento\nSe encargan de una comunicación efectiva y la asignación de responsabilidades entre objetos (como equipo F1).\n\n\n\n\nChain of responsability\nCommand\nIterator\nMediator\nMemento\n\n\n\n\n\nObserver\nState\nStrategy\nTemplate Method\nVisitor\n\n\n\n\nUna analogía para los patrones de comportamiento es el pit/box en una carrera de F1: cada miembro del equipo tiene un rol asignado, pero juntos consiguen un objetivo común"
+  },
+  {
+    "objectID": "materials/02-patrones-slides.html#encapsula",
+    "href": "materials/02-patrones-slides.html#encapsula",
+    "title": "Patrones de Diseño",
     "section": "",
-    "text": "El término patrón tiene multiples significados según el contexto: patrones numéricos, patrones geométricos, etc.\nEn informática, el área de aprendizaje automático utiliza técnicas computacionales avanzadas para buscar y encontrar patrones en los datos.\nEn ingeniería de software, descubrirás a lo largo de tu carrera profesional que los mismos problemas de diseño se repiten una y otra vez. Hay muchas formas de abordar estos problemas, pero en la industria se prefieren las soluciones más flexibles y/o reutilizables. Ahí es donde los patrones de diseño entran en juego.\n\n\n\n\n\n\nDefinición\n\n\n\nUn patrón de diseño es una solución práctica y bien testeada a problemas recurrentes.\n\n\nLos patrones de diseño nos permiten (re)utilizar soluciones previamente testeadas que los desarrolladores han utilizado a menudo para resolver un problema de diseño de software, de modo que no es necesario crear una nueva solución a partir de los principios básicos de la programación orientada a objetos. Los patrones de diseño no son solo soluciones teóricas o académicas, son soluciones reales que se utilizan en la industria del software.\nUna buena analogía para entender el concepto de patrones de diseño es equipararlos a planos predefinidos que se pueden personalizar para resolver un problema de diseño recurrente en tu código.\n\n\n\n\n\n\n\nSource: Rawpixel.com\nEs importante dejar claro que los patrones de diseño no son únicamente código (clases, interfaces, etc) que se añaden a tu proyecto de software. En cambio, los patrones de diseño son como soluciones conceptuales: soluciones que se pueden aplicar (y personalizar) en el diseño de software en contextos concretos para mejorar la estructura, modularidad, abstracción, flexibilidad y reutilización de tu código. Por ese motivo, en este curso describimos los patrones de diseño de forma conceptual (clases, interfaces, relaciones, etc.); obviamente, podrás implementar patrones de diseño en el contexto del proyecto común.\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nPatrones de Diseño: Concepto, catálogo y principios",
-    "crumbs": [
-      "Patrones de diseño",
-      "Introducción a los patrones de diseño de software"
-    ]
+    "text": "⭐Encapsula lo que varía y sepáralo de lo que no cambia\n\n\n➡️Minimiza/aisla el efecto provocado por los cambios\n\n\nStones Wooden Table Group of Objects Concept Image credits: Rawpixel.com"
   },
   {
-    "objectID": "materials/02-patrones.html#principios-solid",
-    "href": "materials/02-patrones.html#principios-solid",
-    "title": "Introducción a los patrones de diseño de software",
-    "section": "Principios SOLID",
-    "text": "Principios SOLID\nVarios autores (Michael Feathers, Robert C. Martin, etc. ) han contribuido a definir una serie de principios (recomendaciones, etc.) para que desarrolladores/programadores generen software de calidad. ¿Y qué entendemos por software de calidad? Software que sea\n\nrobusto y estable,\nreutilizable y mantenible,\nescalable, es decir, que se pueda modificar/extender fácilmente.\n\nSin embargo, que el código resultante sea robusto y estable por un lado, pero que también sea fácilmente extendible y reutilizable por otro, parece que sean objetivos contradictorios. En ingeniería y desarrollo de software, tenemos dos conceptos que tenemos que balancear adecuadamente al mismo tiempo para producir software de calidad.\n\n\n\n\n\n\nDefinición\n\n\n\nAcoplamiento indica el grado de interdependencia entre entidades/componentes de software (ya sean clases, métodos, módulos, funciones, etc. ). Si dos componentes son completamente independientes entre sí, entonces están desacoplados.\n\n\nComo ingenieros/as de software, queremos que el software generado tenga un bajo acomplamiento.\n\n\n\n\n\n\nDefinición\n\n\n\nCohesión indica el grado en que entidades/componentes de software independientes se combinan para alcanzar un resultado (comporatemeionte, etc) mejor que si trabajaran por separado. Se refiere a la forma en que podemos agrupar componentes de software.\n\n\nComo ingenieros/as de software, queremos que el software generado tenga una alta cohesión.\nLos principios SOLID están estrechamente relacionados con el uso de patrones de diseño, ya que las solucciones conceptuales de muchos patrones apuntan directamente a uno o varios de los principios SOLID. Luego, cuando utilizas patrones de diseño de forma eficaz, estarás poniendo en práctica alguno de los principios SOLID para que el código resultante sea de la mejor calidad posible.\nLos 5 principios SOLID de diseño de aplicaciones de software son:\n\nS – Single Responsibility Principle (SRP)\nO – Open/Closed Principle (OCP)\nL – Liskov Substitution Principle (LSP)\nI – Interface Segregation Principle (ISP)\nD – Dependency Inversion Principle (DIP)\n\n\n\n\n\n\n\nSlide Deck\n\n\n\n\n\nPrincipios SOLID",
-    "crumbs": [
-      "Patrones de diseño",
-      "Introducción a los patrones de diseño de software"
-    ]
-  },
-  {
-    "objectID": "materials/03-seminario-mvc.html",
-    "href": "materials/03-seminario-mvc.html",
-    "title": "MVC y variantes",
+    "objectID": "materials/02-patrones-slides.html#interfaz",
+    "href": "materials/02-patrones-slides.html#interfaz",
+    "title": "Patrones de Diseño",
     "section": "",
-    "text": "Imagínate que estás en una entrevista de trabajo y el entrevistador de recuros humanos os hace la siguiente pregunta",
-    "crumbs": [
-      "Seminarios",
-      "MVC y variantes"
-    ]
+    "text": "⭐Programa a una interfaz, no a una implementación\n\n\n➡️Diseño flexible depende de abstracciones, no de clases concretas"
   },
   {
-    "objectID": "materials/03-seminario-mvc.html#caso",
-    "href": "materials/03-seminario-mvc.html#caso",
-    "title": "MVC y variantes",
-    "section": "Caso",
-    "text": "Caso\nLas herramientas para lenguajes de programación visual (LPV) normalmente están basadas en el patrón MVC. Algunas herramientas permite crear multiples lengaujes visuales a partir de un mismo código ¿Qué es el Modelo y la Vista en ese tipo de herrramientas?\nOtro tipo de herramientas LPV permiten programar de manera visual utilizando un conjunto de elementos gráficos como sucede en Scratch. En este caso, ¿qué representa el Modelo y qué la Vista?\n\n\n\n\n\n\n\nSlide Deck\n\n\n\n\nMVC y variantes",
-    "crumbs": [
-      "Seminarios",
-      "MVC y variantes"
-    ]
+    "objectID": "materials/02-patrones-slides.html#composicion",
+    "href": "materials/02-patrones-slides.html#composicion",
+    "title": "Patrones de Diseño",
+    "section": "",
+    "text": "⭐Favorece la composición sobre la herencia\n\n\n➡️HAS-A puede ser mejor que IS-A\n\n\nLa herencia es probablemente la forma más obvia de reutilizar código entre clases. Tienes dos clases con el mismo código. Creas una clase base común para estas dos clases y colocas dentro el código similar. Fet!\nSin embargo, la herencia establece despendencias fuertes entre clases. Puedes hacer más débil una dependencia haciendo que tu código dependa de interfaces o clases abstractas en lugar de clases concretas.\nEn vez de heredar un comportamiento, un objeto obtiene un comportamiento cuando se compone con un objeto de ese comportamiento."
+  },
+  {
+    "objectID": "materials/02-patrones-slides.html#puedo-trabajar-como-programador-sin-conocer-un-solo-patrón-de-diseño",
+    "href": "materials/02-patrones-slides.html#puedo-trabajar-como-programador-sin-conocer-un-solo-patrón-de-diseño",
+    "title": "Patrones de Diseño",
+    "section": "¿Puedo trabajar como programador sin conocer un solo patrón de diseño?",
+    "text": "¿Puedo trabajar como programador sin conocer un solo patrón de diseño?\n\nSí, puedes. A lo mejor los has utilizado sin saberlo."
+  },
+  {
+    "objectID": "materials/02-patrones-slides.html#por-qué-tengo-que-dedicar-tiempo-a-aprenderlos",
+    "href": "materials/02-patrones-slides.html#por-qué-tengo-que-dedicar-tiempo-a-aprenderlos",
+    "title": "Patrones de Diseño",
+    "section": "¿Por qué tengo que dedicar tiempo a aprenderlos?",
+    "text": "¿Por qué tengo que dedicar tiempo a aprenderlos?\n\nComo ingenieros/as, proporcionamos soluciones a problemas. Cuanto mayor sea tu juego de herramientas para resolver problemas, mejor ingeniero/a serás."
+  },
+  {
+    "objectID": "materials/02-patrones-slides.html#si-aplico-un-patrón-copio-su-código-y-listo",
+    "href": "materials/02-patrones-slides.html#si-aplico-un-patrón-copio-su-código-y-listo",
+    "title": "Patrones de Diseño",
+    "section": "Si aplico un patrón, ¿copio su código y listo?",
+    "text": "Si aplico un patrón, ¿copio su código y listo?\n\nLos patrones no son código ya preparado como funciones o algoritmos. Son soluciones conceptuales para resolver un problema frecuente de diseño en tu código.\n\n\n\n\n\n\nRecuerda\n\n\npatrón ≌ plano\n\n\n\n\nUn algoritmo == una receta de cocina: ambos cuentan con pasos claros para alcanzar una meta.\nUn patrón == un plano, ya que puedes observar el resultado y sus funciones, pero el orden exacto de la implementación depende de ti."
+  },
+  {
+    "objectID": "materials/02-patrones-slides.html#y-entonces-cómo-implemento-un-patrón-en-mi-código",
+    "href": "materials/02-patrones-slides.html#y-entonces-cómo-implemento-un-patrón-en-mi-código",
+    "title": "Patrones de Diseño",
+    "section": "Y entonces, ¿cómo implemento un patrón en mi código?",
+    "text": "Y entonces, ¿cómo implemento un patrón en mi código?\n\nSigue los detalles de la solución conceptual del patrón pero la implementación depende de ti, para que encaje con las restricciones y objetivo de tu código."
+  },
+  {
+    "objectID": "materials/02-patrones-slides.html#lo-más-difícil-entonces-es-implementar-una-versión-personalizada-del-patrón",
+    "href": "materials/02-patrones-slides.html#lo-más-difícil-entonces-es-implementar-una-versión-personalizada-del-patrón",
+    "title": "Patrones de Diseño",
+    "section": "¿Lo más difícil entonces es implementar una versión personalizada del patrón?",
+    "text": "¿Lo más difícil entonces es implementar una versión personalizada del patrón?\n\nNo, esa es la parte “mecánica” (sin despreciar la dificultad que atañe escribir código)."
+  },
+  {
+    "objectID": "materials/02-patrones-slides.html#qué-es-lo-más-difícil",
+    "href": "materials/02-patrones-slides.html#qué-es-lo-más-difícil",
+    "title": "Patrones de Diseño",
+    "section": "¿Qué es lo más difícil? 😨",
+    "text": "¿Qué es lo más difícil? 😨\n\nReconocer si un patrón en particular es o no es la solución a tu problema particular"
+  },
+  {
+    "objectID": "materials/02-patrones-slides.html#y-además-los-patrones-definen-un-vocabulario-común-para-comunicarte-con-tu-equipo",
+    "href": "materials/02-patrones-slides.html#y-además-los-patrones-definen-un-vocabulario-común-para-comunicarte-con-tu-equipo",
+    "title": "Patrones de Diseño",
+    "section": "Y además los patrones definen un vocabulario común para comunicarte con tu equipo",
+    "text": "Y además los patrones definen un vocabulario común para comunicarte con tu equipo\n\n“Sí, claro, utiliza un singleton para eso que quieres hacer”."
+  },
+  {
+    "objectID": "materials/02-patrones-slides.html#resumen",
+    "href": "materials/02-patrones-slides.html#resumen",
+    "title": "Patrones de Diseño",
+    "section": "Resumen",
+    "text": "Resumen\n\n\nSoluciones conceptuales muy probadas y testeadas\nProporcionan un vocabulario común\nNo es siempre obvio qué patrón utilizar\nNo abuses de los patrones si existe una solución más sencilla"
+  },
+  {
+    "objectID": "materials/02-solid-slides.html#section",
+    "href": "materials/02-solid-slides.html#section",
+    "title": "Principios SOLID",
+    "section": "",
+    "text": "¿Cómo reconocemos que el aire es de baja calidad? ¿Que síntomas observamos?\nPollution collage element, torn paper design Image credits: Rawpixel.com"
+  },
+  {
+    "objectID": "materials/02-solid-slides.html#section-1",
+    "href": "materials/02-solid-slides.html#section-1",
+    "title": "Principios SOLID",
+    "section": "",
+    "text": "¿Cómo reconocemos código “malo”? ¿Nos sirven los principios básicos d ediseño de software? ¿Qué pasa cuando se modifica código malo? Síntomas del código malo: dependencia, fragilidad, rigidez, falta de reutilización o inmobilidad, viscosidad, etc.\nSoftware developer programming code on black background Image credits: Rawpixel.com"
+  },
+  {
+    "objectID": "materials/02-solid-slides.html#concepto",
+    "href": "materials/02-solid-slides.html#concepto",
+    "title": "Principios SOLID",
+    "section": "Concepto",
+    "text": "Concepto\n5 principios SOLID del diseño OO para que el software sea más comprensible, flexible y fácil de mantener (Martin 2002)\n\n\nreducen la complejidad de sistemas/aplicaciones a medida que crecen y\nprevienen los síntomas del código malo\n\n\n\nReceta contra los síntomas del código malo.\nPrincipios SOLID introducidos por Robert Martin (Uncle Bob) en 2000: Design Principles and Design Patterns\nSOLID: The First 5 Principles of Object Oriented Design | DigitalOcean"
+  },
+  {
+    "objectID": "materials/02-solid-slides.html#srp",
+    "href": "materials/02-solid-slides.html#srp",
+    "title": "Principios SOLID",
+    "section": "Single Responsability Principle - Principo de responsabilidad única",
+    "text": "Single Responsability Principle - Principo de responsabilidad única\nUna clase debería tener un único propósito\nUna clase debería tener una (buena) razón para cambiar.\nSi hace demasiadas tareas, hay que modificarla cada vez que una de esas tareas cambia.\n\n✔️ Principo de diseño encapsulación\n\nJunta las tareas que cambian por las mismas razones en una clase\nSepara las tareas que cambian por diferentes razones en clases distintas\n\n✔️ Reduce complejidad, fácil entender qué hace una clase\n\nReduce complejidad: Si una clase hace demasiadas cosas, hay que cambiarla cada vez que una de esas cosas cambia\nEasier to understand: Classes, software components and microservices that have only one responsibility are much easier to explain, understand and implement than the ones that provide a solution for everything. This reduces the number of bugs, improves your development speed, and makes your life as a software developer a lot easier\nhttps://stackify.com/solid-design-principles/"
+  },
+  {
+    "objectID": "materials/02-solid-slides.html#ocp",
+    "href": "materials/02-solid-slides.html#ocp",
+    "title": "Principios SOLID",
+    "section": "Open/Closed Principle - Principio de abierto/cerrado",
+    "text": "Open/Closed Principle - Principio de abierto/cerrado\n✔️ Cerrada a la modificación: Si una clase está desarrollada, probada y revisada, no la reescribas para añadir nuevas funcionalidades\n✔️ Abierta a la extensión: Si necesitas nuevo comportamiento, crea subclases\n✔️ Principo de diseño interfaz\n\nExtender una clase permite añadir nuevo comportamiento sin descomponer clientes existentes de la clase original\n\n\nAbierta y cerrada no son mutuamente excluyentes. Una clase puede estar al mismo tiempo abierta (para la extensión) y cerrada (para la modificación). El código simple es tanto abierto y cerrado.\nOf course, the one exception to the rule is when fixing bugs in existing code.\nhttps://stackify.com/solid-design-open-closed-principle/"
+  },
+  {
+    "objectID": "materials/02-solid-slides.html#lsp",
+    "href": "materials/02-solid-slides.html#lsp",
+    "title": "Principios SOLID",
+    "section": "Liskov Substitution Principle - Principio de sustitución de Liskov",
+    "text": "Liskov Substitution Principle - Principio de sustitución de Liskov\nSi la clase A es un subtipo de la clase B, deberíamos poder reemplazar B por A sin descomponer el comportamiento de nuestro programa\n\n✔️ Principio de diseño del sentido común (OO)\n\nEscribe abstracciones claras y bien definidas\nSubclases deben ser compatibles con (el comportamiento) de la clase padre\nAl sobrescribir un método, extiende el comportamiento base en lugar de sustituirlo por algo totalmente distinto\n\n\nEscribe abstracciones nítidas, claras y bien definidas.\nhttps://stackify.com/solid-design-liskov-substitution-principle/"
+  },
+  {
+    "objectID": "materials/02-solid-slides.html#isp",
+    "href": "materials/02-solid-slides.html#isp",
+    "title": "Principios SOLID",
+    "section": "Interface Segregation Principle - Principio de segregación de la interfaz",
+    "text": "Interface Segregation Principle - Principio de segregación de la interfaz\nInterfaces que fuerzan a las clases (implementaciones) a que implementen métodos que no necesitan\n\n✔️ No forzar a clientes (implementaciones) que dependan de métodos que no utilizan\n✔️ Si una interfaz es demasiado grande, sepárala en varias interfaces más pequeñas, para que sean funcionalmente más concisas\n\nhttps://stackify.com/interface-segregation-principle/"
+  },
+  {
+    "objectID": "materials/02-solid-slides.html#dip",
+    "href": "materials/02-solid-slides.html#dip",
+    "title": "Principios SOLID",
+    "section": "Dependency Inversion Principle - Principio de inversión de dependencia",
+    "text": "Dependency Inversion Principle - Principio de inversión de dependencia\nClases de alto nivel (componentes, servicios) no deben depender de clases de bajo nivel.\n\n✔️ Desacoplamiento de módulos/componentes/clases\n✔️ Principo de diseño composición\n\nComponentes/entidades deben depender de abstracciones, no de implementaciones\n\n\nClases de bajo nivel implementan operaciones básicas como transferir datos por la red.\nClases de alto nivel contienen la lógica de negocio que indican a las clases de bajo nivel que hagan algo.\nEl uso del operador new crea dependencias fuertes entre clases.\nhttps://stackify.com/dependency-inversion-principle/"
+  },
+  {
+    "objectID": "materials/02-solid-slides.html#solid-con-ejemplos",
+    "href": "materials/02-solid-slides.html#solid-con-ejemplos",
+    "title": "Principios SOLID",
+    "section": "SOLID con ejemplos",
+    "text": "SOLID con ejemplos\n\n(Milignton 2022): Ejemplos claros y sencillos en Java para entender los principios SOLID.\n(Oloruntoba 2021) y (Soysal 2022) proporcionan más ejemplos.\n(Martin 2014): Charla de Robert Martín (creador principios) in Yale"
   }
 ]
